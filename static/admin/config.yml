@@ -1,8 +1,8 @@
 # Backend untuk testing lokal, tidak perlu akun GitHub.
 # Nanti bisa diubah untuk dihubungkan ke GitHub.
 backend:
-  name: test-repo
-
+  name: git-gateway
+  branch: main 
 # Lokasi penyimpanan media/gambar yang di-upload melalui CMS
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
