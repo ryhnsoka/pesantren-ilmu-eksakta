@@ -17,7 +17,7 @@ collections:
     fields:
       - { label: "Judul", name: "title", widget: "string" }
       - { label: "Tanggal Publikasi", name: "date", widget: "datetime" }
-      - { label: "Gambar Unggulan", name: "image", widget: "image", optional: true }
+      - { label: "Gambar Unggulan", name: "image", widget: "image", required: false }
       - label: "Kategori"
         name: "categories"
         widget: "select"
