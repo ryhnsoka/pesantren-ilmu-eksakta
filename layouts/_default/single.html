@@ -5,6 +5,41 @@
         <h2 class="text-3xl font-bold font-serif-display text-orange-500 mb-8">{{ .Title }}</h2>
         
         <div class="text-gray-700 leading-relaxed prose-lg max-w-none mb-12">
+            {{ .Content }}
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+            
+            <a href="{{ .Params.gagasan_url | relURL }}" class="inline-block bg-orange-500 text-white font-semibold py-4 px-8 rounded-lg hover:bg-orange-600 transition-all shadow-sm">
+                {{ .Params.cta_button_1_text | default "Jelajahi Gagasan" }}
+            </a>
+
+            {{ $category_url := printf "/categories/%s" (.Params.list_category | urlize) }}
+            <a href="{{ $category_url }}" class="inline-block bg-orange-100 text-orange-800 font-semibold py-4 px-8 rounded-lg border border-orange-200 hover:bg-orange-200 hover:border-orange-300 transition-all shadow-sm">
+                {{ .Params.cta_button_2_text | default "Lihat Artikel" }}
+            </a>
+        </div>
+    </div>
+
+{{ else }}
+    <div class="max-w-3xl mx-auto px-4 py-8">
+        <h1 class="text-3xl md:text-4xl font-bold font-serif-display text-gray-900 mb-2">{{ .Title }}</h1>
+        
+        <article class="article-content mt-8">
+            {{ .Content }}
+        </article>
+    </div>
+
+{{ end }}
+
+{{ end }}
+{{ define "main" }}
+
+{{ if .Params.list_category }}
+    <div class="page-content max-w-4xl mx-auto px-4 py-8 text-center">
+        <h2 class="text-3xl font-bold font-serif-display text-orange-500 mb-8">{{ .Title }}</h2>
+        
+        <div class="text-gray-700 leading-relaxed prose-lg max-w-none mb-12">
             {{ if eq .Title "Titik Ba" }}
                 <p>"Segalanya satu, utuh tak terbagi dan sejatinya tidak ada"</p>
             {{ else if eq .Title "Ayat-Ayat Cerita" }}

@@ -46,3 +46,65 @@ body {
 #mobile-menu .nav-link:not(.active) {
      color: #1f2937; /* gray-800 */
 }
+/* Custom styles for typography and animations */
+body {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.font-serif-display {
+    font-family: 'Lora', serif;
+}
+.page-content {
+    animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ================================== */
+/* === GAYA NAVIGASI HEADER BARU === */
+/* ================================== */
+.nav-link:not(.active) {
+    color: #fed7aa;
+    background-color: transparent;
+    transition: background-color 0.2s, color 0.2s;
+}
+.nav-link:not(.active):hover {
+    color: #ffffff;
+    background-color: #ea580c;
+}
+.nav-link.active {
+    background-color: #ffffff;
+    color: #f97316 !important;
+    font-weight: 600;
+}
+.mobile-nav-link:not(.active) {
+    color: #1f2937;
+    background-color: transparent;
+    transition: background-color 0.2s, color 0.2s;
+}
+.mobile-nav-link:not(.active):hover {
+    background-color: #fff7ed;
+    color: #9a3412;
+}
+.mobile-nav-link.active {
+    background-color: #f97316;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+/* ================================== */
+/* === GAYA KONTEN ARTIKEL BARU === */
+/* ================================== */
+.article-content {
+    font-family: 'Lora', serif; /* Menggunakan font Lora untuk isi artikel */
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.8; /* Jarak antar baris yang lebih lega */
+    color: #374151; /* Warna teks abu-abu tua (gray-700) */
+}
+
+.article-content p {
+    margin-bottom: 1.5rem; /* Jarak antar paragraf */
+}
