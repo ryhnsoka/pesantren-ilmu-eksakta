@@ -27,7 +27,8 @@ body {
 
 /* Gaya saat kursor diarahkan ke link yang tidak aktif */
 .nav-link:not(.active):hover {
-    background-color: #f3f4f6; /* gray-100 */
+    background-color: #fed7aa; /* Diubah menjadi oranye muda (orange-200) */
+    color: #9a3412; /* Diubah menjadi oranye tua agar kontras */
 }
 
 /* Gaya untuk link yang sedang aktif */
@@ -42,6 +43,9 @@ body {
 }
 #mobile-menu .nav-link.active {
      color: #ffffff;
+}
+#mobile-menu .nav-link:hover {
+     background-color: #fed7aa; /* Efek hover juga untuk mobile */
 }
 
 
