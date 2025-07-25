@@ -1,0 +1,42 @@
+/* Custom styles for typography and animations */
+body {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.font-serif-display {
+    font-family: 'Lora', serif;
+}
+.page-content {
+    animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Style for active navigation links */
+/* Style for active navigation links */
+.nav-link.active {
+    background-color: #f97316; /* orange-500 */
+    color: #ffffff !important; /* white, !important for priority */
+}
+
+/* Hover effect for non-active nav links */
+.nav-link:not(.active):hover {
+    background-color: #fed7aa; /* orange-200 */
+    color: #9a3412; /* orange-800 */
+}
+.nav-link:not(.active) {
+    color: #1f2937; /* gray-800 */
+    transition-property: color, background-color;
+    transition-duration: .15s;
+}
+
+/* Ensure mobile active links have the right text color */
+#mobile-menu .nav-link.active {
+     color: #ffffff;
+}
+#mobile-menu .nav-link:not(.active) {
+     color: #1f2937; /* gray-800 */
+}

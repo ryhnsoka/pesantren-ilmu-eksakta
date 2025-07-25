@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beranda on Pesantren Ilmu Eksakta</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Beranda on Pesantren Ilmu Eksakta</description>
+    <generator>Hugo</generator>
+    <language>id-id</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ayat-Ayat Cerita</title>
+      <link>http://localhost:1313/ayat-cerita/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ayat-cerita/</guid>
+      <description>&lt;p class=&#34;text-center text-2xl font-serif-display text-gray-800 max-w-2xl mx-auto mb-2&#34;&gt;&#xD;&#xA;كَذَ ٰ⁠لِكَ نَقُصُّ عَلَیۡكَ مِنۡ أَنۢبَاۤءِ مَا قَدۡ سَبَقَۚ وَقَدۡ ءَاتَیۡنَـٰكَ مِن لَّدُنَّا ذِكۡرࣰا &lt;br&gt;QS. Thoha: 99&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;p class=&#34;text-center text-gray-700 max-w-2xl mx-auto mb-8&#34;&gt;&#xD;&#xA;&#34;Demikianlah Kami kisahkan kepadamu (Muhammad) sebagian kisah umat yang telah lalu, dan sungguh, telah Kami berikan kepadamu suatu peringatan (Al-Quran) dari sisi Kami.&#34;&#xD;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bimbel</title>
+      <link>http://localhost:1313/bimbel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bimbel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gagasan Pertama Adalah Titik</title>
+      <link>http://localhost:1313/artikel/gagasan-pertama-adalah-titik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/artikel/gagasan-pertama-adalah-titik/</guid>
+      <description>&lt;p&gt;Isi artikel di sini.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kamp Santri</title>
+      <link>http://localhost:1313/kamp-santri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/kamp-santri/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matematika Detik</title>
+      <link>http://localhost:1313/matematika-detik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/matematika-detik/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matematika Titik</title>
+      <link>http://localhost:1313/matematika-titik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/matematika-titik/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Titik Ba</title>
+      <link>http://localhost:1313/titik-ba/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/titik-ba/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Segalanya satu, utuh tak terbagi dan sejatinya tidak ada&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

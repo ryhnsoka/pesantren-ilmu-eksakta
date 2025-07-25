@@ -1,0 +1,63 @@
+{{ define "main" }}
+<div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl md:text-4xl font-bold font-serif-display text-orange-500 mb-8 border-b-2 border-orange-200 pb-4">
+        {{ .Title }}
+    </h1>
+
+    <div class="space-y-12">
+        {{ range .Paginator.Pages }}
+        <article class="page-content">
+            <header>
+                <h2 class="text-2xl md:text-3xl font-bold font-serif-display mb-2">
+                    <a href="{{ .Permalink }}" class="text-gray-900 hover:text-orange-500 transition-colors">{{ .Title }}</a>
+                </h2>
+                <div class="text-sm text-gray-500 mb-4">
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+                </div>
+            </header>
+            <div class="text-gray-700 leading-relaxed">
+                {{ .Summary }}
+            </div>
+            {{ if .Truncated }}
+            <div class="mt-4">
+                <a href="{{ .Permalink }}" class="font-semibold text-orange-500 hover:text-orange-600 transition-colors">
+                    Baca Selengkapnya →
+                </a>
+            </div>
+            {{ end }}
+        </article>
+        {{ end }}
+    </div>
+
+    {{ partial "pagination.html" . }}
+</div>
+{{ end }}
+
+
+{{ define "partials/pagination.html" }}
+{{ $paginator := .Paginator }}
+{{ if gt $paginator.TotalPages 1 }}
+<div class="flex justify-between items-center mt-16 text-lg font-semibold">
+    
+    <div>
+        {{ if $paginator.HasPrev }}
+            <a href="{{ $paginator.Prev.URL }}" class="text-orange-500 hover:text-orange-600 transition-colors">
+                &larr; Halaman Sebelumnya
+            </a>
+        {{ end }}
+    </div>
+
+    <div class="text-gray-600">
+       Halaman {{ $paginator.PageNumber }} dari {{ $paginator.TotalPages }}
+    </div>
+
+    <div>
+        {{ if $paginator.HasNext }}
+            <a href="{{ $paginator.Next.URL }}" class="text-orange-500 hover:text-orange-600 transition-colors">
+                Halaman Selanjutnya &rarr;
+            </a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+{{ end }}

@@ -1,0 +1,33 @@
+<header class="bg-white/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-200">
+    <div class="container mx-auto px-6 py-4">
+        <nav class="flex items-center justify-between">
+            <a href="{{ .Site.BaseURL }}" class="flex items-center space-x-3">
+                <img src="{{ "images/logo_pie.png" | relURL }}" alt="Logo PI.E" class="w-10 h-10 rounded-full" />
+                <span class="text-xl font-bold text-gray-900 font-serif-display whitespace-nowrap">
+                    Pesantren Ilmu <span class="text-orange-500">Eksakta</span>
+                </span>
+            </a>
+            
+            <div class="hidden md:flex items-center space-x-2 bg-gray-100 p-1 rounded-full">
+                {{ range .Site.Menus.main }}
+                <a href="{{ .URL }}" class="nav-link px-4 py-2 rounded-full text-sm font-medium transition-colors hover:bg-orange-200 {{ if $.IsMenuCurrent "main" . }}active{{ end }}">
+                    {{ .Name }}
+                </a>
+                {{ end }}
+            </div>
+            
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-800 hover:text-orange-500 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+         <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+            {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}" class="block w-full text-left nav-link px-4 py-2 rounded-md hover:bg-orange-200 transition-colors {{ if $.IsMenuCurrent "main" . }}active{{ end }}">
+                {{ .Name }}
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</header>

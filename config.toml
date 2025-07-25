@@ -1,0 +1,40 @@
+baseURL = "https://example.org/"
+languageCode = "id-id"
+title = "Pesantren Ilmu Eksakta"  # <-- BARIS INI YANG AKAN MENGUBAH JUDUL SITUS
+
+# Izinkan HTML mentah di dalam file Markdown
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[menu]
+  [[menu.main]]
+    name = "Beranda"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "Titik Ba"
+    url = "/titik-ba/"
+    weight = 20
+  [[menu.main]]
+    name = "Ayat-Ayat Cerita"
+    url = "/ayat-cerita/"
+    weight = 30
+  [[menu.main]]
+    name = "Matematika Detik"
+    url = "/matematika-detik/"
+    weight = 40
+  [[menu.main]]
+    name = "Matematika Titik"
+    url = "/matematika-titik/"
+    weight = 50
+  [[menu.main]]
+    name = "Bimbel"
+    url = "/bimbel/"
+    weight = 60
+  [[menu.main]]
+    name = "Kamp Santri"
+    url = "/kamp-santri/"
+    weight = 70

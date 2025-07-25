@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id-id">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories | Pesantren Ilmu Eksakta</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/images/logo_pie.png">
+    <link rel="stylesheet" href="/css/custom.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="min-h-screen flex flex-col">
+        <header class="bg-white/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-200">
+    <div class="container mx-auto px-6 py-4">
+        <nav class="flex items-center justify-between">
+            <a href="http://localhost:1313/" class="flex items-center space-x-3">
+                <img src="/images/logo_pie.png" alt="Logo PI.E" class="w-10 h-10 rounded-full" />
+                <span class="text-xl font-bold text-gray-900 font-serif-display whitespace-nowrap">
+                    Pesantren Ilmu <span class="text-orange-500">Eksakta</span>
+                </span>
+            </a>
+            
+            <div class="hidden md:flex items-center space-x-2 bg-gray-100 p-1 rounded-full">
+                
+                <a href="/" class="nav-link px-4 py-2 rounded-full text-sm font-medium transition-colors hover:bg-orange-200 ">
+                    Beranda
+                </a>
+                
+                <a href="/titik-ba/" class="nav-link px-4 py-2 rounded-full text-sm font-medium transition-colors hover:bg-orange-200 ">
+                    Titik Ba
+                </a>
+                
+                <a href="/ayat-cerita/" class="nav-link px-4 py-2 rounded-full text-sm font-medium transition-colors hover:bg-orange-200 ">
+                    Ayat-Ayat Cerita
+                </a>
+                
+                <a href="/matematika-detik/" class="nav-link px-4 py-2 rounded-full text-sm font-medium transition-colors hover:bg-orange-200 ">
+                    Matematika Detik
+                </a>
+                
+                <a href="/matematika-titik/" class="nav-link px-4 py-2 rounded-full text-sm font-medium transition-colors hover:bg-orange-200 ">
+                    Matematika Titik
+                </a>
+                
+                <a href="/bimbel/" class="nav-link px-4 py-2 rounded-full text-sm font-medium transition-colors hover:bg-orange-200 ">
+                    Bimbel
+                </a>
+                
+                <a href="/kamp-santri/" class="nav-link px-4 py-2 rounded-full text-sm font-medium transition-colors hover:bg-orange-200 ">
+                    Kamp Santri
+                </a>
+                
+            </div>
+            
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-800 hover:text-orange-500 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+         <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+            
+            <a href="/" class="block w-full text-left nav-link px-4 py-2 rounded-md hover:bg-orange-200 transition-colors ">
+                Beranda
+            </a>
+            
+            <a href="/titik-ba/" class="block w-full text-left nav-link px-4 py-2 rounded-md hover:bg-orange-200 transition-colors ">
+                Titik Ba
+            </a>
+            
+            <a href="/ayat-cerita/" class="block w-full text-left nav-link px-4 py-2 rounded-md hover:bg-orange-200 transition-colors ">
+                Ayat-Ayat Cerita
+            </a>
+            
+            <a href="/matematika-detik/" class="block w-full text-left nav-link px-4 py-2 rounded-md hover:bg-orange-200 transition-colors ">
+                Matematika Detik
+            </a>
+            
+            <a href="/matematika-titik/" class="block w-full text-left nav-link px-4 py-2 rounded-md hover:bg-orange-200 transition-colors ">
+                Matematika Titik
+            </a>
+            
+            <a href="/bimbel/" class="block w-full text-left nav-link px-4 py-2 rounded-md hover:bg-orange-200 transition-colors ">
+                Bimbel
+            </a>
+            
+            <a href="/kamp-santri/" class="block w-full text-left nav-link px-4 py-2 rounded-md hover:bg-orange-200 transition-colors ">
+                Kamp Santri
+            </a>
+            
+        </div>
+    </div>
+</header>
+
+        <main class="flex-grow container mx-auto px-6 py-12">
+            
+<div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl md:text-4xl font-bold font-serif-display text-orange-500 mb-8 border-b-2 border-orange-200 pb-4">
+        Categories
+    </h1>
+
+    <div class="space-y-12">
+        
+    </div>
+
+    
+</div>
+
+        </main>
+        
+        <footer class="bg-white border-t border-gray-200 mt-12">
+    <div class="container mx-auto px-6 py-4 text-center text-gray-600 text-sm">
+        <p>&copy; 2025 Pesantren Ilmu Eksakta. All Rights Reserved.</p>
+    </div>
+</footer>
+    </div>
+
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function () {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            if (mobileMenuButton) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
