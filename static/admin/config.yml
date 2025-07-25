@@ -13,11 +13,6 @@ collections:
         label: "Halaman Beranda (Deskripsi)"
         name: "beranda"
         fields:
-          - { label: "Isi Deskripsi di Bawah Judul Utama", name: "body", widget: "markdown" }
-      - file: "content/sejarah.md"
-        label: "Halaman Sejarah"
-        name: "sejarah"
-        fields:
           - { label: "Judul", name: "title", widget: "string" }
           - { label: "Isi Halaman", name: "body", widget: "markdown" }
       - file: "content/gagasan-utama.md"
