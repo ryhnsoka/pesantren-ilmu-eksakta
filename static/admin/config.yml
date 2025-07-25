@@ -7,50 +7,32 @@ public_folder: "/images/uploads"
 
 collections:
   - name: "pages"
-    label: "Halaman"
+    label: "Halaman & Gagasan"
     files:
+      - file: "content/_index.md"
+        label: "Halaman Beranda (Deskripsi)"
+        name: "beranda"
+        fields:
+          - { label: "Isi Deskripsi di Bawah Judul Utama", name: "body", widget: "markdown" }
       - file: "content/sejarah.md"
         label: "Halaman Sejarah"
         name: "sejarah"
         fields:
           - { label: "Judul", name: "title", widget: "string" }
           - { label: "Isi Halaman", name: "body", widget: "markdown" }
-      - file: "content/titik-ba.md"
-        label: "Halaman: Titik Ba"
-        name: "halaman_titik_ba"
+      - file: "content/gagasan-utama.md"
+        label: "Gagasan: Halaman Utama"
+        name: "gagasan_utama"
         fields:
           - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman (di bawah jargon)", name: "body", widget: "markdown" }
-      - file: "content/ayat-cerita.md"
-        label: "Halaman: Ayat-Ayat Cerita"
-        name: "halaman_ayat_cerita"
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/gagasan-titik-ba.md"
+        label: "Gagasan: Titik Ba"
+        name: "gagasan_titik_ba"
         fields:
           - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman (di bawah jargon)", name: "body", widget: "markdown" }
-      - file: "content/matematika-detik.md"
-        label: "Halaman: Matematika Detik"
-        name: "halaman_matematika_detik"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman (di bawah jargon)", name: "body", widget: "markdown" }
-      - file: "content/matematika-titik.md"
-        label: "Halaman: Matematika Titik"
-        name: "halaman_matematika_titik"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman (di bawah jargon)", name: "body", widget: "markdown" }
-      - file: "content/bimbel.md"
-        label: "Halaman: Bimbel"
-        name: "halaman_bimbel"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman (di bawah jargon)", name: "body", widget: "markdown" }
-      - file: "content/kamp-santri.md"
-        label: "Halaman: Kamp Santri"
-        name: "halaman_kamp_santri"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman (di bawah jargon)", name: "body", widget: "markdown" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      # Tambahkan file gagasan lainnya di sini jika ada
 
   - name: "artikel"
     label: "Artikel"
@@ -68,13 +50,9 @@ collections:
       - label: "Isi Artikel"
         name: "body"
         widget: "markdown"
-  - name: "video"
-    label: "Galeri Video"
-    folder: "content/video"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Judul Video", name: "title", widget: "string" }
-      - { label: "Tanggal Publikasi", name: "date", widget: "datetime" }
-      - { label: "YouTube Video ID", name: "youtube_id", widget: "string", hint: "Contoh: dari URL https://www.youtube.com/watch?v=dQw4w9WgXcQ, ID-nya adalah dQw4w9WgXcQ" }
-      - { label: "Deskripsi", name: "body", widget: "markdown" }
+        editor:
+          styles:
+            - { label: "Rata Kiri", value: "text-left" }
+            - { label: "Rata Tengah", value: "text-center" }
+            - { label: "Rata Kanan", value: "text-right" }
+            - { label: "Rata Kiri-Kanan (Justify)", value: "text-justify" }
