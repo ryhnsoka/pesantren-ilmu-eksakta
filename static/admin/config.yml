@@ -7,7 +7,6 @@ backend:
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
-# Daftar konten yang bisa diedit
 collections:
   - name: "artikel"
     label: "Artikel"
@@ -36,3 +35,54 @@ collections:
               value: "text-right"
             - label: "Rata Kiri-Kanan (Justify)"
               value: "text-justify"
+  - name: "pages"
+    label: "Halaman Tunggal"
+    files:
+      - file: "content/gagasan.md"
+        label: "Halaman Gagasan"
+        name: "gagasan"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/titik-ba.md"
+        label: "Halaman Titik Ba"
+        name: "titik_ba"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Teks Tombol 1", name: "cta_button_1_text", widget: "string" }
+          - { label: "Teks Tombol 2", name: "cta_button_2_text", widget: "string" }
+      - file: "content/ayat-cerita.md"
+        label: "Halaman Ayat-Ayat Cerita"
+        name: "ayat_cerita"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Teks Tombol 1", name: "cta_button_1_text", widget: "string" }
+          - { label: "Teks Tombol 2", name: "cta_button_2_text", widget: "string" }
+      - file: "content/matematika-detik.md"
+        label: "Halaman Matematika Detik"
+        name: "matematika_detik"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Teks Tombol 1", name: "cta_button_1_text", widget: "string" }
+          - { label: "Teks Tombol 2", name: "cta_button_2_text", widget: "string" }
+      - file: "content/matematika-titik.md"
+        label: "Halaman Matematika Titik"
+        name: "matematika_titik"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Teks Tombol 1", name: "cta_button_1_text", widget: "string" }
+          - { label: "Teks Tombol 2", name: "cta_button_2_text", widget: "string" }
+      - file: "content/bimbel.md"
+        label: "Halaman Bimbel"
+        name: "bimbel"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Teks Tombol 1", name: "cta_button_1_text", widget: "string" }
+          - { label: "Teks Tombol 2", name: "cta_button_2_text", widget: "string" }
+      - file: "content/kamp-santri.md"
+        label: "Halaman Kamp Santri"
+        name: "kamp_santri"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Teks Tombol 1", name: "cta_button_1_text", widget: "string" }
+          - { label: "Teks Tombol 2", name: "cta_button_2_text", widget: "string" }
