@@ -51,7 +51,6 @@ collections:
         fields:
           - { label: "Judul", name: "title", widget: "string" }
           - { label: "Isi Halaman", name: "body", widget: "markdown" }
-      # Anda bisa menambahkan kembali file halaman utama lainnya di sini jika perlu diedit
 
   - name: "artikel"
     label: "Artikel"
@@ -69,9 +68,3 @@ collections:
       - label: "Isi Artikel"
         name: "body"
         widget: "markdown"
-        editor:
-          styles:
-            - { label: "Rata Kiri", value: "text-left" }
-            - { label: "Rata Tengah", value: "text-center" }
-            - { label: "Rata Kanan", value: "text-right" }
-            - { label: "Rata Kiri-Kanan (Justify)", value: "text-justify" }

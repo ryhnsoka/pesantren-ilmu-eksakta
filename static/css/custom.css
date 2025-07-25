@@ -60,7 +60,7 @@ body {
 }
 
 .article-content p {
-    margin-bottom: 1.5rem;
+    text-justify: auto;
 }
 
 /* Memaksa perataan justify pada paragraf di dalam artikel */

@@ -1,9 +1,3 @@
-.page-content .text-justify p {
-    margin-bottom: 1.25rem; /* 20px */
-}
-.page-content .text-justify p {
-    margin-bottom: 1.25rem; /* 20px */
-}
 /* Custom styles for typography and animations */
 body {
     font-family: 'Inter', sans-serif;
@@ -21,28 +15,55 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Style for active navigation links */
-/* Style for active navigation links */
-.nav-link.active {
-    background-color: #f97316; /* orange-500 */
-    color: #ffffff !important; /* white, !important for priority */
-}
+/* ================================== */
+/* === GAYA NAVIGASI HEADER === */
+/* ================================== */
 
-/* Hover effect for non-active nav links */
-.nav-link:not(.active):hover {
-    background-color: #fed7aa; /* orange-200 */
-    color: #9a3412; /* orange-800 */
-}
+/* Teks link default (tidak aktif) dibuat menjadi hitam/abu-abu tua */
 .nav-link:not(.active) {
     color: #1f2937; /* gray-800 */
-    transition-property: color, background-color;
-    transition-duration: .15s;
+    transition: background-color 0.2s, color 0.2s;
 }
 
-/* Ensure mobile active links have the right text color */
+/* Gaya saat kursor diarahkan ke link yang tidak aktif */
+.nav-link:not(.active):hover {
+    background-color: #fed7aa; /* Diubah menjadi oranye muda (orange-200) */
+    color: #9a3412; /* Diubah menjadi oranye tua agar kontras */
+}
+
+/* Gaya untuk link yang sedang aktif */
+.nav-link.active {
+    background-color: #f97316; /* orange-500 */
+    color: #ffffff;
+}
+
+/* Gaya untuk menu mobile */
+#mobile-menu .nav-link:not(.active) {
+     color: #1f2937; /* gray-800 */
+}
 #mobile-menu .nav-link.active {
      color: #ffffff;
 }
-#mobile-menu .nav-link:not(.active) {
-     color: #1f2937; /* gray-800 */
+#mobile-menu .nav-link:hover {
+     background-color: #fed7aa; /* Efek hover juga untuk mobile */
+}
+
+
+/* ================================== */
+/* === GAYA KONTEN ARTIKEL BARU === */
+/* ================================== */
+.article-content {
+    font-family: 'Lora', serif;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #374151;
+}
+
+.article-content p {
+    margin-bottom: 1.5rem;
+}
+
+/* Memaksa perataan justify pada paragraf di dalam artikel */
+.prose p {
+    text-align: justify;
 }
