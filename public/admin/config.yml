@@ -9,15 +9,9 @@ collections:
   - name: "pages"
     label: "Halaman Tunggal & Gagasan"
     files:
-      - file: "content/gagasan-utama.md" # <-- Entri ini ditambahkan kembali
+      - file: "content/gagasan-utama.md"
         label: "Gagasan: Halaman Utama"
         name: "gagasan_utama"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman", name: "body", widget: "markdown" }
-      - file: "content/sejarah.md"
-        label: "Halaman Sejarah"
-        name: "sejarah"
         fields:
           - { label: "Judul", name: "title", widget: "string" }
           - { label: "Isi Halaman", name: "body", widget: "markdown" }
@@ -57,15 +51,7 @@ collections:
         fields:
           - { label: "Judul", name: "title", widget: "string" }
           - { label: "Isi Halaman", name: "body", widget: "markdown" }
-      - file: "content/titik-ba.md"
-        label: "Halaman: Titik Ba"
-        name: "halaman_titik_ba"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman", name: "body", widget: "markdown" }
-          - { label: "Link Halaman Gagasan", name: "gagasan_url", widget: "string", hint: "Contoh: /gagasan-titik-ba/" }
-          - { label: "Teks Tombol 1", name: "cta_button_1_text", widget: "string" }
-          - { label: "Teks Tombol 2", name: "cta_button_2_text", widget: "string" }
+      # Anda bisa menambahkan kembali file halaman utama lainnya di sini jika perlu diedit
 
   - name: "artikel"
     label: "Artikel"
