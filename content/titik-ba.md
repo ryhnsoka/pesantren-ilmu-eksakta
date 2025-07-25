@@ -1,6 +1,5 @@
----
 title: "Titik Ba"
 list_category: "Titik Ba"
-cta_button_1_text: "Jelajahi Gagasan"
+gagasan_url: "/gagasan-titik-ba/"
+cta_button_1_text: "Jelajahi Titik Ba"
 cta_button_2_text: "Lihat Kumpulan Artikel"
----

@@ -24,7 +24,7 @@
         </div>
 
         <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <a href="{{ "/gagasan/" | relURL }}" class="inline-block bg-orange-500 text-white font-semibold py-4 px-8 rounded-lg hover:bg-orange-600 transition-all shadow-sm">
+            <a href="{{ .Params.gagasan_url | relURL }}" class="inline-block bg-orange-500 text-white font-semibold py-4 px-8 rounded-lg hover:bg-orange-600 transition-all shadow-sm">
                 {{ .Params.cta_button_1_text | default "Jelajahi Gagasan" }}
             </a>
 

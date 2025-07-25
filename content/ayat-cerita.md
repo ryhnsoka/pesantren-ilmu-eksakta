@@ -1,6 +1,5 @@
----
 title: "Ayat-Ayat Cerita"
 list_category: "Ayat-Ayat Cerita"
-cta_button_1_text: "Jelajahi Gagasan"
+gagasan_url: "/gagasan-ayat-cerita/"
+cta_button_1_text: "Jelajahi Ayat-Ayat Cerita"
 cta_button_2_text: "Lihat Kumpulan Artikel"
----
