@@ -1,3 +1,9 @@
+.page-content .text-justify p {
+    margin-bottom: 1.25rem; /* 20px */
+}
+.page-content .text-justify p {
+    margin-bottom: 1.25rem; /* 20px */
+}
 /* Custom styles for typography and animations */
 body {
     font-family: 'Inter', sans-serif;
