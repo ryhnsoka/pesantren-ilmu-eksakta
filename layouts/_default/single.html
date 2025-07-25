@@ -2,9 +2,32 @@
 <div class="page-content max-w-4xl mx-auto px-4 py-8">
     <h2 class="text-3xl font-bold font-serif-display text-orange-500 mb-8 text-center">{{ .Title }}</h2>
     
-    <div class="text-gray-700 leading-relaxed text-left">
-        {{ .Content }}
+    <div class="text-gray-700 leading-relaxed text-center prose-lg max-w-none mb-12">
+        {{ if eq .Title "Titik Ba" }}
+            <p>"Segalanya satu, utuh tak terbagi dan sejatinya tidak ada"</p>
+        {{ else if eq .Title "Ayat-Ayat Cerita" }}
+            <p class="text-center text-2xl font-serif-display text-gray-800 max-w-2xl mx-auto mb-2">
+                كَذَٰلِكَ نَقُصُّ عَلَيْكَ مِنْ أَنبَاءِ مَا قَدْ سَبَقَ ۚ وَقَدْ آتَيْنَاكَ مِن لَّدُنَّا ذِكْرًا <br>QS. Thoha: 99
+            </p>
+            <p class="text-center text-gray-700 max-w-2xl mx-auto mb-8">
+                "Demikianlah Kami kisahkan kepadamu (Muhammad) sebagian kisah umat yang telah lalu, dan sungguh, telah Kami berikan kepadamu suatu peringatan (Al-Quran) dari sisi Kami."
+            </p>
+        {{ else if eq .Title "Matematika Detik" }}
+            <p>"Asah intuisi, kelola dua detik pertama"</p>
+        {{ else if eq .Title "Matematika Titik" }}
+            <p>"Keseluruhan matematika adalah tentang menamai titik"</p>
+        {{ else }}
+            {{ .Content }}
+        {{ end }}
     </div>
 
+    {{ if .Params.list_category }}
+        {{ $category_url := printf "/categories/%s" (.Params.list_category | urlize) }}
+        <div class="text-center">
+            <a href="{{ $category_url }}" class="inline-block bg-orange-100 text-orange-800 font-semibold py-4 px-8 rounded-lg border border-orange-200 hover:bg-orange-200 hover:border-orange-300 transition-all shadow-sm">
+                Lihat Kumpulan Artikel "{{ .Params.list_category }}"
+            </a>
+        </div>
+    {{ end }}
 </div>
 {{ end }}

@@ -1,3 +1,5 @@
+[taxonomies]
+  category = "categories"
 baseURL = "https://pesantren-ilmu-eksakta.netlify.app/"
 languageCode = "id-id"
 title = "Pesantren Ilmu Eksakta"

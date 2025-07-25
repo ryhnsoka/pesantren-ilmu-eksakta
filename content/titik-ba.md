@@ -1,4 +1,2 @@
----
 title: "Titik Ba"
----
-"Segalanya satu, utuh tak terbagi dan sejatinya tidak ada"
+list_category: "Titik Ba"

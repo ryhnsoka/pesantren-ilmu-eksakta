@@ -1,0 +1,59 @@
+# Backend untuk testing lokal, tidak perlu akun GitHub.
+# Nanti bisa diubah untuk dihubungkan ke GitHub.
+backend:
+  name: git-gateway
+  branch: main 
+# Lokasi penyimpanan media/gambar yang di-upload melalui CMS
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+# Daftar konten yang bisa diedit
+collections:
+  - name: "pages"
+    label: "Halaman Tunggal"
+    files:
+      - file: "content/titik-ba.md"
+        label: "Titik Ba"
+        name: "titik_ba"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/ayat-cerita.md"
+        label: "Ayat-Ayat Cerita"
+        name: "ayat_cerita"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/matematika-detik.md"
+        label: "Matematika Detik"
+        name: "matematika_detik"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/matematika-titik.md"
+        label: "Matematika Titik"
+        name: "matematika_titik"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/bimbel.md"
+        label: "Bimbel"
+        name: "bimbel"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/kamp-santri.md"
+        label: "Kamp Santri"
+        name: "kamp_santri"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+  - name: "artikel"
+    label: "Artikel"
+    folder: "content/artikel"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Judul", name: "title", widget: "string" }
+      - { label: "Tanggal Publikasi", name: "date", widget: "datetime" }
+      - { label: "Isi Artikel", name: "body", widget: "markdown" }
