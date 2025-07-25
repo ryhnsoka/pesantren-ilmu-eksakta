@@ -15,55 +15,22 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* ================================== */
-/* === GAYA NAVIGASI HEADER === */
-/* ================================== */
+/* GAYA NAVIGASI HEADER */
+.nav-link:not(.active) { color: #1f2937; transition: background-color 0.2s, color 0.2s; }
+.nav-link:not(.active):hover { background-color: #fed7aa; color: #9a3412; }
+.nav-link.active { background-color: #f97316; color: #ffffff; }
+#mobile-menu .nav-link:not(.active) { color: #1f2937; }
+#mobile-menu .nav-link.active { color: #ffffff; }
+#mobile-menu .nav-link:hover { background-color: #fed7aa; }
 
-/* Teks link default (tidak aktif) dibuat menjadi hitam/abu-abu tua */
-.nav-link:not(.active) {
-    color: #1f2937; /* gray-800 */
-    transition: background-color 0.2s, color 0.2s;
-}
-
-/* Gaya saat kursor diarahkan ke link yang tidak aktif */
-.nav-link:not(.active):hover {
-    background-color: #fed7aa; /* Diubah menjadi oranye muda (orange-200) */
-    color: #9a3412; /* Diubah menjadi oranye tua agar kontras */
-}
-
-/* Gaya untuk link yang sedang aktif */
-.nav-link.active {
-    background-color: #f97316; /* orange-500 */
-    color: #ffffff;
-}
-
-/* Gaya untuk menu mobile */
-#mobile-menu .nav-link:not(.active) {
-     color: #1f2937; /* gray-800 */
-}
-#mobile-menu .nav-link.active {
-     color: #ffffff;
-}
-#mobile-menu .nav-link:hover {
-     background-color: #fed7aa; /* Efek hover juga untuk mobile */
-}
-
-
-/* ================================== */
-/* === GAYA KONTEN ARTIKEL BARU === */
-/* ================================== */
+/* GAYA KONTEN ARTIKEL BARU */
 .article-content {
     font-family: 'Lora', serif;
     font-size: 1.125rem;
     line-height: 1.8;
     color: #374151;
 }
-
 .article-content p {
-    text-justify: auto;
-}
-
-/* Memaksa perataan justify pada paragraf di dalam artikel */
-.prose p {
+    margin-bottom: 1.5rem;
     text-align: justify;
 }
