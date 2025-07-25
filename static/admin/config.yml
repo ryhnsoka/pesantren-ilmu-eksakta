@@ -1,9 +1,10 @@
 # Backend untuk testing lokal, tidak perlu akun GitHub.
 # Nanti bisa diubah untuk dihubungkan ke GitHub.
 backend:
+backend:
   name: git-gateway
-  branch: main 
-# Lokasi penyimpanan media/gambar yang di-upload melalui CMS
+  branch: main
+
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
@@ -11,9 +12,9 @@ collections:
   - name: "pages"
     label: "Halaman Tunggal & Gagasan"
     files:
-      - file: "content/sejarah.md"
-        label: "Halaman Sejarah"
-        name: "sejarah"
+      - file: "content/gagasan-utama.md"
+        label: "Gagasan: Halaman Utama"
+        name: "gagasan_utama"
         fields:
           - { label: "Judul", name: "title", widget: "string" }
           - { label: "Isi Halaman", name: "body", widget: "markdown" }
@@ -53,16 +54,7 @@ collections:
         fields:
           - { label: "Judul", name: "title", widget: "string" }
           - { label: "Isi Halaman", name: "body", widget: "markdown" }
-      - file: "content/titik-ba.md"
-        label: "Halaman: Titik Ba"
-        name: "halaman_titik_ba"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman", name: "body", widget: "markdown" }
-          - { label: "Link Halaman Gagasan", name: "gagasan_url", widget: "string", hint: "Contoh: /gagasan-titik-ba/" }
-          - { label: "Teks Tombol 1", name: "cta_button_1_text", widget: "string" }
-          - { label: "Teks Tombol 2", name: "cta_button_2_text", widget: "string" }
-      # ... Tambahkan file halaman utama lainnya (Ayat Cerita, dll.) dengan pola yang sama ...
+      # Anda bisa menambahkan kembali file halaman utama lainnya di sini jika perlu diedit
 
   - name: "artikel"
     label: "Artikel"
@@ -86,10 +78,4 @@ collections:
             - { label: "Rata Tengah", value: "text-center" }
             - { label: "Rata Kanan", value: "text-right" }
             - { label: "Rata Kiri-Kanan (Justify)", value: "text-justify" }
-      - file: "content/kamp-santri.md"
-        label: "Halaman Kamp Santri"
-        name: "kamp_santri"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Teks Tombol 1", name: "cta_button_1_text", widget: "string" }
           - { label: "Teks Tombol 2", name: "cta_button_2_text", widget: "string" }
