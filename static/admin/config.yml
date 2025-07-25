@@ -11,10 +11,10 @@ collections:
     label: "Halaman & Gagasan"
     files:
       - file: "content/_index.md"
-        label: "Konten Beranda (Profil)"
+        label: "Konten Tambahan Beranda"
         name: "beranda"
         fields:
-          - { label: "Isi Teks Profil di Beranda", name: "body", widget: "markdown" }
+          - { label: "Isi Konten Tambahan di Beranda", name: "body", widget: "markdown" }
       - file: "content/gagasan-titik-ba.md"
         label: "Gagasan: Titik Ba"
         name: "gagasan_titik_ba"
