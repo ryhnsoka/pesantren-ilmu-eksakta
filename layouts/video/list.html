@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="max-w-4xl mx-auto px-4 py-8">
+    <h1 class="text-3xl md:text-4xl font-bold font-serif-display text-orange-500 mb-8 border-b-2 border-orange-200 pb-4">
+        Galeri Video
+    </h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {{ range .Pages }}
+        <a href="{{ .Permalink }}" class="group block bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+            <div class="relative">
+                <img src="https://img.youtube.com/vi/{{ .Params.youtube_id }}/mqdefault.jpg" alt="{{ .Title }}" class="w-full h-auto">
+                <div class="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-40 transition-all duration-300 flex items-center justify-center">
+                    <svg class="w-16 h-16 text-white opacity-80" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path></svg>
+                </div>
+            </div>
+            <div class="p-4">
+                <h2 class="font-bold text-lg text-gray-800">{{ .Title }}</h2>
+                <time class="text-sm text-gray-500">{{ .Date.Format "2 January 2006" }}</time>
+            </div>
+        </a>
+        {{ else }}
+        <p class="text-gray-500 md:col-span-2">Belum ada video yang ditambahkan.</p>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
