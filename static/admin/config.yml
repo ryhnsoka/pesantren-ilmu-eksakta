@@ -11,16 +11,10 @@ collections:
     label: "Halaman & Gagasan"
     files:
       - file: "content/_index.md"
-        label: "Halaman Beranda (Deskripsi)"
+        label: "Konten Beranda (Profil)"
         name: "beranda"
         fields:
-          - { label: "Isi Deskripsi di Bawah Judul Utama", name: "body", widget: "markdown" }
-      - file: "content/gagasan-utama.md"
-        label: "Gagasan: Halaman Utama"
-        name: "gagasan_utama"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+          - { label: "Isi Teks Profil di Beranda", name: "body", widget: "markdown" }
       - file: "content/gagasan-titik-ba.md"
         label: "Gagasan: Titik Ba"
         name: "gagasan_titik_ba"
@@ -57,42 +51,6 @@ collections:
         fields:
           - { label: "Judul", name: "title", widget: "string" }
           - { label: "Isi Halaman", name: "body", widget: "markdown" }
-      - file: "content/titik-ba.md"
-        label: "Halaman: Titik Ba"
-        name: "halaman_titik_ba"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman (di bawah jargon)", name: "body", widget: "markdown" }
-      - file: "content/ayat-cerita.md"
-        label: "Halaman: Ayat-Ayat Cerita"
-        name: "halaman_ayat_cerita"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman (di bawah jargon)", name: "body", widget: "markdown" }
-      - file: "content/matematika-detik.md"
-        label: "Halaman: Matematika Detik"
-        name: "halaman_matematika_detik"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman (di bawah jargon)", name: "body", widget: "markdown" }
-      - file: "content/matematika-titik.md"
-        label: "Halaman: Matematika Titik"
-        name: "halaman_matematika_titik"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman (di bawah jargon)", name: "body", widget: "markdown" }
-      - file: "content/bimbel.md"
-        label: "Halaman: Bimbel"
-        name: "halaman_bimbel"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman (di bawah jargon)", name: "body", widget: "markdown" }
-      - file: "content/kamp-santri.md"
-        label: "Halaman: Kamp Santri"
-        name: "halaman_kamp_santri"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman (di bawah jargon)", name: "body", widget: "markdown" }
 
   - name: "artikel"
     label: "Artikel"
