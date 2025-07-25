@@ -7,14 +7,8 @@ public_folder: "/images/uploads"
 
 collections:
   - name: "pages"
-    label: "Halaman & Gagasan"
+    label: "Halaman Tunggal & Gagasan"
     files:
-      - file: "content/_index.md"
-        label: "Halaman Beranda (Deskripsi)"
-        name: "beranda"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman", name: "body", widget: "markdown" }
       - file: "content/gagasan-utama.md"
         label: "Gagasan: Halaman Utama"
         name: "gagasan_utama"
@@ -27,7 +21,36 @@ collections:
         fields:
           - { label: "Judul", name: "title", widget: "string" }
           - { label: "Isi Halaman", name: "body", widget: "markdown" }
-      # Tambahkan file gagasan lainnya di sini jika ada
+      - file: "content/gagasan-ayat-cerita.md"
+        label: "Gagasan: Ayat-Ayat Cerita"
+        name: "gagasan_ayat_cerita"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/gagasan-matematika-detik.md"
+        label: "Gagasan: Matematika Detik"
+        name: "gagasan_matematika_detik"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/gagasan-matematika-titik.md"
+        label: "Gagasan: Matematika Titik"
+        name: "gagasan_matematika_titik"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/gagasan-bimbel.md"
+        label: "Gagasan: Bimbel"
+        name: "gagasan_bimbel"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/gagasan-kamp-santri.md"
+        label: "Gagasan: Kamp Santri"
+        name: "gagasan_kamp_santri"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
 
   - name: "artikel"
     label: "Artikel"
@@ -37,17 +60,53 @@ collections:
     fields:
       - { label: "Judul", name: "title", widget: "string" }
       - { label: "Tanggal Publikasi", name: "date", widget: "datetime" }
-      - label: "Kategori"
-        name: "categories"
-        widget: "select"
-        multiple: false
-        options: ["Titik Ba", "Ayat-Ayat Cerita", "Matematika Detik", "Matematika Titik", "Bimbel", "Kamp Santri"]
-      - label: "Isi Artikel"
-        name: "body"
-        widget: "markdown"
-        editor:
-          styles:
-            - { label: "Rata Kiri", value: "text-left" }
-            - { label: "Rata Tengah", value: "text-center" }
-            - { label: "Rata Kanan", value: "text-right" }
-            - { label: "Rata Kiri-Kanan (Justify)", value: "text-justify" }
+  - name: "pages"
+    label: "Halaman & Gagasan"
+    files:
+      - file: "content/_index.md"
+        label: "Halaman Beranda (Deskripsi)"
+        name: "beranda"
+        fields:
+          - { label: "Isi Deskripsi di Bawah Judul Utama", name: "body", widget: "markdown" }
+      - file: "content/gagasan-utama.md"
+        label: "Gagasan: Halaman Utama"
+        name: "gagasan_utama"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/gagasan-titik-ba.md"
+        label: "Gagasan: Titik Ba"
+        name: "gagasan_titik_ba"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/gagasan-ayat-cerita.md"
+        label: "Gagasan: Ayat-Ayat Cerita"
+        name: "gagasan_ayat_cerita"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/gagasan-matematika-detik.md"
+        label: "Gagasan: Matematika Detik"
+        name: "gagasan_matematika_detik"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/gagasan-matematika-titik.md"
+        label: "Gagasan: Matematika Titik"
+        name: "gagasan_matematika_titik"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/gagasan-bimbel.md"
+        label: "Gagasan: Bimbel"
+        name: "gagasan_bimbel"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/gagasan-kamp-santri.md"
+        label: "Gagasan: Kamp Santri"
+        name: "gagasan_kamp_santri"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
