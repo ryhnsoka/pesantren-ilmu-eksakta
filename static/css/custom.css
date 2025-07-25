@@ -34,3 +34,11 @@ body {
     margin-bottom: 1.5rem;
     text-align: justify;
 }
+
+/* Menyamakan tinggi tombol di halaman beranda */
+.home-button {
+    min-height: 52px; /* Menetapkan tinggi minimum untuk semua tombol */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
