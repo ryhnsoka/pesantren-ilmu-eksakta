@@ -15,6 +15,12 @@ collections:
         fields:
           - { label: "Judul", name: "title", widget: "string" }
           - { label: "Isi Halaman", name: "body", widget: "markdown" }
+      - file: "content/sejarah.md"
+        label: "Halaman Sejarah"
+        name: "sejarah"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
       - file: "content/gagasan-titik-ba.md"
         label: "Gagasan: Titik Ba"
         name: "gagasan_titik_ba"
@@ -52,6 +58,14 @@ collections:
           - { label: "Judul", name: "title", widget: "string" }
           - { label: "Isi Halaman", name: "body", widget: "markdown" }
       - file: "content/titik-ba.md"
+        label: "Halaman: Titik Ba"
+        name: "halaman_titik_ba"
+        fields:
+          - { label: "Judul", name: "title", widget: "string" }
+          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+          - { label: "Link Halaman Gagasan", name: "gagasan_url", widget: "string", hint: "Contoh: /gagasan-titik-ba/" }
+          - { label: "Teks Tombol 1", name: "cta_button_1_text", widget: "string" }
+          - { label: "Teks Tombol 2", name: "cta_button_2_text", widget: "string" }
 
   - name: "artikel"
     label: "Artikel"
