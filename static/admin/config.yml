@@ -1,6 +1,3 @@
-# Backend untuk testing lokal, tidak perlu akun GitHub.
-# Nanti bisa diubah untuk dihubungkan ke GitHub.
-backend:
 backend:
   name: git-gateway
   branch: main
@@ -69,12 +66,3 @@ collections:
         multiple: false
         options: ["Titik Ba", "Ayat-Ayat Cerita", "Matematika Detik", "Matematika Titik", "Bimbel", "Kamp Santri"]
       - label: "Isi Artikel"
-        name: "body"
-        widget: "markdown"
-        editor:
-          styles:
-            - { label: "Rata Kiri", value: "text-left" }
-            - { label: "Rata Tengah", value: "text-center" }
-            - { label: "Rata Kanan", value: "text-right" }
-            - { label: "Rata Kiri-Kanan (Justify)", value: "text-justify" }
-          - { label: "Teks Tombol 2", name: "cta_button_2_text", widget: "string" }
