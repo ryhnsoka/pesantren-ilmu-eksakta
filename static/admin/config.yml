@@ -54,7 +54,6 @@ collections:
         fields:
           - { label: "Judul", name: "title", widget: "string" }
           - { label: "Isi Halaman", name: "body", widget: "markdown" }
-      # Anda bisa menambahkan kembali file halaman utama lainnya di sini jika perlu diedit
 
   - name: "artikel"
     label: "Artikel"
