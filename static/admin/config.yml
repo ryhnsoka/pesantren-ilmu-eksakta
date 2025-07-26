@@ -5,77 +5,51 @@ backend:
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
+# Mendefinisikan editor blok yang bisa dipakai ulang
+editor_blok: &block_editor
+  name: "body"
+  label: "Konten Halaman"
+  widget: "list"
+  required: false
+  types:
+    - name: "markdown"
+      label: "Paragraf Teks"
+      widget: "object"
+      fields:
+        - {name: "content", label: "Teks", widget: "markdown"}
+    - name: "image"
+      label: "Gambar"
+      widget: "object"
+      fields:
+        - {label: "File Gambar", name: "src", widget: "image"}
+        - {label: "Teks Alt (Deskripsi)", name: "alt", widget: "string"}
+        - {label: "Keterangan (Caption)", name: "caption", widget: "string", required: false}
+        - {label: "Ukuran Gambar", name: "size", widget: "select", options: ["Kecil", "Sedang", "Besar"], default: "Sedang"}
+    - name: "youtube"
+      label: "Video YouTube"
+      widget: "object"
+      fields:
+        - {label: "ID Video YouTube", name: "id", widget: "string"}
+
 collections:
-  - name: "pages"
-    label: "Halaman & Gagasan"
+  - name: "pengaturan"
+    label: "Pengaturan Halaman"
     files:
       - file: "content/_index.md"
         label: "Halaman Beranda (Profil)"
         name: "beranda"
         fields:
-          - name: "body"
-            label: "Konten Halaman"
-            widget: "list"
-            types:
-              - name: "markdown"
-                label: "Paragraf Teks"
-                widget: "object"
-                fields:
-                  - {name: "content", label: "Teks", widget: "markdown"}
-              - name: "image"
-                label: "Gambar"
-                widget: "object"
-                fields:
-                  - {label: "File Gambar", name: "src", widget: "image"}
-                  - {label: "Teks Alt (Deskripsi)", name: "alt", widget: "string"}
-                  - {label: "Keterangan (Caption)", name: "caption", widget: "string", required: false}
-                  - {label: "Ukuran Gambar", name: "size", widget: "select", options: ["Kecil", "Sedang", "Besar"], default: "Sedang"}
-              - name: "youtube"
-                label: "Video YouTube"
-                widget: "object"
-                fields:
-                  - {label: "ID Video YouTube", name: "id", widget: "string"}
-      
-      - file: "content/titik-ba.md"
-        label: "Halaman: Titik Ba"
-        name: "halaman_titik_ba"
-        fields:
-          - {label: "Judul", name: "title", widget: "string"}
-          - name: "body"
-            label: "Konten Halaman (di bawah jargon)"
-            widget: "list"
-            types:
-              - name: "markdown"
-                label: "Paragraf Teks"
-                widget: "object"
-                fields:
-                  - {name: "content", label: "Teks", widget: "markdown"}
-              - name: "image"
-                label: "Gambar"
-                widget: "object"
-                fields:
-                  - {label: "File Gambar", name: "src", widget: "image"}
-                  - {label: "Teks Alt", name: "alt", widget: "string"}
-                  - {label: "Keterangan", name: "caption", widget: "string", required: false}
-                  - {label: "Ukuran Gambar", name: "size", widget: "select", options: ["Kecil", "Sedang", "Besar"], default: "Sedang"}
-              - name: "youtube"
-                label: "Video YouTube"
-                widget: "object"
-                fields:
-                  - {label: "ID Video YouTube", name: "id", widget: "string"}
-      
-      - file: "content/ayat-cerita.md"
-        label: "Halaman: Ayat-Ayat Cerita"
-        name: "halaman_ayat_cerita"
-        fields:
-          - {label: "Judul", name: "title", widget: "string"}
-          - name: "body"
-            label: "Konten Halaman (di bawah jargon)"
-            widget: "list"
-            types:
-              - {name: "markdown", label: "Paragraf Teks", widget: "object", fields: [{name: "content", label: "Teks", widget: "markdown"}]}
-              - {name: "image", label: "Gambar", widget: "object", fields: [{label: "File Gambar", name: "src", widget: "image"}, {label: "Teks Alt", name: "alt", widget: "string"}, {label: "Keterangan", name: "caption", widget: "string", required: false}, {label: "Ukuran Gambar", name: "size", widget: "select", options: ["Kecil", "Sedang", "Besar"], default: "Sedang"}]}
-              - {name: "youtube", label: "Video YouTube", widget: "object", fields: [{label: "ID Video YouTube", name: "id", widget: "string"}]}
+          - *block_editor # Menggunakan editor blok yang sudah didefinisikan
+          
+  - name: "pages"
+    label: "Halaman Utama"
+    folder: "content/pages"
+    create: true
+    identifier_field: "title"
+    slug: "{{slug}}"
+    fields:
+      - {label: "Judul", name: "title", widget: "string"}
+      - *block_editor # Menggunakan editor blok yang sama
 
   - name: "artikel"
     label: "Artikel"
@@ -91,14 +65,9 @@ collections:
         widget: "select"
         multiple: false
         options: ["Titik Ba", "Ayat-Ayat Cerita", "Matematika Detik", "Matematika Titik", "Bimbel", "Kamp Santri"]
-      - name: "body"
-        label: "Konten Artikel (Blok)"
-        widget: "list"
-        types:
-          - {name: "markdown", label: "Paragraf Teks", widget: "object", fields: [{name: "content", label: "Teks", widget: "markdown"}]}
-          - {name: "image", label: "Gambar", widget: "object", fields: [{label: "File Gambar", name: "src", widget: "image"}, {label: "Teks Alt", name: "alt", widget: "string"}, {label: "Keterangan", name: "caption", widget: "string", required: false}, {label: "Ukuran Gambar", name: "size", widget: "select", options: ["Kecil", "Sedang", "Besar"], default: "Sedang"}]}
-          - {name: "youtube", label: "Video YouTube", widget: "object", fields: [{label: "ID Video YouTube", name: "id", widget: "string"}]}
-
+        required: false
+      - *block_editor # Menggunakan editor blok yang sama
+        
   - name: "video"
     label: "Galeri Video"
     folder: "content/video"
@@ -108,5 +77,5 @@ collections:
     fields:
       - { label: "Judul Video", name: "title", widget: "string" }
       - { label: "Tanggal Publikasi", name: "date", widget: "datetime" }
-      - { label: "YouTube Video ID", name: "youtube_id", widget: "string", hint: "Contoh: dari URL https://www.youtube.com/watch?v=dQw4w9WgXcQ, ID-nya adalah dQw4w9WgXcQ" }
-      - { label: "Deskripsi", name: "body", widget: "markdown" }
+      - { label: "YouTube Video ID", name: "youtube_id", widget: "string" }
+      - { label: "Deskripsi", name: "body", widget: "markdown", required: false}

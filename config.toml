@@ -1,48 +1,32 @@
-[taxonomies]
-  category = "categories"
-baseURL = "https://pesantren-ilmu-eksakta.netlify.app/"
-languageCode = "id-id"
-title = "Pesantren Ilmu Eksakta"
-
-# Izinkan HTML mentah di dalam file Markdown
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
-[pagination]
-  pagerSize = 5
-
-[menu]
-  [[menu.main]]
-    name = "Beranda"
-    url = "/"
-    weight = 10
-  [[menu.main]]
-    name = "Titik Ba"
-    url = "/titik-ba/"
-    weight = 20
-  [[menu.main]]
-    name = "Ayat-Ayat Cerita"
-    url = "/ayat-cerita/"
-    weight = 30
-  [[menu.main]]
-    name = "Matematika Detik"
-    url = "/matematika-detik/"
-    weight = 40
-  [[menu.main]]
-    name = "Matematika Titik"
-    url = "/matematika-titik/"
-    weight = 50
-  [[menu.main]]
-    name = "Bimbel"
-    url = "/bimbel/"
-    weight = 60
-  [[menu.main]]
-    name = "Kamp Santri"
-    url = "/kamp-santri/"
-    weight = 70
-  [[menu.main]]
-    name = "Video"
-    url = "/video/"
-    weight = 75
+[[menu.main]]
+  name = "Beranda"
+  url = "/"
+  weight = 10
+[[menu.main]]
+  name = "Titik Ba"
+  url = "/pages/titik-ba/" # URL diperbarui
+  weight = 20
+[[menu.main]]
+  name = "Ayat-Ayat Cerita"
+  url = "/pages/ayat-cerita/" # URL diperbarui
+  weight = 30
+[[menu.main]]
+  name = "Matematika Detik"
+  url = "/pages/matematika-detik/" # URL diperbarui
+  weight = 40
+[[menu.main]]
+  name = "Matematika Titik"
+  url = "/pages/matematika-titik/" # URL diperbarui
+  weight = 50
+[[menu.main]]
+  name = "Bimbel"
+  url = "/pages/bimbel/" # URL diperbarui
+  weight = 60
+[[menu.main]]
+  name = "Kamp Santri"
+  url = "/pages/kamp-santri/" # URL diperbarui
+  weight = 70
+[[menu.main]]
+  name = "Video"
+  url = "/video/"
+  weight = 75
