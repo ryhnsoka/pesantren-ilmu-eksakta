@@ -16,23 +16,43 @@ body {
 }
 
 /* GAYA NAVIGASI HEADER */
-.nav-link:not(.active) { color: #1f2937; transition: background-color 0.2s, color 0.2s; }
-.nav-link:not(.active):hover { background-color: #fed7aa; color: #9a3412; }
-.nav-link.active { background-color: #f97316; color: #ffffff; }
-#mobile-menu .nav-link:not(.active) { color: #1f2937; }
-#mobile-menu .nav-link.active { color: #ffffff; }
-#mobile-menu .nav-link:hover { background-color: #fed7aa; }
+.nav-link:not(.active) {
+    color: #1f2937;
+    transition: background-color 0.2s, color 0.2s;
+}
+.nav-link:not(.active):hover {
+    background-color: #fed7aa;
+    color: #9a3412;
+}
+.nav-link.active {
+    background-color: #f97316;
+    color: #ffffff;
+}
+#mobile-menu .nav-link:not(.active) {
+     color: #1f2937;
+}
+#mobile-menu .nav-link.active {
+     color: #ffffff;
+}
+#mobile-menu .nav-link:hover {
+     background-color: #fed7aa;
+}
 
-/* GAYA KONTEN ARTIKEL BARU */
+/* ========================================================= */
+/* === ATURAN KONSISTEN UNTUK PARAGRAF DI SELURUH SITUS === */
+/* ========================================================= */
+.prose p,
+.article-content p {
+    text-align: justify; /* Membuat semua paragraf rata kiri-kanan */
+    margin-bottom: 1.5rem; /* Memberi jarak bawah 24px yang konsisten */
+}
+
+/* Gaya dasar untuk area artikel (font, ukuran, warna) */
 .article-content {
     font-family: 'Lora', serif;
     font-size: 1.125rem;
     line-height: 1.8;
     color: #374151;
-}
-.article-content p {
-    margin-bottom: 1.5rem;
-    text-align: justify;
 }
 
 /* Menyamakan tinggi tombol di halaman beranda */
