@@ -1,4 +1,7 @@
 ---
-title: "Beranda"
+body:
+  - type: markdown
+    content: Pesantren Ilmu Eksakta (PI.E), baik online maupun offline, adalah ruang
+      penumbuhan gagasan Titik Ba sebagai simbol keutuhan ilmu/ayat khususnya
+      di bidang logika, matematika dan sains.
 ---
-Pesantren Ilmu Eksakta (PI.E), baik online maupun offline, adalah ruang penumbuhan gagasan Titik Ba sebagai simbol keutuhan ilmu/ayat khususnya di bidang logika, matematika dan sains.
