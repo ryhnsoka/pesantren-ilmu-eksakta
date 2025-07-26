@@ -11,26 +11,7 @@
         </p>
     </div>
 
-    <div class="border-t pt-12 mt-12">
-        <article class="prose prose-lg max-w-none text-justify">
-            {{ range .Params.body }}
-                {{ if eq .type "markdown" }}
-                    {{ .content | markdownify }}
-                {{ else if eq .type "image" }}
-                    <figure>
-                        <img src="{{ .src | relURL }}" alt="{{ .alt }}">
-                        <figcaption>{{ .caption }}</figcaption>
-                    </figure>
-                {{ else if eq .type "youtube" }}
-                    <div class="aspect-w-16 aspect-h-9 my-6">
-                        <iframe src="https://www.youtube.com/embed/{{ .id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                {{ end }}
-            {{ end }}
-        </article>
-    </div>
-
-    <div class="mt-16">
+    <div class="my-16">
         <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <a href="{{ "/artikel/" | relURL }}" class="inline-block bg-orange-500 text-white font-bold py-3 px-8 rounded-full hover:bg-orange-600 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
                 Baca Artikel
@@ -39,6 +20,27 @@
                 Gabung Komunitas Kami (WAG)
             </a>
         </div>
+    </div>
+
+    <div class="border-t pt-12">
+        <article class="prose prose-lg max-w-none text-left">
+            {{ range .Params.body }}
+                {{ if eq .type "markdown" }}
+                    {{ .content | markdownify }}
+                {{ else if eq .type "image" }}
+                    {{ with .src }}
+                    <figure class="my-8">
+                        <img src="{{ . | relURL }}" alt="{{ .alt }}" class="rounded-lg shadow-lg mx-auto">
+                        {{ with .caption }}<figcaption class="text-center italic text-sm mt-2">{{ . }}</figcaption>{{ end }}
+                    </figure>
+                    {{ end }}
+                {{ else if eq .type "youtube" }}
+                    <div class="aspect-w-16 aspect-h-9 my-8 rounded-lg overflow-hidden shadow-lg">
+                        <iframe src="https://www.youtube.com/embed/{{ .id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                {{ end }}
+            {{ end }}
+        </article>
     </div>
 </div>
 {{ end }}

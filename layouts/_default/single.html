@@ -2,6 +2,7 @@
 {{ if .Params.list_category }}
     <div class="page-content max-w-4xl mx-auto px-4 py-8">
         <h2 class="text-3xl font-bold font-serif-display text-orange-500 mb-4 text-center">{{ .Title }}</h2>
+        
         <div class="text-center text-gray-600 italic text-xl mb-12 border-b pb-8">
             {{ if eq .Title "Titik Ba" }}<p>"Segalanya satu, utuh tak terbagi dan sejatinya tidak ada"</p>{{ end }}
         </div>
@@ -11,10 +12,12 @@
                 {{ if eq .type "markdown" }}
                     {{ .content | markdownify }}
                 {{ else if eq .type "image" }}
+                    {{ with .src }}
                     <figure class="my-8">
-                        <img src="{{ .src | relURL }}" alt="{{ .alt }}" class="rounded-lg shadow-lg mx-auto">
+                        <img src="{{ . | relURL }}" alt="{{ .alt }}" class="rounded-lg shadow-lg mx-auto">
                         {{ with .caption }}<figcaption class="text-center italic text-sm mt-2">{{ . }}</figcaption>{{ end }}
                     </figure>
+                    {{ end }}
                 {{ else if eq .type "youtube" }}
                     <div class="aspect-w-16 aspect-h-9 my-8 rounded-lg overflow-hidden shadow-lg">
                         <iframe src="https://www.youtube.com/embed/{{ .id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
