@@ -21,6 +21,10 @@
                             {{ with .caption }}<figcaption class="text-center italic text-sm mt-2">{{ . }}</figcaption>{{ end }}
                         </figure>
                     {{ end }}
+                {{ else if eq .type "youtube" }}
+                    <div class="aspect-w-16 aspect-h-9 my-8 rounded-lg overflow-hidden shadow-lg">
+                        <iframe src="https://www.youtube.com/embed/{{ .id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                 {{ end }}
             {{ end }}
         </article>
