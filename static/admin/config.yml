@@ -17,24 +17,9 @@ collections:
             label: "Konten Halaman"
             widget: "list"
             types:
-              - name: "markdown"
-                label: "Paragraf Teks"
-                widget: "object"
-                fields:
-                  - {name: "content", label: "Teks", widget: "markdown"}
-              - name: "image"
-                label: "Gambar"
-                widget: "object"
-                fields:
-                  - {label: "File Gambar", name: "src", widget: "image"}
-                  - {label: "Teks Alt (Deskripsi)", name: "alt", widget: "string"}
-                  - {label: "Keterangan (Caption)", name: "caption", widget: "string", required: false}
-                  - {label: "Ukuran Gambar", name: "size", widget: "select", options: ["Kecil", "Sedang", "Besar"], default: "Sedang"}
-              - name: "youtube"
-                label: "Video YouTube"
-                widget: "object"
-                fields:
-                  - {label: "ID Video YouTube", name: "id", widget: "string"}
+              - {name: "markdown", label: "Paragraf Teks", widget: "object", fields: [{name: "content", label: "Teks", widget: "markdown"}]}
+              - {name: "image", label: "Gambar", widget: "object", fields: [{label: "File Gambar", name: "src", widget: "image"}, {label: "Teks Alt", name: "alt", widget: "string"}, {label: "Keterangan", name: "caption", widget: "string", required: false}, {label: "Ukuran Gambar", name: "size", widget: "select", options: ["Kecil", "Sedang", "Besar"], default: "Sedang"}]}
+              - {name: "youtube", label: "Video YouTube", widget: "object", fields: [{label: "ID Video YouTube", name: "id", widget: "string"}]}
       - file: "content/titik-ba.md"
         label: "Halaman: Titik Ba"
         name: "halaman_titik_ba"
