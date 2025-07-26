@@ -1,7 +1,8 @@
 ---
-title: "Bimbel"
-list_category: "Bimbel"
-gagasan_url: "/gagasan-bimbel/"
-cta_button_1_text: "Jelajahi Bimbel"
-cta_button_2_text: "Lihat Kumpulan Artikel"
+title: Bimbel
+list_category: Bimbel
+body:
+  - type: markdown
+    content: PI.E menyediakan bimbingan belajar khusus matematika dan sains, dari tingkat
+      SD/MI hingga persiapan PT, baik secara online maupun offline.
 ---

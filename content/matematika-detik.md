@@ -1,7 +1,7 @@
 ---
-title: "Matematika Detik"
-list_category: "Matematika Detik"
-gagasan_url: "/gagasan-matematika-detik/"
-cta_button_1_text: "Jelajahi Matematika Detik"
-cta_button_2_text: "Lihat Kumpulan Artikel"
+title: Matematika Detik
+list_category: Matematika Detik
+body:
+  - type: markdown
+    content: '"Asah intuisi, kelola dua detik pertama"'
 ---
