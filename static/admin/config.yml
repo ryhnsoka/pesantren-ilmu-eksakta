@@ -107,28 +107,6 @@ collections:
               - {label: Gambar, name: image, widget: object, fields: [{label: File Gambar, name: src, widget: image}, {label: Teks Alt, name: alt, widget: string}]}
               - {label: Video YouTube, name: youtube, widget: object, fields: [{label: ID Video YouTube, name: id, widget: string}]}
       
-  - name: artikel
-    label: Artikel
-    folder: content/artikel
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: Judul, name: title, widget: string}
-      - {label: Tanggal Publikasi, name: date, widget: datetime}
-      - label: Kategori
-        name: categories
-        widget: select
-        multiple: false
-        options:
-          - Titik Ba
-          - Ayat-Ayat Cerita
-          - Matematika Detik
-          - Matematika Titik
-          - Bimbel
-          - Kamp Santri
-      - label: Isi Artikel
-        name: body
-        widget: markdown
         editor:
           styles:
             - {label: Rata Kiri, value: text-left}
@@ -147,26 +125,3 @@ collections:
         fields:
           - { label: "Judul", name: "title", widget: "string" }
           - { label: "Isi Halaman", name: "body", widget: "markdown" }
-
-  - name: "artikel_blog"
-    label: "Artikel"
-    folder: "content/artikel"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Judul", name: "title", widget: "string" }
-      - { label: "Tanggal Publikasi", name: "date", widget: "datetime" }
-      - label: "Kategori"
-        name: "categories"
-        widget: "select"
-        multiple: false
-        options: ["Titik Ba", "Ayat-Ayat Cerita", "Matematika Detik", "Matematika Titik", "Bimbel", "Kamp Santri"]
-      - label: "Isi Artikel"
-        name: "body"
-        widget: "markdown"
-        editor:
-          styles:
-            - { label: "Rata Kiri", value: "text-left" }
-            - { label: "Rata Tengah", value: "text-center" }
-            - { label: "Rata Kanan", value: "text-right" }
-            - { label: "Rata Kiri-Kanan (Justify)", value: "text-justify" }
