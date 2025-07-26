@@ -1,44 +1,77 @@
 backend:
   name: git-gateway
   branch: main
-
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
-media_library:
-  name: uploadcare
 collections:
-  - name: "pages"
-    label: "Halaman & Gagasan"
+  - name: pages
+    label: Halaman
     files:
-      - file: "content/_index.md"
-        label: "Konten Tambahan Beranda"
-        name: "beranda"
+      - file: content/_index.md
+        label: Halaman Beranda
+        name: beranda
         fields:
-          - { label: "Isi Konten Tambahan di Beranda", name: "body", widget: "markdown" }
-      - file: "content/gagasan-titik-ba.md"
-        label: "Gagasan: Titik Ba"
-        name: "gagasan_titik_ba"
+          - label: Konten Halaman
+            name: body
+            widget: list
+            types:
+              - label: Paragraf Teks
+                name: markdown
+                widget: markdown
+              - label: Gambar
+                name: image
+                widget: object
+                fields:
+                  - {label: File Gambar, name: src, widget: image}
+                  - {label: Teks Alt (Deskripsi Gambar), name: alt, widget: string}
+              - label: Video YouTube
+                name: youtube
+                widget: object
+                fields:
+                  - {label: ID Video YouTube, name: id, widget: string}
+      - file: content/titik-ba.md
+        label: Halaman Titik Ba
+        name: titik_ba
         fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman", name: "body", widget: "markdown" }
-      - file: "content/gagasan-ayat-cerita.md"
-        label: "Gagasan: Ayat-Ayat Cerita"
-        name: "gagasan_ayat_cerita"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman", name: "body", widget: "markdown" }
-      - file: "content/gagasan-matematika-detik.md"
-        label: "Gagasan: Matematika Detik"
-        name: "gagasan_matematika_detik"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman", name: "body", widget: "markdown" }
-      - file: "content/gagasan-matematika-titik.md"
-        label: "Gagasan: Matematika Titik"
-        name: "gagasan_matematika_titik"
-        fields:
-          - { label: "Judul", name: "title", widget: "string" }
-          - { label: "Isi Halaman", name: "body", widget: "markdown" }
+          - {label: Judul, name: title, widget: string}
+          - label: Konten Halaman
+            name: body
+            widget: list
+            types:
+              - {label: Paragraf Teks, name: markdown, widget: markdown}
+              - {label: Gambar, name: image, widget: object, fields: [{label: File Gambar, name: src, widget: image}, {label: Teks Alt, name: alt, widget: string}]}
+              - {label: Video YouTube, name: youtube, widget: object, fields: [{label: ID Video YouTube, name: id, widget: string}]}
+      # Ulangi pola di atas untuk semua halaman utama lainnya
+      # (ayat-cerita.md, matematika-detik.md, bimbel.md, dll.)
+      
+  - name: artikel
+    label: Artikel
+    folder: content/artikel
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: Judul, name: title, widget: string}
+      - {label: Tanggal Publikasi, name: date, widget: datetime}
+      - label: Kategori
+        name: categories
+        widget: select
+        multiple: false
+        options:
+          - Titik Ba
+          - Ayat-Ayat Cerita
+          - Matematika Detik
+          - Matematika Titik
+          - Bimbel
+          - Kamp Santri
+      - label: Isi Artikel
+        name: body
+        widget: markdown
+        editor:
+          styles:
+            - {label: Rata Kiri, value: text-left}
+            - {label: Rata Tengah, value: text-center}
+            - {label: Rata Kanan, value: text-right}
+            - {label: Rata Kiri-Kanan (Justify), value: text-justify}
       - file: "content/gagasan-bimbel.md"
         label: "Gagasan: Bimbel"
         name: "gagasan_bimbel"
