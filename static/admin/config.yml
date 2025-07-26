@@ -38,9 +38,26 @@ collections:
             name: body
             widget: list
             types:
-              - {label: Paragraf Teks, name: markdown, widget: markdown}
-              - {label: Gambar, name: image, widget: object, fields: [{label: File Gambar, name: src, widget: image}, {label: Teks Alt, name: alt, widget: string}]}
-              - {label: Video YouTube, name: youtube, widget: object, fields: [{label: ID Video YouTube, name: id, widget: string}]}
+              - label: Paragraf Teks
+                name: markdown
+                widget: markdown
+              - label: Gambar
+                name: image
+                widget: object
+                fields:
+                  - label: File Gambar
+                    name: src
+                    widget: image
+                  - label: Teks Alt
+                    name: alt
+                    widget: string
+              - label: Video YouTube
+                name: youtube
+                widget: object
+                fields:
+                  - label: ID Video YouTube
+                    name: id
+                    widget: string
 
       - file: content/ayat-cerita.md
         label: Halaman Ayat-Ayat Cerita
