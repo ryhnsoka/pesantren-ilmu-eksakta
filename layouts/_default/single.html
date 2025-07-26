@@ -3,36 +3,26 @@
     <div class="page-content max-w-4xl mx-auto px-4 py-8">
         <h2 class="text-3xl font-bold font-serif-display text-orange-500 mb-4 text-center">{{ .Title }}</h2>
         <div class="text-center text-gray-600 italic text-xl mb-12 border-b pb-8">
-            {{ if eq .Title "Titik Ba" }}
-                <p>"Segalanya satu, utuh tak terbagi dan sejatinya tidak ada"</p>
-            {{ else if eq .Title "Ayat-Ayat Cerita" }}
-                <p>"Memahami ilmu sebagai sebuah narasi besar yang saling berhubungan"</p>
-            {{ else if eq .Title "Matematika Detik" }}
-                <p>"Asah intuisi, kelola dua detik pertama"</p>
-            {{ else if eq .Title "Matematika Titik" }}
-                <p>"Keseluruhan matematika adalah tentang menamai titik"</p>
-            {{ else if eq .Title "Bimbel" }}
-                <p>"Bimbingan belajar khusus matematika dan sains, dari tingkat SD/MI hingga persiapan PT"</p>
-            {{ else if eq .Title "Kamp Santri" }}
-                <p>"Materi ilmu eksakta yang seutuh dan sekokoh mungkin saat liburan sekolah"</p>
-            {{ end }}
+            {{ if eq .Title "Titik Ba" }}<p>"Segalanya satu, utuh tak terbagi dan sejatinya tidak ada"</p>{{ end }}
         </div>
-        <article class="prose prose-lg max-w-none text-justify">
+
+        <article class="prose prose-lg max-w-none text-left">
             {{ range .Params.body }}
                 {{ if eq .type "markdown" }}
                     {{ .content | markdownify }}
                 {{ else if eq .type "image" }}
-                    <figure>
-                        <img src="{{ .src | relURL }}" alt="{{ .alt }}">
-                        <figcaption>{{ .caption }}</figcaption>
+                    <figure class="my-8">
+                        <img src="{{ .src | relURL }}" alt="{{ .alt }}" class="rounded-lg shadow-lg mx-auto">
+                        {{ with .caption }}<figcaption class="text-center italic text-sm mt-2">{{ . }}</figcaption>{{ end }}
                     </figure>
                 {{ else if eq .type "youtube" }}
-                    <div class="aspect-w-16 aspect-h-9 my-6">
+                    <div class="aspect-w-16 aspect-h-9 my-8 rounded-lg overflow-hidden shadow-lg">
                         <iframe src="https://www.youtube.com/embed/{{ .id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 {{ end }}
             {{ end }}
         </article>
+
         <div class="text-center mt-12 pt-8 border-t">
             {{ $category_url := printf "/categories/%s" (.Params.list_category | urlize) }}
             <a href="{{ $category_url }}" class="inline-block bg-orange-100 text-orange-800 font-semibold py-4 px-8 rounded-lg border border-orange-200 hover:bg-orange-200 hover:border-orange-300 transition-all shadow-sm">

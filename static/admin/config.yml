@@ -41,8 +41,71 @@ collections:
               - {label: Paragraf Teks, name: markdown, widget: markdown}
               - {label: Gambar, name: image, widget: object, fields: [{label: File Gambar, name: src, widget: image}, {label: Teks Alt, name: alt, widget: string}]}
               - {label: Video YouTube, name: youtube, widget: object, fields: [{label: ID Video YouTube, name: id, widget: string}]}
-      # Ulangi pola di atas untuk semua halaman utama lainnya
-      # (ayat-cerita.md, matematika-detik.md, bimbel.md, dll.)
+
+      - file: content/ayat-cerita.md
+        label: Halaman Ayat-Ayat Cerita
+        name: ayat_ayat_cerita
+        fields:
+          - {label: Judul, name: title, widget: string}
+          - label: Konten Halaman
+            name: body
+            widget: list
+            types:
+              - {label: Paragraf Teks, name: markdown, widget: markdown}
+              - {label: Gambar, name: image, widget: object, fields: [{label: File Gambar, name: src, widget: image}, {label: Teks Alt, name: alt, widget: string}]}
+              - {label: Video YouTube, name: youtube, widget: object, fields: [{label: ID Video YouTube, name: id, widget: string}]}
+
+      - file: content/matematika-detik.md
+        label: Halaman Matematika Detik
+        name: matematika_detik
+        fields:
+          - {label: Judul, name: title, widget: string}
+          - label: Konten Halaman
+            name: body
+            widget: list
+            types:
+              - {label: Paragraf Teks, name: markdown, widget: markdown}
+              - {label: Gambar, name: image, widget: object, fields: [{label: File Gambar, name: src, widget: image}, {label: Teks Alt, name: alt, widget: string}]}
+              - {label: Video YouTube, name: youtube, widget: object, fields: [{label: ID Video YouTube, name: id, widget: string}]}
+
+      - file: content/matematika-titik.md
+        label: Halaman Matematika Titik
+        name: matematika_titik
+        fields:
+          - {label: Judul, name: title, widget: string}
+          - label: Konten Halaman
+            name: body
+            widget: list
+            types:
+              - {label: Paragraf Teks, name: markdown, widget: markdown}
+              - {label: Gambar, name: image, widget: object, fields: [{label: File Gambar, name: src, widget: image}, {label: Teks Alt, name: alt, widget: string}]}
+              - {label: Video YouTube, name: youtube, widget: object, fields: [{label: ID Video YouTube, name: id, widget: string}]}
+
+      - file: content/bimbel.md
+        label: Halaman Bimbel
+        name: bimbel
+        fields:
+          - {label: Judul, name: title, widget: string}
+          - label: Konten Halaman
+            name: body
+            widget: list
+            types:
+              - {label: Paragraf Teks, name: markdown, widget: markdown}
+              - {label: Gambar, name: image, widget: object, fields: [{label: File Gambar, name: src, widget: image}, {label: Teks Alt, name: alt, widget: string}]}
+              - {label: Video YouTube, name: youtube, widget: object, fields: [{label: ID Video YouTube, name: id, widget: string}]}
+
+      - file: content/kamp-santri.md
+        label: Halaman Kamp Santri
+        name: kamp_santri
+        fields:
+          - {label: Judul, name: title, widget: string}
+          - label: Konten Halaman
+            name: body
+            widget: list
+            types:
+              - {label: Paragraf Teks, name: markdown, widget: markdown}
+              - {label: Gambar, name: image, widget: object, fields: [{label: File Gambar, name: src, widget: image}, {label: Teks Alt, name: alt, widget: string}]}
+              - {label: Video YouTube, name: youtube, widget: object, fields: [{label: ID Video YouTube, name: id, widget: string}]}
       
   - name: artikel
     label: Artikel
@@ -85,7 +148,7 @@ collections:
           - { label: "Judul", name: "title", widget: "string" }
           - { label: "Isi Halaman", name: "body", widget: "markdown" }
 
-  - name: "artikel"
+  - name: "artikel_blog"
     label: "Artikel"
     folder: "content/artikel"
     create: true
