@@ -188,8 +188,12 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Judul", name: "title", widget: "string"}
-      - {label: "Tanggal Publikasi", name: "date", widget: "datetime"}
+      - label: "Judul"
+        name: "title"
+        widget: "string"
+      - label: "Tanggal Publikasi"
+        name: "date"
+        widget: "datetime"
       - label: "Kategori"
         name: "categories"
         widget: "select"
