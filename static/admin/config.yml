@@ -41,9 +41,30 @@ collections:
             name: "body"
             widget: "list"
             types:
-              - {name: "markdown", label: "Paragraf Teks", widget: "markdown"}
-              - {name: "image", label: "Gambar", widget: "object", fields: [{label: "File Gambar", name: "src", widget: "image"}, {label: "Teks Alt", name: "alt", widget: "string"}, {label: "Keterangan", name: "caption", widget: "string", required: false}]}
-              - {name: "youtube", label: "Video YouTube", widget: "object", fields: [{label: "ID Video YouTube", name: "id", widget: "string"}]}
+              - name: "markdown"
+                label: "Paragraf Teks"
+                widget: "markdown"
+              - name: "image"
+                label: "Gambar"
+                widget: "object"
+                fields:
+                  - label: "File Gambar"
+                    name: "src"
+                    widget: "image"
+                  - label: "Teks Alt"
+                    name: "alt"
+                    widget: "string"
+                  - label: "Keterangan"
+                    name: "caption"
+                    widget: "string"
+                    required: false
+              - name: "youtube"
+                label: "Video YouTube"
+                widget: "object"
+                fields:
+                  - label: "ID Video YouTube"
+                    name: "id"
+                    widget: "string"
       - file: "content/ayat-cerita.md"
         label: "Halaman: Ayat-Ayat Cerita"
         name: "halaman_ayat_cerita"
@@ -53,9 +74,30 @@ collections:
             name: "body"
             widget: "list"
             types:
-              - {name: "markdown", label: "Paragraf Teks", widget: "markdown"}
-              - {name: "image", label: "Gambar", widget: "object", fields: [{label: "File Gambar", name: "src", widget: "image"}, {label: "Teks Alt", name: "alt", widget: "string"}, {label: "Keterangan", name: "caption", widget: "string", required: false}]}
-              - {name: "youtube", label: "Video YouTube", widget: "object", fields: [{label: "ID Video YouTube", name: "id", widget: "string"}]}
+              - name: "markdown"
+                label: "Paragraf Teks"
+                widget: "markdown"
+              - name: "image"
+                label: "Gambar"
+                widget: "object"
+                fields:
+                  - label: "File Gambar"
+                    name: "src"
+                    widget: "image"
+                  - label: "Teks Alt"
+                    name: "alt"
+                    widget: "string"
+                  - label: "Keterangan"
+                    name: "caption"
+                    widget: "string"
+                    required: false
+              - name: "youtube"
+                label: "Video YouTube"
+                widget: "object"
+                fields:
+                  - label: "ID Video YouTube"
+                    name: "id"
+                    widget: "string"
       - file: "content/matematika-detik.md"
         label: "Halaman: Matematika Detik"
         name: "halaman_matematika_detik"
@@ -65,9 +107,30 @@ collections:
             name: "body"
             widget: "list"
             types:
-              - {name: "markdown", label: "Paragraf Teks", widget: "markdown"}
-              - {name: "image", label: "Gambar", widget: "object", fields: [{label: "File Gambar", name: "src", widget: "image"}, {label: "Teks Alt", name: "alt", widget: "string"}, {label: "Keterangan", name: "caption", widget: "string", required: false}]}
-              - {name: "youtube", label: "Video YouTube", widget: "object", fields: [{label: "ID Video YouTube", name: "id", widget: "string"}]}
+              - name: "markdown"
+                label: "Paragraf Teks"
+                widget: "markdown"
+              - name: "image"
+                label: "Gambar"
+                widget: "object"
+                fields:
+                  - label: "File Gambar"
+                    name: "src"
+                    widget: "image"
+                  - label: "Teks Alt"
+                    name: "alt"
+                    widget: "string"
+                  - label: "Keterangan"
+                    name: "caption"
+                    widget: "string"
+                    required: false
+              - name: "youtube"
+                label: "Video YouTube"
+                widget: "object"
+                fields:
+                  - label: "ID Video YouTube"
+                    name: "id"
+                    widget: "string"
       - file: "content/matematika-titik.md"
         label: "Halaman: Matematika Titik"
         name: "halaman_matematika_titik"
@@ -77,9 +140,30 @@ collections:
             name: "body"
             widget: "list"
             types:
-              - {name: "markdown", label: "Paragraf Teks", widget: "markdown"}
-              - {name: "image", label: "Gambar", widget: "object", fields: [{label: "File Gambar", name: "src", widget: "image"}, {label: "Teks Alt", name: "alt", widget: "string"}, {label: "Keterangan", name: "caption", widget: "string", required: false}]}
-              - {name: "youtube", label: "Video YouTube", widget: "object", fields: [{label: "ID Video YouTube", name: "id", widget: "string"}]}
+              - name: "markdown"
+                label: "Paragraf Teks"
+                widget: "markdown"
+              - name: "image"
+                label: "Gambar"
+                widget: "object"
+                fields:
+                  - label: "File Gambar"
+                    name: "src"
+                    widget: "image"
+                  - label: "Teks Alt"
+                    name: "alt"
+                    widget: "string"
+                  - label: "Keterangan"
+                    name: "caption"
+                    widget: "string"
+                    required: false
+              - name: "youtube"
+                label: "Video YouTube"
+                widget: "object"
+                fields:
+                  - label: "ID Video YouTube"
+                    name: "id"
+                    widget: "string"
       - file: "content/bimbel.md"
         label: "Halaman: Bimbel"
         name: "halaman_bimbel"
@@ -89,9 +173,30 @@ collections:
             name: "body"
             widget: "list"
             types:
-              - {name: "markdown", label: "Paragraf Teks", widget: "markdown"}
-              - {name: "image", label: "Gambar", widget: "object", fields: [{label: "File Gambar", name: "src", widget: "image"}, {label: "Teks Alt", name: "alt", widget: "string"}, {label: "Keterangan", name: "caption", widget: "string", required: false}]}
-              - {name: "youtube", label: "Video YouTube", widget: "object", fields: [{label: "ID Video YouTube", name: "id", widget: "string"}]}
+              - name: "markdown"
+                label: "Paragraf Teks"
+                widget: "markdown"
+              - name: "image"
+                label: "Gambar"
+                widget: "object"
+                fields:
+                  - label: "File Gambar"
+                    name: "src"
+                    widget: "image"
+                  - label: "Teks Alt"
+                    name: "alt"
+                    widget: "string"
+                  - label: "Keterangan"
+                    name: "caption"
+                    widget: "string"
+                    required: false
+              - name: "youtube"
+                label: "Video YouTube"
+                widget: "object"
+                fields:
+                  - label: "ID Video YouTube"
+                    name: "id"
+                    widget: "string"
       - file: "content/kamp-santri.md"
         label: "Halaman: Kamp Santri"
         name: "halaman_kamp_santri"
@@ -101,9 +206,30 @@ collections:
             name: "body"
             widget: "list"
             types:
-              - {name: "markdown", label: "Paragraf Teks", widget: "markdown"}
-              - {name: "image", label: "Gambar", widget: "object", fields: [{label: "File Gambar", name: "src", widget: "image"}, {label: "Teks Alt", name: "alt", widget: "string"}, {label: "Keterangan", name: "caption", widget: "string", required: false}]}
-              - {name: "youtube", label: "Video YouTube", widget: "object", fields: [{label: "ID Video YouTube", name: "id", widget: "string"}]}
+              - name: "markdown"
+                label: "Paragraf Teks"
+                widget: "markdown"
+              - name: "image"
+                label: "Gambar"
+                widget: "object"
+                fields:
+                  - label: "File Gambar"
+                    name: "src"
+                    widget: "image"
+                  - label: "Teks Alt"
+                    name: "alt"
+                    widget: "string"
+                  - label: "Keterangan"
+                    name: "caption"
+                    widget: "string"
+                    required: false
+              - name: "youtube"
+                label: "Video YouTube"
+                widget: "object"
+                fields:
+                  - label: "ID Video YouTube"
+                    name: "id"
+                    widget: "string"
 
   - name: "artikel"
     label: "Artikel"
