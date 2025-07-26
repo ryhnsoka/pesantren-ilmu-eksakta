@@ -1,11 +1,7 @@
 ---
-title: Ayat-Ayat Cerita
-list_category: Ayat-Ayat Cerita
+title: "Ayat-Ayat Cerita"
+list_category: "Ayat-Ayat Cerita"
+body:
+  - type: "markdown"
+    content: "Ilmu pengetahuan seringkali diajarkan sebagai kumpulan fakta dan rumus yang kering. Pendekatan \"Ayat-Ayat Cerita\" mengajak kita untuk memahami ilmu sebagai sebuah narasi besar yang saling berhubungan. Setiap penemuan, teori, dan dalil adalah \"ayat\" atau \"tanda\" yang menceritakan sebuah kisah tentang bagaimana alam semesta bekerja. Dengan memahami konteks, sejarah, dan drama di balik penemuan ilmiah, kita tidak hanya menghafal, tetapi benar-benar memaknai pengetahuan."
 ---
-
-<p class="text-2xl font-serif-display text-gray-800 max-w-2xl mx-auto mb-2">
-    كَذَٰلِكَ نَقُصُّ عَلَيْكَ مِنْ أَنبَاءِ مَا قَدْ سَبَقَ ۚ وَقَدْ آتَيْنَاكَ مِن لَّدُنَّا ذِكْرًا <br>QS. Thoha: 99
-</p>
-<p class="max-w-2xl mx-auto mb-8">
-    "Demikianlah Kami kisahkan kepadamu (Muhammad) sebagian kisah umat yang telah lalu, dan sungguh, telah Kami berikan kepadamu suatu peringatan (Al-Quran) dari sisi Kami."
-</p>

@@ -1,4 +1,5 @@
 ---
+body:
+  - type: "markdown"
+    content: "Selamat datang di ruang digital kami. Di sini, kami berbagi tulisan, pemikiran, dan artikel yang lebih dalam mengenai berbagai gagasan yang kami kembangkan. Silakan jelajahi berbagai kategori yang tersedia atau langsung bergabung dengan komunitas kami untuk diskusi yang lebih interaktif."
 ---
-
-Pesantren Ilmu Eksakta (PI.E), baik online maupun offline, adalah ruang penumbuhan gagasan Titik Ba sebagai simbol keutuhan ilmu/ayat khususnya di bidang logika, matematika dan sains.
