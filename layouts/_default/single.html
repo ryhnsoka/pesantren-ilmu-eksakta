@@ -13,8 +13,10 @@
             {{ if eq .Title "Kamp Santri" }}<p>"Materi ilmu eksakta yang seutuh dan sekokoh mungkin"</p>{{ end }}
         </div>
 
-        <article class="prose prose-lg max-w-none text-justify">
-            {{ .Content }}
+        <article class="article-content">
+            {{ range .Params.body }}
+                <p>{{ . }}</p>
+            {{ end }}
         </article>
 
         <div class="text-center mt-12 pt-8 border-t">
@@ -24,11 +26,14 @@
             </a>
         </div>
     </div>
+
 {{ else }}
     <div class="max-w-3xl mx-auto px-4 py-8">
         <h1 class="text-3xl md:text-4xl font-bold font-serif-display text-gray-900 mb-2 text-center">{{ .Title }}</h1>
-        <article class="prose prose-lg max-w-none text-justify mt-8">
-            {{ .Content }}
+        <article class="article-content mt-8">
+            {{ range .Params.body }}
+                <p>{{ . }}</p>
+            {{ end }}
         </article>
     </div>
 {{ end }}
