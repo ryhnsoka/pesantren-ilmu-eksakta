@@ -44,7 +44,7 @@ body {
 .prose p,
 .article-content p {
     text-align: justify; /* Membuat semua paragraf rata kiri-kanan */
-    margin-bottom: 3rem; /* Memberi jarak bawah 48px yang konsisten */
+    margin-bottom: 5rem; /* Memberi jarak bawah 80px yang konsisten */
 }
 
 /* Gaya dasar untuk area artikel (font, ukuran, warna) */
