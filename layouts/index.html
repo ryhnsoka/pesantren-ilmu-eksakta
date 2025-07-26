@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="container mx-auto max-w-4xl text-center px-4 py-20 md:py-24">
+<div class="container mx-auto max-w-4xl text-center px-4 py-20 md-py-24">
     
     <div>
         <h1 class="text-4xl md:text-6xl font-bold font-serif-display leading-tight -mt-4">
@@ -28,9 +28,9 @@
                 {{ if eq .type "markdown" }}
                     {{ .content | markdownify }}
                 {{ else if eq .type "image" }}
-                    {{ with .src }}
+                    {{ if .src }}
                     <figure class="my-8">
-                        <img src="{{ . | relURL }}" alt="{{ .alt }}" class="rounded-lg shadow-lg mx-auto">
+                        <img src="{{ .src | relURL }}" alt="{{ .alt }}" class="rounded-lg shadow-lg mx-auto">
                         {{ with .caption }}<figcaption class="text-center italic text-sm mt-2">{{ . }}</figcaption>{{ end }}
                     </figure>
                     {{ end }}

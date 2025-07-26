@@ -12,9 +12,9 @@
                 {{ if eq .type "markdown" }}
                     {{ .content | markdownify }}
                 {{ else if eq .type "image" }}
-                    {{ with .src }}
+                    {{ if .src }}
                     <figure class="my-8">
-                        <img src="{{ . | relURL }}" alt="{{ .alt }}" class="rounded-lg shadow-lg mx-auto">
+                        <img src="{{ .src | relURL }}" alt="{{ .alt }}" class="rounded-lg shadow-lg mx-auto">
                         {{ with .caption }}<figcaption class="text-center italic text-sm mt-2">{{ . }}</figcaption>{{ end }}
                     </figure>
                     {{ end }}
