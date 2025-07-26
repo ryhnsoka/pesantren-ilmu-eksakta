@@ -39,7 +39,7 @@ collections:
         label: "Halaman Beranda (Profil)"
         name: "beranda"
         fields:
-          - *block_editor # Menggunakan editor blok yang sudah didefinisikan
+          - *block_editor
           
   - name: "pages"
     label: "Halaman Utama"
@@ -49,7 +49,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Judul", name: "title", widget: "string"}
-      - *block_editor # Menggunakan editor blok yang sama
+      - *block_editor
 
   - name: "artikel"
     label: "Artikel"
@@ -66,7 +66,7 @@ collections:
         multiple: false
         options: ["Titik Ba", "Ayat-Ayat Cerita", "Matematika Detik", "Matematika Titik", "Bimbel", "Kamp Santri"]
         required: false
-      - *block_editor # Menggunakan editor blok yang sama
+      - *block_editor
         
   - name: "video"
     label: "Galeri Video"
