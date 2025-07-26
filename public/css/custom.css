@@ -39,12 +39,18 @@ body {
 }
 
 /* ========================================================= */
-/* === ATURAN KONSISTEN UNTUK PARAGRAF DI SELURUH SITUS === */
+/* === ATURAN BARU UNTUK JARAK PARAGRAF YANG KONSISTEN === */
 /* ========================================================= */
 .prose p,
 .article-content p {
-    text-align: justify; /* Membuat semua paragraf rata kiri-kanan */
-    margin-bottom: 5rem; /* Memberi jarak bawah 80px yang konsisten */
+    text-align: justify;
+    margin-bottom: 0; /* Hapus margin bawah default */
+}
+
+/* Menambahkan jarak ATAS pada setiap paragraf KECUALI yang pertama */
+.prose p + p,
+.article-content p + p {
+    margin-top: 1.5rem; /* Jarak antar paragraf (24px) */
 }
 
 /* Gaya dasar untuk area artikel (font, ukuran, warna) */
@@ -57,7 +63,7 @@ body {
 
 /* Menyamakan tinggi tombol di halaman beranda */
 .home-button {
-    min-height: 52px; /* Menetapkan tinggi minimum untuk semua tombol */
+    min-height: 52px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
