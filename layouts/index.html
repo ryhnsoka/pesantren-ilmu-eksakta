@@ -31,6 +31,8 @@
                 {{ with .Params.sub_title }}
                     <h2 class="text-center text-2xl font-semibold text-gray-800 not-prose">{{ . | markdownify }}</h2>
                 {{ end }}
+
+                {{ .Content }}                
                 </article>
             </div>
         </div>
