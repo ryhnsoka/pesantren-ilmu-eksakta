@@ -13,44 +13,51 @@ collections:
         label: "Halaman Beranda (Profil)"
         name: "beranda"
         fields:
+          - {name: "sub_title", label: "Sub Judul (di bawah jargon)", widget: "string", required: false}
           - {name: "body", label: "Konten Halaman", widget: "markdown", required: false}
       - file: "content/pages/titik-ba.md"
         label: "Halaman: Titik Ba"
         name: "halaman_titik_ba"
         fields:
           - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
+          - {name: "sub_title", label: "Sub Judul (di bawah jargon)", widget: "string", required: false}
+          - {name: "body", label: "Konten Halaman", widget: "markdown", required: false}
       - file: "content/pages/ayat-cerita.md"
         label: "Halaman: Ayat-Ayat Cerita"
         name: "halaman_ayat_cerita"
         fields:
           - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
+          - {name: "sub_title", label: "Sub Judul (di bawah jargon)", widget: "string", required: false}
+          - {name: "body", label: "Konten Halaman", widget: "markdown", required: false}
       - file: "content/pages/matematika-detik.md"
         label: "Halaman: Matematika Detik"
         name: "halaman_matematika_detik"
         fields:
           - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
+          - {name: "sub_title", label: "Sub Judul (di bawah jargon)", widget: "string", required: false}
+          - {name: "body", label: "Konten Halaman", widget: "markdown", required: false}
       - file: "content/pages/matematika-titik.md"
         label: "Halaman: Matematika Titik"
         name: "halaman_matematika_titik"
         fields:
           - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
+          - {name: "sub_title", label: "Sub Judul (di bawah jargon)", widget: "string", required: false}
+          - {name: "body", label: "Konten Halaman", widget: "markdown", required: false}
       - file: "content/pages/bimbel.md"
         label: "Halaman: Bimbel"
         name: "halaman_bimbel"
         fields:
           - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
+          - {name: "sub_title", label: "Sub Judul (di bawah jargon)", widget: "string", required: false}
+          - {name: "body", label: "Konten Halaman", widget: "markdown", required: false}
       - file: "content/pages/kamp-santri.md"
         label: "Halaman: Kamp Santri"
         name: "halaman_kamp_santri"
         fields:
           - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
-          
+          - {name: "sub_title", label: "Sub Judul (di bawah jargon)", widget: "string", required: false}
+          - {name: "body", label: "Konten Halaman", widget: "markdown", required: false}
+
   - name: "artikel"
     label: "Artikel"
     folder: "content/artikel"
@@ -59,9 +66,9 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Judul", name: "title", widget: "string"}
-      - {label: "Tanggal Publikasi", name: "date", widget: "datetime", required: true} # <-- Perubahan di sini
-      - {label: "Kategori", name: "categories", widget: "select", multiple: false, options: ["Titik Ba", "Ayat-Ayat Cerita", "Matematika Detik", "Matematika Titik", "Bimbel", "Kamp Santri"], required: false}
-      - {name: "body", label: "Konten Artikel (Blok)", widget: "list", field: {label: "Paragraf", name: "paragraph", widget: "text"}, required: false}
+      - {label: "Tanggal Publikasi", name: "date", widget: "datetime", required: true}
+      - {label: "Kategori", name: "categories", widget: "select", multiple: true, options: ["Titik Ba", "Ayat-Ayat Cerita", "Matematika Detik", "Matematika Titik", "Bimbel", "Kamp Santri"], required: false}
+      - {label: "Isi Artikel", name: "body", widget: "markdown", required: false}
         
   - name: "video"
     label: "Galeri Video"
