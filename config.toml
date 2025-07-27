@@ -30,3 +30,7 @@
   name = "Video"
   url = "/video/"
   weight = 75
+[[menu.main]]
+  name = "Hubungi"
+  url = "#kontak"
+  weight = 90
