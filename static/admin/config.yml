@@ -50,17 +50,7 @@ collections:
         fields:
           - {label: "Judul", name: "title", widget: "string"}
           - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
-
-  - name: "gagasan"
-    label: "Gagasan"
-    folder: "content/gagasan"
-    create: true
-    identifier_field: "title"
-    slug: "{{slug}}"
-    fields:
-      - {label: "Judul", name: "title", widget: "string"}
-      - {label: "Isi Halaman", name: "body", widget: "markdown", required: false}
-
+          
   - name: "artikel"
     label: "Artikel"
     folder: "content/artikel"
