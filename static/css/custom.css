@@ -97,3 +97,18 @@ body {
     width: 100%;
     height: 100%;
 }
+
+/* Gaya untuk item artikel di sidebar */
+.sidebar-article-item {
+    padding-left: 1em;
+    position: relative;
+}
+
+/* Membuat titik (bullet point) kustom */
+.sidebar-article-item::before {
+    content: '»';
+    position: absolute;
+    left: 0;
+    color: #f97116; /* Warna oranye */
+    font-weight: bold;
+}
