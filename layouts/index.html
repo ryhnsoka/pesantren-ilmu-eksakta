@@ -23,9 +23,27 @@
     </div>
 
     <div class="border-t pt-12">
-        <article class="prose prose-lg max-w-none text-justify">
-            {{ .Content }}
-        </article>
+<article class="article-content">
+        {{ range .Params.body }}
+            {{ if eq .type "markdown" }}
+                <p>{{ .content | markdownify }}</p>
+            {{ else if eq .type "image" }}
+                {{ if .src }}
+                    {{ $sizeClass := "max-w-lg" }}
+                    {{ if eq .size "Kecil" }}{{ $sizeClass = "max-w-sm" }}{{ end }}
+                    {{ if eq .size "Besar" }}{{ $sizeClass = "max-w-full" }}{{ end }}
+                    <figure class="my-8">
+                        <img src="{{ .src | relURL }}" alt="{{ .alt }}" class="rounded-lg shadow-lg mx-auto {{ $sizeClass }}">
+                        {{ with .caption }}<figcaption class="text-center italic text-sm mt-2">{{ . }}</figcaption>{{ end }}
+                    </figure>
+                {{ end }}
+            {{ else if eq .type "youtube" }}
+                <div class="aspect-w-16 aspect-h-9 my-8 rounded-lg overflow-hidden shadow-lg">
+                    <iframe src="https://www.youtube.com/embed/{{ .id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            {{ end }}
+        {{ end }}
+    </article>
     </div>
 
 </div>

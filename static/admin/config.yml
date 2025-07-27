@@ -5,61 +5,51 @@ backend:
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
+# Mendefinisikan editor blok yang bisa dipakai ulang
+editor_blok: &block_editor
+  name: "body"
+  label: "Konten Halaman"
+  widget: "list"
+  required: false
+  types:
+    - name: "markdown"
+      label: "Paragraf Teks"
+      widget: "object"
+      fields:
+        - {name: "content", label: "Teks", widget: "markdown"}
+    - name: "image"
+      label: "Gambar"
+      widget: "object"
+      fields:
+        - {label: "File Gambar", name: "src", widget: "image"}
+        - {label: "Teks Alt (Deskripsi)", name: "alt", widget: "string"}
+        - {label: "Keterangan (Caption)", name: "caption", widget: "string", required: false}
+        - {label: "Ukuran Gambar", name: "size", widget: "select", options: ["Kecil", "Sedang", "Besar"], default: "Sedang"}
+    - name: "youtube"
+      label: "Video YouTube"
+      widget: "object"
+      fields:
+        - {label: "ID Video YouTube", name: "id", widget: "string"}
+
 collections:
-  - name: "halaman_utama"
-    label: "Halaman Utama"
+  - name: "pengaturan"
+    label: "Pengaturan Halaman"
     files:
       - file: "content/_index.md"
-        label: "Halaman Beranda (Profil)"
+        label: "Halaman Beranda"
         name: "beranda"
         fields:
-          - {name: "body", label: "Konten Halaman", widget: "markdown", required: false}
-      - file: "content/pages/titik-ba.md"
-        label: "Halaman: Titik Ba"
-        name: "halaman_titik_ba"
-        fields:
-          - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
-      - file: "content/pages/ayat-cerita.md"
-        label: "Halaman: Ayat-Ayat Cerita"
-        name: "halaman_ayat_cerita"
-        fields:
-          - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
-      - file: "content/pages/matematika-detik.md"
-        label: "Halaman: Matematika Detik"
-        name: "halaman_matematika_detik"
-        fields:
-          - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
-      - file: "content/pages/matematika-titik.md"
-        label: "Halaman: Matematika Titik"
-        name: "halaman_matematika_titik"
-        fields:
-          - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
-      - file: "content/pages/bimbel.md"
-        label: "Halaman: Bimbel"
-        name: "halaman_bimbel"
-        fields:
-          - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
-      - file: "content/pages/kamp-santri.md"
-        label: "Halaman: Kamp Santri"
-        name: "halaman_kamp_santri"
-        fields:
-          - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
-
-  - name: "gagasan"
-    label: "Gagasan"
-    folder: "content/gagasan"
+          - *block_editor
+          
+  - name: "pages"
+    label: "Halaman Utama"
+    folder: "content/pages"
     create: true
     identifier_field: "title"
     slug: "{{slug}}"
     fields:
       - {label: "Judul", name: "title", widget: "string"}
-      - {label: "Isi Halaman", name: "body", widget: "markdown", required: false}
+      - *block_editor
 
   - name: "artikel"
     label: "Artikel"
@@ -69,9 +59,14 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Judul", name: "title", widget: "string"}
-      - {label: "Tanggal Publikasi", name: "date", widget: "datetime", required: true} # <-- Perubahan di sini
-      - {label: "Kategori", name: "categories", widget: "select", multiple: false, options: ["Titik Ba", "Ayat-Ayat Cerita", "Matematika Detik", "Matematika Titik", "Bimbel", "Kamp Santri"], required: false}
-      - {name: "body", label: "Konten Artikel (Blok)", widget: "list", field: {label: "Paragraf", name: "paragraph", widget: "text"}, required: false}
+      - {label: "Tanggal Publikasi", name: "date", widget: "datetime"}
+      - label: "Kategori"
+        name: "categories"
+        widget: "select"
+        multiple: false
+        options: ["Titik Ba", "Ayat-Ayat Cerita", "Matematika Detik", "Matematika Titik", "Bimbel", "Kamp Santri"]
+        required: false
+      - *block_editor
         
   - name: "video"
     label: "Galeri Video"
