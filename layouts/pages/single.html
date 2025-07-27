@@ -12,7 +12,13 @@
     </div>
 
     <article class="prose prose-lg max-w-none text-justify">
+        
+        {{ with .Params.sub_title }}
+            <h2 class="text-center text-2xl font-semibold text-gray-800 not-prose mb-6">{{ . | markdownify }}</h2>
+        {{ end }}
+
         {{ .Content }}
+
     </article>
 
     <div class="text-center mt-12 pt-8 border-t">
