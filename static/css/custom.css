@@ -134,15 +134,21 @@ body {
         opacity: 0;
     }
 }
-/* GAYA UNTUK KOTAK AKSI MELAYANG */
-.action-box {
-    position: fixed; /* Membuat posisi tetap di layar */
-    bottom: 1.5rem;  /* Jarak 24px dari bawah */
-    right: 1.5rem;   /* Jarak 24px dari kanan */
-    width: 280px;    /* Lebar kotak */
-    background-color: white;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-    z-index: 50;
+/* GAYA UNTUK HYPERLINK ELEGAN */
+.hyperlink {
+    color: #ea580c; /* Warna oranye lebih gelap */
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.hyperlink:hover {
+    border-bottom-color: #ea580c;
+}
+
+.hyperlink-disabled {
+    color: #6b7280; /* Warna abu-abu */
+    cursor: not-allowed;
+    text-decoration: none;
 }
