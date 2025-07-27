@@ -17,27 +17,85 @@ body {
 }
 
 /* GAYA NAVIGASI HEADER */
-.nav-link:not(.active) { color: #1f2937; transition: background-color 0.2s, color 0.2s; }
-.nav-link:not(.active):hover { background-color: #fed7aa; color: #9a3412; }
-.nav-link.active { background-color: #f97116; color: #ffffff; }
-#mobile-menu .nav-link:not(.active) { color: #1f2937; }
-#mobile-menu .nav-link.active { color: #ffffff; }
-#mobile-menu .nav-link:hover { background-color: #fed7aa; }
+.nav-link:not(.active) {
+    color: #1f2937;
+    transition: background-color 0.2s, color 0.2s;
+}
+.nav-link:not(.active):hover {
+    background-color: #fed7aa;
+    color: #9a3412;
+}
+.nav-link.active {
+    background-color: #f97116;
+    color: #ffffff;
+}
+#mobile-menu .nav-link:not(.active) {
+     color: #1f2937;
+}
+#mobile-menu .nav-link.active {
+     color: #ffffff;
+}
+#mobile-menu .nav-link:hover {
+     background-color: #fed7aa;
+}
 
-/* GAYA KONTEN ARTIKEL */
-.article-content { font-family: Georgia, 'Times New Roman', Times, serif; font-size: 1.1rem; line-height: 1.9; color: #333333; }
-.article-content p { text-align: justify; margin-bottom: 1.75rem; }
+/* ========================================================= */
+/* === GAYA ELEGAN UNTUK KONTEN (HALAMAN & ARTIKEL) === */
+/* ========================================================= */
+
+/* Mengatur area konten utama */
+.article-content,
+.prose {
+    font-family: 'Lora', serif; /* Menggunakan font Lora yang elegan untuk membaca */
+    font-size: 1.125rem; /* Ukuran teks 18px */
+    line-height: 1.8; /* Jarak antar baris yang lega */
+    color: #374151; /* Warna teks abu-abu tua, nyaman di mata */
+}
+
+/* Mengatur setiap paragraf di dalam area konten */
+.article-content p,
+.prose p {
+    text-align: justify; /* Perataan teks rata kiri-kanan */
+    margin-bottom: 1.75rem; /* Jarak antar paragraf (28px) */
+}
+
+/* Mengatur semua jenis heading di dalam konten */
+.article-content h1, .prose h1,
+.article-content h2, .prose h2,
+.article-content h3, .prose h3 {
+    font-family: 'Inter', sans-serif; /* Font sans-serif untuk kontras */
+    color: #1f2937;
+    text-align: left; /* Heading rata kiri */
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
 
 /* Menyamakan tinggi tombol di halaman beranda */
-.home-button { min-height: 52px; display: inline-flex; align-items: center; justify-content: center; }
+.home-button {
+    min-height: 52px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* GAYA VIDEO YOUTUBE RESPONSIVE */
-.video-responsive { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0; border-radius: 0.5rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); }
-.video-responsive iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-
-/* GAYA SIDEBAR ARTIKEL */
-.sidebar-article-item { padding-left: 1em; position: relative; }
-.sidebar-article-item::before { content: '»'; position: absolute; left: 0; color: #f97116; font-weight: bold; }
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /* GAYA KOTAK ALAMAT MELAYANG */
 .address-box {

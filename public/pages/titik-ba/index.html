@@ -12,10 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="/images/logo_pie.png">
     <link rel="stylesheet" href="/css/custom.css">
-    
-    <script is:inline src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
-<body class="bg-ray-50 text-gray-800">
+<body class="bg-gray-50 text-gray-800">
 
     <div class="min-h-screen flex flex-col">
         <header class="bg-white/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-200">
@@ -108,7 +106,7 @@
     </div>
 </header>
 
-        <main class="flex-grow container mx-auto px-6 py-12">
+        <main class="flex-grow">
             
 <div class="container mx-auto max-w-7xl px-4 py-12">
     <div class="flex flex-col lg:flex-row gap-12">
@@ -215,17 +213,32 @@ Mu’allimin Muhammadiyah.</p>
     </div>
 
     <script>
-        
-        document.addEventListener('DOMContentLoaded', function () {
-            const mobileMenuButton = document.getElementById('mobile-menu-button');
-            const mobileMenu = document.getElementById('mobile-menu');
+      
+      document.addEventListener('DOMContentLoaded', function () {
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileMenuButton) {
+          mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+          });
+        }
+      });
 
-            if (mobileMenuButton) {
-                mobileMenuButton.addEventListener('click', () => {
-                    mobileMenu.classList.toggle('hidden');
-                });
-            }
-        });
+      
+      document.addEventListener('DOMContentLoaded', function () {
+        const addressBox = document.getElementById('address-box');
+        const toggleButton = document.getElementById('address-box-toggle');
+        const arrowDown = document.getElementById('address-arrow-down');
+        const arrowUp = document.getElementById('address-arrow-up');
+
+        if (toggleButton && addressBox) {
+          toggleButton.addEventListener('click', function() {
+            addressBox.classList.toggle('collapsed');
+            arrowDown.classList.toggle('hidden');
+            arrowUp.classList.toggle('hidden');
+          });
+        }
+      });
     </script>
 </body>
 </html>
