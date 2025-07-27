@@ -11,6 +11,8 @@ sub_title: Apa Itu Matematika Detik?
 {{< youtube ShaMdXqxwVQ >}}
 
 
+{{< youtube SoFdamzNBd >}}
+
 
 Matematika Detik (Second Mathematics) adalah tentang intuisi, berpikir cepat, atau blink.  Second Mathematics adalah tentang detail -operasional "your gut is your second brain".
 
