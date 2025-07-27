@@ -3,7 +3,7 @@ body {
     font-family: 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    zoom: 0.8; /* Mengatur zoom default halaman menjadi 80% */
+    zoom: 0.8;
 }
 .font-serif-display {
     font-family: 'Lora', serif;
@@ -17,103 +17,29 @@ body {
 }
 
 /* GAYA NAVIGASI HEADER */
-.nav-link:not(.active) {
-    color: #1f2937;
-    transition: background-color 0.2s, color 0.2s;
-}
-.nav-link:not(.active):hover {
-    background-color: #fed7aa;
-    color: #9a3412;
-}
-.nav-link.active {
-    background-color: #f97116;
-    color: #ffffff;
-}
-#mobile-menu .nav-link:not(.active) {
-     color: #1f2937;
-}
-#mobile-menu .nav-link.active {
-     color: #ffffff;
-}
-#mobile-menu .nav-link:hover {
-     background-color: #fed7aa;
-}
+.nav-link:not(.active) { color: #1f2937; transition: background-color 0.2s, color 0.2s; }
+.nav-link:not(.active):hover { background-color: #fed7aa; color: #9a3412; }
+.nav-link.active { background-color: #f97116; color: #ffffff; }
+#mobile-menu .nav-link:not(.active) { color: #1f2937; }
+#mobile-menu .nav-link.active { color: #ffffff; }
+#mobile-menu .nav-link:hover { background-color: #fed7aa; }
 
-/* ========================================================= */
-/* === GAYA BARU UNTUK KONTEN (HALAMAN & ARTIKEL) === */
-/* ========================================================= */
-
-/* Mengatur area konten utama */
-.article-content,
-.prose {
-    font-family: 'Lora', serif; /* Menggunakan font Lora yang elegan untuk membaca */
-    font-size: 1.125rem; /* Ukuran teks 18px */
-    line-height: 1.8; /* Jarak antar baris yang lega */
-    color: #374151; /* Warna teks abu-abu tua, nyaman di mata */
-}
-
-/* Mengatur setiap paragraf di dalam area konten */
-.article-content p,
-.prose p {
-    text-align: justify; /* Perataan teks rata kiri-kanan */
-    margin-bottom: 1.75rem; /* Jarak antar paragraf (28px) */
-}
+/* GAYA KONTEN ARTIKEL */
+.article-content { font-family: Georgia, 'Times New Roman', Times, serif; font-size: 1.1rem; line-height: 1.9; color: #333333; }
+.article-content p { text-align: justify; margin-bottom: 1.75rem; }
 
 /* Menyamakan tinggi tombol di halaman beranda */
-.home-button {
-    min-height: 52px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-/* GAYA BARU UNTUK MEMBUAT GAMBAR PROPORSIONAL */
-.prose img,
-.article-content img {
-    max-width: 80%; /* Gambar akan mengisi maksimal 80% dari lebar area tulisan */
-    height: auto; /* Tinggi akan menyesuaikan secara otomatis */
-    display: block; /* Agar bisa diatur marginnya */
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    border-radius: 0.5rem; /* Sudut sedikit melengkung */
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-}
-/* Membuat video YouTube responsif */
-.video-responsive {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-    margin: 2rem 0; /* Memberi jarak atas dan bawah */
-    border-radius: 0.5rem; /* Sudut sedikit melengkung */
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-}
+.home-button { min-height: 52px; display: inline-flex; align-items: center; justify-content: center; }
 
-.video-responsive iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+/* GAYA VIDEO YOUTUBE RESPONSIVE */
+.video-responsive { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0; border-radius: 0.5rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); }
+.video-responsive iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-/* Gaya untuk item artikel di sidebar */
-.sidebar-article-item {
-    padding-left: 1em;
-    position: relative;
-}
+/* GAYA SIDEBAR ARTIKEL */
+.sidebar-article-item { padding-left: 1em; position: relative; }
+.sidebar-article-item::before { content: '»'; position: absolute; left: 0; color: #f97116; font-weight: bold; }
 
-/* Membuat titik (bullet point) kustom */
-.sidebar-article-item::before {
-    content: '»';
-    position: absolute;
-    left: 0;
-    color: #f97116; /* Warna oranye */
-    font-weight: bold;
-}
-/* GAYA UNTUK KOTAK ALAMAT MELAYANG */
+/* GAYA KOTAK ALAMAT MELAYANG */
 .address-box {
     position: fixed;
     bottom: 1.5rem;
@@ -126,13 +52,11 @@ body {
     z-index: 50;
     transition: all 0.3s ease-in-out;
 }
-
-/* Tombol Tutup/Buka */
 .address-box-toggle {
     position: absolute;
     top: -16px;
     right: -16px;
-    background-color: #f97116; /* Warna oranye */
+    background-color: #f97116;
     color: white;
     border: none;
     border-radius: 50%;
@@ -144,13 +68,11 @@ body {
     cursor: pointer;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
 }
-
-/* Tampilan di mode handphone (lebar layar di bawah 768px) */
 @media (max-width: 767px) {
     .address-box.collapsed {
-        transform: translateY(calc(100% - 30px)); /* Sembunyikan sebagian besar kotak */
+        transform: translateY(calc(100% - 30px));
     }
     .address-box.collapsed #address-box-content {
-        opacity: 0; /* Sembunyikan kontennya */
+        opacity: 0;
     }
 }
