@@ -16,28 +16,51 @@ body {
 }
 
 /* GAYA NAVIGASI HEADER */
-.nav-link:not(.active) { color: #1f2937; transition: background-color 0.2s, color 0.2s; }
-.nav-link:not(.active):hover { background-color: #fed7aa; color: #9a3412; }
-.nav-link.active { background-color: #f97316; color: #ffffff; }
-#mobile-menu .nav-link:not(.active) { color: #1f2937; }
-#mobile-menu .nav-link.active { color: #ffffff; }
-#mobile-menu .nav-link:hover { background-color: #fed7aa; }
-
-/* GAYA KONTEN ARTIKEL BARU */
-.article-content {
-    font-family: 'Lora', serif;
-    font-size: 1.125rem;
-    line-height: 1.8;
-    color: #374151;
+.nav-link:not(.active) {
+    color: #1f2937;
+    transition: background-color 0.2s, color 0.2s;
 }
-.article-content p {
-    margin-bottom: 1.5rem;
-    text-align: justify;
+.nav-link:not(.active):hover {
+    background-color: #fed7aa;
+    color: #9a3412;
+}
+.nav-link.active {
+    background-color: #f97116;
+    color: #ffffff;
+}
+#mobile-menu .nav-link:not(.active) {
+     color: #1f2937;
+}
+#mobile-menu .nav-link.active {
+     color: #ffffff;
+}
+#mobile-menu .nav-link:hover {
+     background-color: #fed7aa;
+}
+
+/* ========================================================= */
+/* === GAYA BARU UNTUK KONTEN (HALAMAN & ARTIKEL) === */
+/* ========================================================= */
+
+/* Mengatur area konten utama */
+.article-content,
+.prose {
+    font-family: 'Lora', serif; /* Menggunakan font Lora yang elegan untuk membaca */
+    font-size: 1.125rem; /* Ukuran teks 18px */
+    line-height: 1.8; /* Jarak antar baris yang lega */
+    color: #374151; /* Warna teks abu-abu tua, nyaman di mata */
+}
+
+/* Mengatur setiap paragraf di dalam area konten */
+.article-content p,
+.prose p {
+    text-align: justify; /* Perataan teks rata kiri-kanan */
+    margin-bottom: 1.75rem; /* Jarak antar paragraf (28px) */
 }
 
 /* Menyamakan tinggi tombol di halaman beranda */
 .home-button {
-    min-height: 52px; /* Menetapkan tinggi minimum untuk semua tombol */
+    min-height: 52px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
