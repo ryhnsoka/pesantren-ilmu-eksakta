@@ -12,15 +12,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="{{ "images/logo_pie.png" | relURL }}">
     <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
-    
-    <script is:inline src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
-<body class="bg-ray-50 text-gray-800">
+<body class="bg-gray-50 text-gray-800">
 
     <div class="min-h-screen flex flex-col">
         {{ partial "header.html" . }}
 
-        <main class="flex-grow container mx-auto px-6 py-12">
+        <main class="flex-grow">
             {{ block "main" . }}{{ end }}
         </main>
         
@@ -28,6 +26,17 @@
     </div>
 
     <script>
+      // Script untuk toggle menu mobile
+      document.addEventListener('DOMContentLoaded', function () {
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileMenuButton) {
+          mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+          });
+        }
+      });
+
       // Pop up/down untuk kotak alamat di mobile
       document.addEventListener('DOMContentLoaded', function () {
         const addressBox = document.getElementById('address-box');
