@@ -6,6 +6,25 @@ media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
 collections:
+  - name: "pengaturan"
+    label: "Pengaturan Halaman"
+    files:
+      - file: "content/_index.md"
+        label: "Halaman Beranda"
+        name: "beranda"
+        fields:
+          - {name: "body", label: "Konten Halaman", widget: "markdown", required: false}
+          
+  - name: "pages"
+    label: "Halaman Utama"
+    folder: "content/pages"
+    create: true
+    identifier_field: "title"
+    slug: "{{slug}}"
+    fields:
+      - {label: "Judul", name: "title", widget: "string"}
+      - {name: "body", label: "Konten Halaman", widget: "markdown", required: false}
+
   - name: "artikel"
     label: "Artikel"
     folder: "content/artikel"
@@ -15,19 +34,8 @@ collections:
     fields:
       - {label: "Judul", name: "title", widget: "string"}
       - {label: "Tanggal Publikasi", name: "date", widget: "datetime"}
-      - label: "Kategori"
-        name: "categories"
-        widget: "select"
-        multiple: false
-        options: ["Titik Ba", "Ayat-Ayat Cerita", "Matematika Detik", "Matematika Titik", "Bimbel", "Kamp Santri"]
-        required: false
-      - name: "body"
-        label: "Konten Artikel (Blok)"
-        widget: "list"
-        types:
-          - {name: "markdown", label: "Paragraf Teks", widget: "object", fields: [{name: "content", label: "Teks", widget: "markdown"}]}
-          - {name: "image", label: "Gambar", widget: "object", fields: [{label: "File Gambar", name: "src", widget: "image"}, {label: "Teks Alt", name: "alt", widget: "string"}, {label: "Keterangan", name: "caption", widget: "string", required: false}, {label: "Ukuran Gambar", name: "size", widget: "select", options: ["Kecil", "Sedang", "Besar"], default: "Sedang"}]}
-          - {name: "youtube", label: "Video YouTube", widget: "object", fields: [{label: "ID Video YouTube", name: "id", widget: "string"}]}
+      - {label: "Kategori", name: "categories", widget: "select", multiple: false, options: ["Titik Ba", "Ayat-Ayat Cerita", "Matematika Detik", "Matematika Titik", "Bimbel", "Kamp Santri"], required: false}
+      - {name: "body", label: "Konten Artikel (Blok)", widget: "list", field: {label: "Paragraf", name: "paragraph", widget: "text"}, required: false}
         
   - name: "video"
     label: "Galeri Video"
