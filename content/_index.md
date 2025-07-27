@@ -1,3 +1,8 @@
+# **PESANTREN ILMU EKSAKTA (PI.E): WADAH
+PENUMBUHAN BIJI TITIK BA**
+
+![](/images/uploads/whatsapp-image-2025-07-25-at-18.30.29_00f86fac.jpg)
+
 Sabtu malam Ahad, 1 Mei 1999 bertepatan 16 Muharram 1420 Hijriyah, di Majlis Ta’lim Mambaul ‘Ulum, Desa Kemanggungan, Kecamatan Tarub, Kabupaten
 Tegal.
 Sekitar 30 remaja bersenandung 99 *asmaul husna*, memulai pengajaran
