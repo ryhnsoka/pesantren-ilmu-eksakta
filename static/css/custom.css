@@ -112,3 +112,20 @@ body {
     color: #f97116; /* Warna oranye */
     font-weight: bold;
 }
+/* GAYA UNTUK KOTAK ALAMAT MELAYANG */
+.address-box {
+    position: fixed; /* Membuat posisi tetap di layar */
+    bottom: 1.5rem;  /* Jarak 24px dari bawah */
+    right: 1.5rem;   /* Jarak 24px dari kanan */
+    width: 280px;    /* Lebar kotak diperkecil */
+    background-color: white;
+    padding: 1rem;   /* Padding di dalam kotak */
+    border-radius: 0.5rem; /* Sudut melengkung */
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    z-index: 50; /* Memastikan posisinya di atas konten lain */
+    transition: transform 0.3s ease-in-out;
+}
+
+.address-box:hover {
+    transform: translateY(-5px); /* Sedikit terangkat saat disentuh kursor */
+}
