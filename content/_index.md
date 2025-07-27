@@ -1,5 +1,7 @@
-# **PESANTREN ILMU EKSAKTA (PI.E): WADAH
-PENUMBUHAN BIJI TITIK BA**
+---
+sub_title: "PESANTREN ILMU EKSAKTA (PI.E): WADAH PENUMBUHAN BIJI TITIK BA"
+---
+
 
 ![](/images/uploads/whatsapp-image-2025-07-25-at-18.30.29_00f86fac.jpg)
 
