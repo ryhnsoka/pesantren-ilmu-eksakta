@@ -1,0 +1,6 @@
+<figure class="my-6">
+    <img src="{{ .Destination | relURL }}" alt="{{ .Text }}" class="rounded-lg shadow-lg mx-auto max-w-full h-auto">
+    {{ with .Title }}
+        <figcaption class="text-center italic text-sm mt-2 text-gray-600">{{ . | markdownify }}</figcaption>
+    {{ end }}
+</figure>
