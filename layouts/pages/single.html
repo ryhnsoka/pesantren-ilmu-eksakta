@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="page-content max-w-4xl mx-auto px-4 py-8">
+    <h1 class="text-3xl md:text-4xl font-bold font-serif-display text-orange-500 mb-4 text-center">{{ .Title }}</h1>
+    
+    <div class="text-center text-gray-600 italic text-xl mb-12 border-b pb-8">
+        {{ if eq .Title "Titik Ba" }}<p>"Segalanya satu, utuh tak terbagi dan sejatinya tidak ada"</p>{{ end }}
+        {{ if eq .Title "Ayat-Ayat Cerita" }}<p>"Memahami ilmu sebagai sebuah narasi besar yang saling berhubungan"</p>{{ end }}
+        {{ if eq .Title "Matematika Detik" }}<p>"Asah intuisi, kelola dua detik pertama"</p>{{ end }}
+        {{ if eq .Title "Matematika Titik" }}<p>"Keseluruhan matematika adalah tentang menamai titik"</p>{{ end }}
+        {{ if eq .Title "Bimbel" }}<p>"Bimbingan belajar khusus matematika dan sains"</p>{{ end }}
+        {{ if eq .Title "Kamp Santri" }}<p>"Materi ilmu eksakta yang seutuh dan sekokoh mungkin"</p>{{ end }}
+    </div>
+
+    <div class="text-center mt-12">
+        {{ $kategori := .Title | urlize }}
+        {{ $category_url := printf "/categories/%s" $kategori }}
+        <a href="{{ $category_url }}" class="inline-block bg-orange-100 text-orange-800 font-semibold py-4 px-8 rounded-lg border border-orange-200 hover:bg-orange-200 hover:border-orange-300 transition-all shadow-sm">
+            Lihat Artikel Kategori "{{ .Title }}"
+        </a>
+    </div>
+</div>
+{{ end }}
