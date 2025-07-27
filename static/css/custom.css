@@ -115,18 +115,42 @@ body {
 }
 /* GAYA UNTUK KOTAK ALAMAT MELAYANG */
 .address-box {
-    position: fixed; /* Membuat posisi tetap di layar */
-    bottom: 1.5rem;  /* Jarak 24px dari bawah */
-    left: 1.5rem;   /* Jarak 24px dari kiri */
-    width: 280px;    /* Lebar kotak diperkecil */
+    position: fixed;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    width: 280px;
     background-color: white;
-    padding: 1rem;   /* Padding di dalam kotak */
-    border-radius: 0.5rem; /* Sudut melengkung */
+    padding: 1rem;
+    border-radius: 0.5rem;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-    z-index: 50; /* Memastikan posisinya di atas konten lain */
-    transition: transform 0.3s ease-in-out;
+    z-index: 50;
+    transition: all 0.3s ease-in-out;
 }
 
-.address-box:hover {
-    transform: translateY(-5px); /* Sedikit terangkat saat disentuh kursor */
+/* Tombol Tutup/Buka */
+.address-box-toggle {
+    position: absolute;
+    top: -16px;
+    right: -16px;
+    background-color: #f97116; /* Warna oranye */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+/* Tampilan di mode handphone (lebar layar di bawah 768px) */
+@media (max-width: 767px) {
+    .address-box.collapsed {
+        transform: translateY(calc(100% - 30px)); /* Sembunyikan sebagian besar kotak */
+    }
+    .address-box.collapsed #address-box-content {
+        opacity: 0; /* Sembunyikan kontennya */
+    }
 }
