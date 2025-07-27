@@ -25,7 +25,7 @@ body {
     color: #9a3412;
 }
 .nav-link.active {
-    background-color: #f97316;
+    background-color: #f97116;
     color: #ffffff;
 }
 #mobile-menu .nav-link:not(.active) {
@@ -39,26 +39,23 @@ body {
 }
 
 /* ========================================================= */
-/* === ATURAN BARU UNTUK JARAK PARAGRAF YANG KONSISTEN === */
+/* === GAYA BARU UNTUK KONTEN (HALAMAN & ARTIKEL) === */
 /* ========================================================= */
-.prose p,
-.article-content p {
-    text-align: justify;
-    margin-bottom: 0; /* Hapus margin bawah default */
+
+/* Mengatur area konten utama */
+.article-content,
+.prose {
+    font-family: 'Lora', serif; /* Menggunakan font Lora yang elegan untuk membaca */
+    font-size: 1.125rem; /* Ukuran teks 18px */
+    line-height: 1.8; /* Jarak antar baris yang lega */
+    color: #374151; /* Warna teks abu-abu tua, nyaman di mata */
 }
 
-/* Menambahkan jarak ATAS pada setiap paragraf KECUALI yang pertama */
-.prose p + p,
-.article-content p + p {
-    margin-top: 1.5rem; /* Jarak antar paragraf (24px) */
-}
-
-/* Gaya dasar untuk area artikel (font, ukuran, warna) */
-.article-content {
-    font-family: 'Lora', serif;
-    font-size: 1.125rem;
-    line-height: 1.8;
-    color: #374151;
+/* Mengatur setiap paragraf di dalam area konten */
+.article-content p,
+.prose p {
+    text-align: justify; /* Perataan teks rata kiri-kanan */
+    margin-bottom: 1.75rem; /* Jarak antar paragraf (28px) */
 }
 
 /* Menyamakan tinggi tombol di halaman beranda */
@@ -67,4 +64,23 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+/* Membuat video YouTube responsif */
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 2rem 0; /* Memberi jarak atas dan bawah */
+    border-radius: 0.5rem; /* Sudut sedikit melengkung */
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

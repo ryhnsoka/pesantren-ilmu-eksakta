@@ -1,32 +1,26 @@
 {{ define "main" }}
-<div class="container mx-auto max-w-4xl text-center px-4 py-20 md:py-24">
+<div class="page-content max-w-4xl mx-auto px-4 py-8">
+    <h1 class="text-3xl md:text-4xl font-bold font-serif-display text-orange-500 mb-4 text-center">{{ .Title }}</h1>
     
-    <div>
-        <h1 class="text-4xl md:text-6xl font-bold font-serif-display leading-tight -mt-4">
-            Keseluruhan <span class="text-orange-500">Ilmu</span> Adalah<br>
-            Satu <span class="text-orange-500">Titik Tunggal</span>.
-        </h1>
-        <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mt-4">
-            Pesantren Ilmu Eksakta (PI.E), baik online maupun offline, adalah ruang penumbuhan gagasan Titik Ba sebagai simbol keutuhan ilmu/ayat khususnya di bidang logika, matematika dan sains.
-        </p>
+    <div class="text-center text-gray-600 italic text-xl mb-12 border-b pb-8">
+        {{ if eq .Title "Titik Ba" }}<p>"Segalanya satu, utuh tak terbagi dan sejatinya tidak ada"</p>{{ end }}
+        {{ if eq .Title "Ayat-Ayat Cerita" }}<p>"Memahami ilmu sebagai sebuah narasi besar yang saling berhubungan"</p>{{ end }}
+        {{ if eq .Title "Matematika Detik" }}<p>"Asah intuisi, kelola dua detik pertama"</p>{{ end }}
+        {{ if eq .Title "Matematika Titik" }}<p>"Keseluruhan matematika adalah tentang menamai titik"</p>{{ end }}
+        {{ if eq .Title "Bimbel" }}<p>"Bimbingan belajar khusus matematika dan sains"</p>{{ end }}
+        {{ if eq .Title "Kamp Santri" }}<p>"Materi ilmu eksakta yang seutuh dan sekokoh mungkin"</p>{{ end }}
     </div>
 
-    <div class="my-16">
-        <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <a href="{{ "/artikel/" | relURL }}" class="inline-block bg-orange-500 text-white font-bold py-3 px-8 rounded-full hover:bg-orange-600 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl home-button">
-                Baca Artikel
-            </a>
-            <a href="https://chat.whatsapp.com/YOUR_GROUP_ID" target="_blank" rel="noopener noreferrer" class="inline-block bg-white text-gray-800 font-bold py-3 px-8 rounded-full border border-gray-300 hover:bg-gray-100 transition-all transform hover:scale-105 shadow-sm home-button">
-                Gabung Komunitas Kami (WAG)
-            </a>
-        </div>
-    </div>
+    <article class="prose prose-lg max-w-none text-justify">
+        {{ .Content }}
+    </article>
 
-    <div class="border-t pt-12">
-        <article class="prose prose-lg max-w-none text-justify">
-            {{ .Content }}
-        </article>
+    <div class="text-center mt-12 pt-8 border-t">
+        {{ $kategori := .Title | urlize }}
+        {{ $category_url := printf "/categories/%s" $kategori }}
+        <a href="{{ $category_url }}" class="inline-block bg-orange-100 text-orange-800 font-semibold py-4 px-8 rounded-lg border border-orange-200 hover:bg-orange-200 hover:border-orange-300 transition-all shadow-sm">
+            Lihat Artikel Kategori "{{ .Title }}"
+        </a>
     </div>
-
 </div>
 {{ end }}

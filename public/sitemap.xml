@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/artikel/</loc>
+    <loc>//localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:1313/ayat-cerita/</loc>
+    <loc>//localhost:1313/pages/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>//localhost:1313/artikel/</loc>
   </url><url>
-    <loc>http://localhost:1313/bimbel/</loc>
+    <loc>//localhost:1313/pages/ayat-cerita/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>//localhost:1313/pages/bimbel/</loc>
   </url><url>
-    <loc>http://localhost:1313/artikel/gagasan-pertama-adalah-titik/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/kamp-santri/</loc>
+    <loc>//localhost:1313/pages/kamp-santri/</loc>
   </url><url>
-    <loc>http://localhost:1313/matematika-detik/</loc>
+    <loc>//localhost:1313/pages/matematika-detik/</loc>
   </url><url>
-    <loc>http://localhost:1313/matematika-titik/</loc>
+    <loc>//localhost:1313/pages/matematika-titik/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/titik-ba/</loc>
+    <loc>//localhost:1313/pages/titik-ba/</loc>
   </url>
 </urlset>
