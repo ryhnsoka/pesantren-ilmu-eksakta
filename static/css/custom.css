@@ -65,6 +65,19 @@ body {
     align-items: center;
     justify-content: center;
 }
+/* GAYA BARU UNTUK MEMBUAT GAMBAR PROPORSIONAL */
+.prose img,
+.article-content img {
+    max-width: 80%; /* Gambar akan mengisi maksimal 80% dari lebar area tulisan */
+    height: auto; /* Tinggi akan menyesuaikan secara otomatis */
+    display: block; /* Agar bisa diatur marginnya */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem; /* Sudut sedikit melengkung */
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
 /* Membuat video YouTube responsif */
 .video-responsive {
     position: relative;
