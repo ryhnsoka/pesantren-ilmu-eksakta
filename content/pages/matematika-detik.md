@@ -8,7 +8,7 @@ sub_title: Apa Itu Matematika Detik?
 ![Gambaran Utuh Matematika Detik](/images/uploads/whatsapp-image-2025-07-27-at-18.26.47_b8d0e08c.jpg "Gambaran Utuh Matematika Detik")
 
 
-{{< youtube ShaMdXqxwVQ&t=4s>}}
+{{< youtube ShaMdXqxwVQ&t >}}
 
 
 
