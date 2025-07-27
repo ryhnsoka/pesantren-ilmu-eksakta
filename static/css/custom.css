@@ -103,19 +103,9 @@ body {
     border-bottom-color: #ea580c;
 }
 
-/* GAYA UNTUK TAUTAN KONTAK MELAYANG */
-.contact-links {
-    position: fixed; /* Membuat posisi tetap di layar */
-    bottom: 1.5rem;  /* Jarak 24px dari bawah */
-    left: 1.5rem;    /* Jarak 24px dari kiri */
-    z-index: 50;     /* Memastikan posisinya di atas konten lain */
-}
+/* ... (Gaya CSS Anda yang lain) ... */
 
-.contact-links p {
-    margin-bottom: 0.5rem; /* Memberi jarak antar tautan */
-}
-
-/* GAYA UNTUK HYPERLINK ELEGAN */
+/* GAYA UNTUK HYPERLINK ELEGAN DI FOOTER */
 .hyperlink {
     color: #ea580c; /* Warna oranye lebih gelap */
     font-weight: 500;
