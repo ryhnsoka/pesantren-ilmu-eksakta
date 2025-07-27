@@ -3,16 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/</loc>
-  </url><url>
-    <loc>//localhost:1313/pages/</loc>
+    <lastmod>2025-07-27T16:51:00+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/artikel/</loc>
+    <lastmod>2025-07-27T16:51:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2025-07-27T16:51:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/artikel/2025-07-27-persamaan-dan-keberpasangan-sebagai-hukum-pasti-dalam-akuntansi/</loc>
+    <lastmod>2025-07-27T16:51:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/titik-ba/</loc>
+    <lastmod>2025-07-27T16:51:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/pages/</loc>
   </url><url>
     <loc>//localhost:1313/pages/ayat-cerita/</loc>
   </url><url>
     <loc>//localhost:1313/pages/bimbel/</loc>
-  </url><url>
-    <loc>//localhost:1313/categories/</loc>
   </url><url>
     <loc>//localhost:1313/pages/kamp-santri/</loc>
   </url><url>

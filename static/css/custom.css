@@ -116,7 +116,7 @@ body {
 .address-box {
     position: fixed; /* Membuat posisi tetap di layar */
     bottom: 1.5rem;  /* Jarak 24px dari bawah */
-    right: 1.5rem;   /* Jarak 24px dari kanan */
+    left: 1.5rem;   /* Jarak 24px dari kiri */
     width: 280px;    /* Lebar kotak diperkecil */
     background-color: white;
     padding: 1rem;   /* Padding di dalam kotak */
