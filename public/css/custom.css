@@ -1,86 +1,86 @@
-backend:
-  name: git-gateway
-  branch: main
+/* Custom styles for typography and animations */
+body {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.font-serif-display {
+    font-family: 'Lora', serif;
+}
+.page-content {
+    animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
 
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+/* GAYA NAVIGASI HEADER */
+.nav-link:not(.active) {
+    color: #1f2937;
+    transition: background-color 0.2s, color 0.2s;
+}
+.nav-link:not(.active):hover {
+    background-color: #fed7aa;
+    color: #9a3412;
+}
+.nav-link.active {
+    background-color: #f97116;
+    color: #ffffff;
+}
+#mobile-menu .nav-link:not(.active) {
+     color: #1f2937;
+}
+#mobile-menu .nav-link.active {
+     color: #ffffff;
+}
+#mobile-menu .nav-link:hover {
+     background-color: #fed7aa;
+}
 
-collections:
-  - name: "halaman_utama"
-    label: "Halaman Utama"
-    files:
-      - file: "content/_index.md"
-        label: "Halaman Beranda (Profil)"
-        name: "beranda"
-        fields:
-          - {name: "body", label: "Konten Halaman", widget: "markdown", required: false}
-      - file: "content/pages/titik-ba.md"
-        label: "Halaman: Titik Ba"
-        name: "halaman_titik_ba"
-        fields:
-          - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
-      - file: "content/pages/ayat-cerita.md"
-        label: "Halaman: Ayat-Ayat Cerita"
-        name: "halaman_ayat_cerita"
-        fields:
-          - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
-      - file: "content/pages/matematika-detik.md"
-        label: "Halaman: Matematika Detik"
-        name: "halaman_matematika_detik"
-        fields:
-          - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
-      - file: "content/pages/matematika-titik.md"
-        label: "Halaman: Matematika Titik"
-        name: "halaman_matematika_titik"
-        fields:
-          - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
-      - file: "content/pages/bimbel.md"
-        label: "Halaman: Bimbel"
-        name: "halaman_bimbel"
-        fields:
-          - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
-      - file: "content/pages/kamp-santri.md"
-        label: "Halaman: Kamp Santri"
-        name: "halaman_kamp_santri"
-        fields:
-          - {label: "Judul", name: "title", widget: "string"}
-          - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
+/* ========================================================= */
+/* === GAYA BARU UNTUK KONTEN (HALAMAN & ARTIKEL) === */
+/* ========================================================= */
 
-  - name: "gagasan"
-    label: "Gagasan"
-    folder: "content/gagasan"
-    create: true
-    identifier_field: "title"
-    slug: "{{slug}}"
-    fields:
-      - {label: "Judul", name: "title", widget: "string"}
-      - {label: "Isi Halaman", name: "body", widget: "markdown", required: false}
+/* Mengatur area konten utama */
+.article-content,
+.prose {
+    font-family: 'Lora', serif; /* Menggunakan font Lora yang elegan untuk membaca */
+    font-size: 1.125rem; /* Ukuran teks 18px */
+    line-height: 1.8; /* Jarak antar baris yang lega */
+    color: #374151; /* Warna teks abu-abu tua, nyaman di mata */
+}
 
-  - name: "artikel"
-    label: "Artikel"
-    folder: "content/artikel"
-    create: true
-    identifier_field: "title"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Judul", name: "title", widget: "string"}
-      - {label: "Tanggal Publikasi", name: "date", widget: "datetime", required: true} # <-- Perubahan di sini
-      - {label: "Kategori", name: "categories", widget: "select", multiple: false, options: ["Titik Ba", "Ayat-Ayat Cerita", "Matematika Detik", "Matematika Titik", "Bimbel", "Kamp Santri"], required: false}
-      - {name: "body", label: "Konten Artikel (Blok)", widget: "list", field: {label: "Paragraf", name: "paragraph", widget: "text"}, required: false}
-        
-  - name: "video"
-    label: "Galeri Video"
-    folder: "content/video"
-    create: true
-    identifier_field: "title"
-    slug: "{{slug}}"
-    fields:
-      - { label: "Judul Video", name: "title", widget: "string" }
-      - { label: "Tanggal Publikasi", name: "date", widget: "datetime" }
-      - { label: "YouTube Video ID", name: "youtube_id", widget: "string" }
-      - { label: "Deskripsi", name: "body", widget: "markdown", required: false}
+/* Mengatur setiap paragraf di dalam area konten */
+.article-content p,
+.prose p {
+    text-align: justify; /* Perataan teks rata kiri-kanan */
+    margin-bottom: 1.75rem; /* Jarak antar paragraf (28px) */
+}
+
+/* Menyamakan tinggi tombol di halaman beranda */
+.home-button {
+    min-height: 52px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Membuat video YouTube responsif */
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 2rem 0; /* Memberi jarak atas dan bawah */
+    border-radius: 0.5rem; /* Sudut sedikit melengkung */
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
