@@ -3,10 +3,7 @@ title: Titik Ba
 list_category: Titik Ba
 sub_title: "TITIK BA: GAGASAN DAN GERAKAN"
 ---
-
-
-
-
+![KH Hodri Ariev (ketua RMI PBNU) bersama Ahmad Thoha Faz dalam diskusi Titik Ba di Pondok Pesantren Bahrul Ulum, Karangharjo, Silo, Jember, 19 Januari 2025.](/images/uploads/whatsapp-image-2025-07-25-at-18.28.58_71ece148.jpg "KH Hodri Ariev (ketua RMI PBNU) bersama Ahmad Thoha Faz dalam diskusi Titik Ba di Pondok Pesantren Bahrul Ulum, Karangharjo, Silo, Jember, 19 Januari 2025.")
 
 Terinspirasi gagasan yang dikenal
 luas dalam peradaban Islam khususnya di kalangan pesantren dan *integrated
@@ -42,7 +39,6 @@ Selain gagasan, dengan diterjemahkan menjadi
 sejumlah konsep aplikatif, yaitu Matematika Detik dan ToSM, Titik Ba juga
 menginspirasi gerakan.  Didukung oleh
 Ikatan Alumni ITB, digulirkan Gerakan “Sumatera Selatan Berantas Gagap Hitung”.
-
 
 Cerita masih terus berlanjut. Saat
 ini, sebagai contoh, bersama tim profesional dari SD Al Biruni, Kabupaten
