@@ -7,7 +7,12 @@ Di balik keterjajahan dan keterbelakangan umat Islam selama berabad-abad adalah 
 
 # SOLUSI: Keutuhan Ilmu/Ayat (العلم نقطة)
 
-1. [Titik-Ba](/pages/titik-ba.md)[](/pages/titik-ba.md)
-2. [Ayat-Ayat Cerita (AAC)](/pages/ayat-cerita.md)
-3. [Matematika Detik](/pages/matematika-detik.md)
-4. [Matematika Titik](/pages/matematika-titik.md)[](/pages/ayat-cerita.md)[](/pages/titik-ba.md)
+## [Titik-Ba](/pages/titik-ba.md)[](/pages/titik-ba.md)[](/pages/titik-ba.md)
+
+![Titik Ba (buku)](/images/uploads/titik-ba-buku-.jpg "Titik Ba (buku)")
+
+[Ayat-Ayat Cerita (AAC)](/pages/ayat-cerita.md)
+
+[Matematika Detik](/pages/matematika-detik.md)
+
+[Matematika Titik](/pages/matematika-titik.md)[](/pages/ayat-cerita.md)[](/pages/titik-ba.md)
