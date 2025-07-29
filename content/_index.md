@@ -17,7 +17,7 @@ Tauhid adalah simbol verbal (وَحَّدَ يُوَحِّدُ تَوْحِيد�
 
 ## [2. Ayat-Ayat Cerita](/pages/ayat-cerita)
 
-> فَاقْصُصِ الْقَصَصَ لَعَلَّهُمْ يَتَفَكَّرُونَ
+> ### فَاقْصُصِ الْقَصَصَ لَعَلَّهُمْ يَتَفَكَّرُونَ
 
 Manusia tidak diprogram dengan logika, tapi dengan cerita.
 
