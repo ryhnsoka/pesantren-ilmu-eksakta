@@ -37,11 +37,18 @@
       <description></description>
     </item>
     <item>
+      <title>Kontak Kami</title>
+      <link>//localhost:1313/kontak/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/kontak/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Matematika Detik</title>
       <link>//localhost:1313/pages/matematika-detik/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/pages/matematika-detik/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-07-27-at-18.26.47_b8d0e08c.jpg&#34; alt=&#34;Gambaran Utuh Matematika Detik&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xA;    &#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Gambaran Utuh Matematika Detik&lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;video-responsive&#34;&gt;&#xA;  &lt;iframe src=&#34;https://www.youtube.com/embed/ShaMdXqxwVQ&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;video-responsive&#34;&gt;&#xA;  &lt;iframe src=&#34;https://www.youtube.com/embed/SoFdamzNBdg&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Matematika Detik (Second Mathematics) adalah tentang intuisi, berpikir cepat, atau blink.  Second Mathematics adalah tentang detail -operasional &amp;ldquo;your gut is your second brain&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Terinspirasi buku &amp;ldquo;Thinking Fast and Slow&amp;rdquo; (Daniel Kahneman, psikolog yang memenangkan Nobel ekonomi), Matematika Detik bukan tentang berhitung cepat, melainkan tentang berpikir cepat. &amp;ldquo;Asah intuisi, kelola dua detik pertama.&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Matematika Titik</title>
@@ -55,7 +62,7 @@
       <link>//localhost:1313/pages/titik-ba/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/pages/titik-ba/</guid>
-      <description>&lt;p&gt;Terinspirasi gagasan yang dikenal&#xA;luas dalam peradaban Islam khususnya di kalangan pesantren dan &lt;em&gt;integrated&#xA;systematic approach&lt;/em&gt; yang menjadi paradigma pendidikan teknik industri saat&#xA;itu, buku Titik Ba adalah karya intelektual Ahmad Thoha Faz yang&#xA;dirumuskan  terutama selama menjalani masa&#xA;kuliah di Institut Teknologi Bandung. Segera setelah terbit secara nasional&#xA;(2007), Rektor ITB waktu itu (Prof.Dr.Ir.Djoko Santoso, M.Sc) membagikan dan&#xA;menganjurkan Titik Ba untuk dibaca oleh seluruh dekan.&lt;/p&gt;&#xA;&lt;p&gt;Pada 2018, Titik Ba beserta turunannya (yaitu&#xA;Matematika Detik dan ToSM) diundang ke Madrasah Mu’allimin Muhammadiyah di&#xA;Yogyakarta, ketika lembaga yang dirintis langsung KH. Ahmad Dahlan waktu tepat&#xA;berusia 100 tahun. Pada saat itu Thoha bertemu langsung dan meminta nasihat&#xA;sang guru bangsa yang juga pendukung Titik Ba, Prof.Dr.Ahmad Syafii Ma’arif.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-07-25-at-18.28.58_71ece148.jpg&#34; alt=&#34;KH Hodri Ariev (ketua RMI PBNU) bersama Ahmad Thoha Faz dalam diskusi Titik Ba di Pondok Pesantren Bahrul Ulum, Karangharjo, Silo, Jember, 19 Januari 2025.&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xA;    &#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;KH Hodri Ariev (ketua RMI PBNU) bersama Ahmad Thoha Faz dalam diskusi Titik Ba di Pondok Pesantren Bahrul Ulum, Karangharjo, Silo, Jember, 19 Januari 2025.&lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;Terinspirasi gagasan yang dikenal&#xA;luas dalam peradaban Islam khususnya di kalangan pesantren dan &lt;em&gt;integrated&#xA;systematic approach&lt;/em&gt; yang menjadi paradigma pendidikan teknik industri saat&#xA;itu, buku Titik Ba adalah karya intelektual Ahmad Thoha Faz yang&#xA;dirumuskan  terutama selama menjalani masa&#xA;kuliah di Institut Teknologi Bandung. Segera setelah terbit secara nasional&#xA;(2007), Rektor ITB waktu itu (Prof.Dr.Ir.Djoko Santoso, M.Sc) membagikan dan&#xA;menganjurkan Titik Ba untuk dibaca oleh seluruh dekan.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

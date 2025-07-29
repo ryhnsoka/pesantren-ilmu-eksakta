@@ -26,11 +26,3 @@
   name = "Kamp Santri"
   url = "/pages/kamp-santri/" # URL diperbarui
   weight = 70
-[[menu.main]]
-  name = "Video"
-  url = "/video/"
-  weight = 75
-[[menu.main]]
-  name = "Hubungi"
-  url = "#kontak"
-  weight = 90
