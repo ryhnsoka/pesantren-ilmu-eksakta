@@ -1,24 +1,13 @@
 ---
-sub_title: "PESANTREN ILMU EKSAKTA (PI.E): WADAH PENUMBUHAN BIJI TITIK BA"
+sub_title: "PROBLEM: Keterpecahan Ilmu (... كثرها الجاهلون)"
 ---
-![Zulkaida Akbar, Ph.D (Presiden KM ITB 2007-2008), fisikawan partikel dan nuklir eksperimental, berkunjung ke kampus sederhana Pesantren Ilmu Eksakta (PI.E).](/images/uploads/whatsapp-image-2025-07-25-at-18.30.29_00f86fac.jpg "Zulkaida Akbar, Ph.D (Presiden KM ITB 2007-2008), fisikawan partikel dan nuklir eksperimental, berkunjung ke kampus sederhana Pesantren Ilmu Eksakta (PI.E).")Sabtu malam Ahad, 1 Mei 1999 bertepatan 16 Muharram 1420 Hijriyah, di Majlis Ta’lim Mambaul ‘Ulum, Desa Kemanggungan, Kecamatan Tarub, Kabupaten
-Tegal.
-Sekitar 30 remaja bersenandung 99 *asmaul husna*, memulai pengajaran
-pertama Madrasah Kuliyyah al-Islamiyyah (MAKIYAH).
+![Era Keterjajahan dan Keterbelakangan Umat Islam](/images/uploads/era-keterjajahan-dan-keterbelakangan-umat-islam.jpg "Era Keterjajahan dan Keterbelakangan Umat Islam")
 
-Termotivasi filosofi *wahdatul
-‘ulum* (kesatuan ilmu), Ahmad Thoha Faz bin
-KH. A. Zainuddin Shiddiq,
-dibantu beberapa kawan dekatnya, merintis MAKIYAH. Kegiatan MAKIYAH dapat
-berjalan sampai tahun 2002, sampai kemudian dibekukan karena sang pendiri
-memilih merumuskan Titik Ba dan lebih fokus menyelesaikan kuliah. 
+Di balik keterjajahan dan keterbelakangan umat Islam selama berabad-abad adalah ilmu yang terpecah belah. Banyak ajaran Islam yang anti logika (seperti pembuktian Tuhan alias Aqidah Korslet) dan anti sains (seperti ajaran bumi datar).
 
-Pesantren Ilmu Eksakta (PI.E) adalah “kebangkitan kembali” MAKIYAH
-dan peleburan Sekolah Ilmu Eksakta (SIE) yang telah berjalan sejak 2009. PI.E   dirintis   pada 
- 4 
- Februari 
- 2022
-oleh penulis Titik Ba dibantu sang putra (Muhammad Royhan Asoka Faz-Nur),
-bertepatan dengan 6 Rajab 1443 Hijriyah, dengan restu keluarga besar KH. A.
-Zainuddin Shiddiq dan KH. Cholidin (mertua), serta dukungan keluarga H. Abdul
-Syakur (salah seorang wali murid SIE).
+# SOLUSI: Keutuhan Ilmu/Ayat (العلم نقطة)
+
+1. [Titik-Ba](/pages/titik-ba.md)[](/pages/titik-ba.md)
+2. [Ayat-Ayat Cerita (AAC)](/pages/ayat-cerita.md)
+3. [Matematika Detik](/pages/matematika-detik.md)
+4. [Matematika Titik](/pages/matematika-titik.md)[](/pages/ayat-cerita.md)[](/pages/titik-ba.md)
