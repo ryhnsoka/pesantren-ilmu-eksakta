@@ -17,7 +17,9 @@ Di balik keterjajahan dan keterbelakangan umat Islam selama berabad-abad adalah 
 
 ![Titik Ba diterbitkan oleh Mizan (2007) dan Republika (2021). Disebarkan Prof Djoko Santoso (Rektor ITB 2005-2010) ke seluruh dekan, dan Prof Kusmayanto Kadiman (Rektor ITB 2001-2004, Menristek RI 2004-2009) ke komunitas pesantren](/images/uploads/titik-ba-buku-.jpg "Titik Ba diterbitkan oleh Mizan (2007) dan Republika (2021). Disebarkan Prof Djoko Santoso (Rektor ITB 2005-2010) ke seluruh dekan, dan Prof Kusmayanto Kadiman (Rektor ITB 2001-2004, Menristek RI 2004-2009) ke komunitas pesantren")
 
-Tauhid adalah simbol verbal (وَحَّدَ يُوَحِّدُ تَوْحِيدًا). Apa simbol visual dari Tauhid? Titik Ba.
+Tauhid adalah simbol verbal (وَحَّدَ يُوَحِّدُ تَوْحِيدًا). Apa simbol visual dari Tauhid? Titik Ba.
+
+Dimulai sejak Sayyidina 'Ali, al-Ghazali, Ibnu 'Arabi, Sunan Bonang - Kalijaga, ... Titik Ba dikenal luas di tengah komunitas pesantren.
 
 ## [2. Ayat-Ayat Cerita➚](/pages/ayat-cerita)
 
@@ -29,7 +31,7 @@ Tauhid adalah simbol verbal (وَحَّدَ يُوَحِّدُ تَوْحِيد�
 >
 > QS. Al-A'raf: 176
 
-Manusia tidak diprogram dengan logika, tapi dengan cerita.
+Manusia tidak diprogram dan diprogram ulang dengan logika, tapi dengan cerita. Sebab emosi lebih kuat/cepat daripada nalar. Kecerdasan spiritual (SQ) dan emosional (EQ) lebih penting daripada kecerdasan intelektual (IQ).
 
 ## [3. Matematika Detik➚](/pages/matematika-detik)
 
@@ -39,6 +41,6 @@ Manusia tidak diprogram dengan logika, tapi dengan cerita.
 
 ## [4. Matematika Titik➚](/pages/matematika-titik)
 
-![Gambaran Besar Matematika Titik](/images/uploads/titik-ke-geometri-aritmetika.jpg "Gambaran Besar Matematika Titik")
+![Model pertumbuhan Matematika Titik, telah disetujui Prof Agus Hasan Budiyanto, Department of Mathematics, USMV, New York, USA.](/images/uploads/titik-ke-geometri-aritmetika.jpg "Model pertumbuhan Matematika Titik, telah disetujui Prof Agus Hasan Budiyanto, Department of Mathematics, USMV, New York, USA.")
 
 Keseluruhan matematika tumbuh dari Titik Ba, yang satu, utuh tak terbagi dan sejatinya tidak ada.
