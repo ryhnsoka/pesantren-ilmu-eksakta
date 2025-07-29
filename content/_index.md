@@ -1,6 +1,8 @@
 ---
 sub_title: ""
 ---
+## PROBLEM besar apa yang dihadapi umat Islam? Apa SOLUSI (gagasan dan ge\[b]rakan) yang Pesantren Ilmu Eksakta (PI.E) tawarkan?
+
 # PROBLEM: Keterpecahan Ilmu (... كثرها الجاهلون)
 
 ![Era Keterjajahan dan Keterbelakangan Umat Islam](/images/uploads/era-keterjajahan-dan-keterbelakangan-umat-islam.jpg "Era Keterjajahan dan Keterbelakangan Umat Islam")
@@ -11,13 +13,19 @@ Di balik keterjajahan dan keterbelakangan umat Islam selama berabad-abad adalah 
 
 ## [1. Titik Ba➚](/pages/titik-ba)
 
-![Titik Ba (Buku)](/images/uploads/titik-ba-buku-.jpg "Titik Ba (Buku)")
+![Titik Ba diterbitkan oleh Mizan (2007) dan Republika (2021).](/images/uploads/titik-ba-buku-.jpg "Titik Ba diterbitkan oleh Mizan (2007) dan Republika (2021).")
 
 Tauhid adalah simbol verbal (وَحَّدَ يُوَحِّدُ تَوْحِيدًا). Apa simbol visual dari Tauhid? Titik Ba.
 
 ## [2. Ayat-Ayat Cerita➚](/pages/ayat-cerita)
 
-> ### فَاقْصُصِ الْقَصَصَ لَعَلَّهُمْ يَتَفَكَّرُونَ
+[](/pages/ayat-cerita)
+
+![Pengenalan perdana Ayat-Ayat Cerita di Madrasah Mu'allimin, pusat kaderisasi yang dirintis langsung pendiri Muhammadiyah (KH Ahmad Dahlan)](/images/uploads/aac_mualimin_2021.jpg "Pengenalan perdana Ayat-Ayat Cerita di Madrasah Mu'allimin, pusat kaderisasi yang dirintis langsung pendiri Muhammadiyah (KH Ahmad Dahlan)")
+
+
+
+> # فَاقْصُصِ الْقَصَصَ لَعَلَّهُمْ يَتَفَكَّرُونَ
 >
 > QS. Al-A'raf: 176
 
@@ -25,7 +33,7 @@ Manusia tidak diprogram dengan logika, tapi dengan cerita.
 
 ## [3. Matematika Detik➚](/pages/matematika-detik)
 
-![Gagasan Utuh Matematika Detik](/images/uploads/whatsapp-image-2025-07-27-at-18.26.47_b8d0e08c.jpg "Gagasan Utuh Matematika Detik")
+![ToSM Matematika Detik diluncurkan pada pelatihan numerasi di Festival Literasi Sekolah di Kemendikbud RI, 28 Juli 2019](/images/uploads/matematika-detik-di-kemendikbud-2019.jpg "ToSM Matematika Detik diluncurkan pada pelatihan numerasi di Festival Literasi Sekolah di Kemendikbud RI, 28 Juli 2019")
 
 *Your gut is your second brain*. Asah intuisi, kelola 2 detik pertama!
 
