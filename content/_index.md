@@ -1,5 +1,5 @@
 ---
-sub_title: "PROBLEM: Keterpecahan Ilmu (... كثرها الجاهلون)"
+sub_title: ""
 ---
 ![Era Keterjajahan dan Keterbelakangan Umat Islam](/images/uploads/era-keterjajahan-dan-keterbelakangan-umat-islam.jpg "Era Keterjajahan dan Keterbelakangan Umat Islam")
 
