@@ -37,6 +37,13 @@
       <description></description>
     </item>
     <item>
+      <title>Kontak Kami</title>
+      <link>//localhost:1313/kontak/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/kontak/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Matematika Detik</title>
       <link>//localhost:1313/pages/matematika-detik/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
