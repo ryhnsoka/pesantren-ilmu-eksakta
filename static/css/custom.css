@@ -116,3 +116,16 @@ body {
     width: 100%;
     height: 100%;
 }
+
+/* Mengubah warna hyperlink di dalam konten menjadi abu-abu */
+.prose a,
+.article-content a {
+    color: #4b5563; /* Warna abu-abu (gray-600) */
+    font-weight: 600; /* Dibuat tebal agar tetap terlihat menonjol */
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+.prose a:hover,
+.article-content a:hover {
+    color: #1f2937; /* Menjadi lebih gelap saat disentuh kursor */
+}
