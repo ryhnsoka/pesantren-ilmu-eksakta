@@ -9,25 +9,25 @@ Di balik keterjajahan dan keterbelakangan umat Islam selama berabad-abad adalah 
 
 # SOLUSI: Keutuhan Ilmu/Ayat (العلم نقطة)
 
-## [1. Titik Ba](/pages/titik-ba)
+## [1. Titik Ba➚](/pages/titik-ba)
 
 ![Titik Ba (Buku)](/images/uploads/titik-ba-buku-.jpg "Titik Ba (Buku)")
 
 Tauhid adalah simbol verbal (وَحَّدَ يُوَحِّدُ تَوْحِيدًا). Apa simbol visual dari Tauhid? Titik Ba.
 
-## [2. Ayat-Ayat Cerita](/pages/ayat-cerita)
+## [2. Ayat-Ayat Cerita➚](/pages/ayat-cerita)
 
 > ### فَاقْصُصِ الْقَصَصَ لَعَلَّهُمْ يَتَفَكَّرُونَ
 
 Manusia tidak diprogram dengan logika, tapi dengan cerita.
 
-## [3. Matematika Detik](/pages/matematika-detik)
+## [3. Matematika Detik➚](/pages/matematika-detik)
 
 ![Gagasan Utuh Matematika Detik](/images/uploads/whatsapp-image-2025-07-27-at-18.26.47_b8d0e08c.jpg "Gagasan Utuh Matematika Detik")
 
 *Your gut is your second brain*. Asah intuisi, kelola 2 detik pertama!
 
-## [4. Matematika Titik](/pages/matematika-titik)
+## [4. Matematika Titik➚](/pages/matematika-titik)
 
 ![Gambaran Besar Matematika Titik](/images/uploads/titik-ke-geometri-aritmetika.jpg "Gambaran Besar Matematika Titik")
 
