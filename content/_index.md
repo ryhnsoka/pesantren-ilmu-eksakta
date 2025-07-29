@@ -5,7 +5,9 @@ sub_title: ""
 
 # PROBLEM: Keterpecahan Ilmu (... كثرها الجاهلون)
 
-![Era Keterjajahan dan Keterbelakangan Umat Islam](/images/uploads/era-keterjajahan-dan-keterbelakangan-umat-islam.jpg "Era Keterjajahan dan Keterbelakangan Umat Islam")
+![Bumi datar (Tafsir Jalalain) dan penjelajahan bola bumi (Columbus) adalah titik belok peradaban: umat Islam terbelakang, Kristen Eropa memimpin di depan.](/images/uploads/era-keterjajahan-dan-keterbelakangan-umat-islam.jpg "Bumi datar (Tafsir Jalalain) dan penjelajahan bola bumi (Columbus) adalah titik belok peradaban: umat Islam terbelakang, Kristen Eropa memimpin di depan.")
+
+
 
 Di balik keterjajahan dan keterbelakangan umat Islam selama berabad-abad adalah ilmu yang terpecah belah. Banyak ajaran Islam yang anti logika (seperti pembuktian Tuhan alias Aqidah Korslet) dan anti sains (seperti ajaran bumi datar)
 
@@ -13,7 +15,7 @@ Di balik keterjajahan dan keterbelakangan umat Islam selama berabad-abad adalah 
 
 ## [1. Titik Ba➚](/pages/titik-ba)
 
-![Titik Ba diterbitkan oleh Mizan (2007) dan Republika (2021).](/images/uploads/titik-ba-buku-.jpg "Titik Ba diterbitkan oleh Mizan (2007) dan Republika (2021).")
+![Titik Ba diterbitkan oleh Mizan (2007) dan Republika (2021). Disebarkan Prof Djoko Santoso (Rektor ITB 2005-2010) ke seluruh dekan, dan Prof Kusmayanto Kadiman (Rektor ITB 2001-2004, Menristek RI 2004-2009) ke komunitas pesantren](/images/uploads/titik-ba-buku-.jpg "Titik Ba diterbitkan oleh Mizan (2007) dan Republika (2021). Disebarkan Prof Djoko Santoso (Rektor ITB 2005-2010) ke seluruh dekan, dan Prof Kusmayanto Kadiman (Rektor ITB 2001-2004, Menristek RI 2004-2009) ke komunitas pesantren")
 
 Tauhid adalah simbol verbal (وَحَّدَ يُوَحِّدُ تَوْحِيدًا). Apa simbol visual dari Tauhid? Titik Ba.
 
@@ -22,8 +24,6 @@ Tauhid adalah simbol verbal (وَحَّدَ يُوَحِّدُ تَوْحِيد�
 [](/pages/ayat-cerita)
 
 ![Pengenalan perdana Ayat-Ayat Cerita di Madrasah Mu'allimin, pusat kaderisasi yang dirintis langsung pendiri Muhammadiyah (KH Ahmad Dahlan)](/images/uploads/aac_mualimin_2021.jpg "Pengenalan perdana Ayat-Ayat Cerita di Madrasah Mu'allimin, pusat kaderisasi yang dirintis langsung pendiri Muhammadiyah (KH Ahmad Dahlan)")
-
-
 
 > # فَاقْصُصِ الْقَصَصَ لَعَلَّهُمْ يَتَفَكَّرُونَ
 >
