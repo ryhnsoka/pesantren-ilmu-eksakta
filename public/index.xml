@@ -51,6 +51,13 @@
       <description></description>
     </item>
     <item>
+      <title>Program Kami</title>
+      <link>//localhost:1313/pages/program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/pages/program/</guid>
+      <description>&lt;p&gt;Halaman ini berisi informasi mengenai program-program yang kami tawarkan, seperti Bimbingan Belajar dan Kamp Santri. Konten ini dapat Anda edit melalui CMS.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>SEJARAH DARI TITIK BA KE PI.E (2007-2022)</title>
       <link>//localhost:1313/pages/sejarah/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
