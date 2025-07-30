@@ -18,11 +18,3 @@
   name = "Matematika Titik"
   url = "/pages/matematika-titik/" # URL diperbarui
   weight = 50
-[[menu.main]]
-  name = "Bimbel"
-  url = "/pages/bimbel/" # URL diperbarui
-  weight = 60
-[[menu.main]]
-  name = "Kamp Santri"
-  url = "/pages/kamp-santri/" # URL diperbarui
-  weight = 70
