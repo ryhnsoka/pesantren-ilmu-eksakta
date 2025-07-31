@@ -46,13 +46,9 @@ Bacalah semua ayat, tanda, simbol ! Decode semua code! Tidak ada batasan, tapi y
 Titik Ba menawarkan 5-serangkai prinsip decoding (membaca) semua ayat Allahu ta'ala, yaitu:
 
 1. Tauhid
-
 2. Cinta (Rahmat)
-
 3. 'Adil
-
 4. Kadar
-
 5. Fana
 
 
