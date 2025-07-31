@@ -81,16 +81,17 @@ body {
 .article-content h3, .prose h3 { font-size: 1.5rem; }
 .article-content h4, .prose h4 { font-size: 1.25rem; }
 
-/* GAYA BARU UNTUK DAFTAR BERNOMOR (NUMBERED LIST) */
-.prose ol {
-    list-style-type: decimal; /* Menggunakan angka */
-    margin-left: 1.5rem;
-    margin-bottom: 1.75rem;
+/* GAYA BARU UNTUK HYPERLINK */
+.prose a,
+.article-content a {
+    color: #4b5563; /* Warna abu-abu (gray-600) */
+    font-weight: 600; /* Dibuat tebal agar tetap terlihat menonjol */
+    text-decoration: underline; /* Menambahkan garis bawah */
+    transition: color 0.2s;
 }
-
-.prose ol li {
-    padding-left: 0.5rem;
-    margin-bottom: 0.75rem;
+.prose a:hover,
+.article-content a:hover {
+    color: #1f2937; /* Menjadi lebih gelap saat disentuh kursor */
 }
 
 /* Menyamakan tinggi tombol di halaman beranda */
