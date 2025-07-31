@@ -94,6 +94,18 @@ body {
     color: #1f2937; /* Menjadi lebih gelap saat disentuh kursor */
 }
 
+/* GAYA BARU UNTUK DAFTAR BERNOMOR (NUMBERED LIST) */
+.prose ol {
+    list-style-type: decimal; /* Menggunakan angka */
+    margin-left: 1.5rem;
+    margin-bottom: 1.75rem;
+}
+
+.prose ol li {
+    padding-left: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
 /* Menyamakan tinggi tombol di halaman beranda */
 .home-button {
     min-height: 52px;
