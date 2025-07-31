@@ -43,8 +43,11 @@ Titik Ba menawarkan 5-serangkai prinsip decoding (membaca) semua ayat Allahu ta'
 
 Jika anda ingin mengingat satu saja: Tauhid. Jika dua, maka: Tauhid dan Cinta (Rahmat). Itulah basmalah. Ada 2 nama pertama dari 99 asmaul husna.
 
+
+
 ![Mulai dengan basmalah, memulai dengan Prinsip Tauhid dan Cinta](/images/uploads/whatsapp-image-2025-07-31-at-14.05.35_150df6c6.jpg "Mulai dengan basmalah, memulai dengan Prinsip Tauhid dan Cinta")
 
-## [Channel YT : Titik Ba Official➚](https://www.youtube.com/@titikbaofficial7980)[](https://www.youtube.com/@titikbaofficial7980)
 
-## {{ < youtube sw4RbE > }} [](https://www.youtube.com/@titikbaofficial7980)[](https://www.youtube.com/@titikbaofficial7980)
+{{ < youtube sw4RbE > }} 
+
+## [Channel YT : Titik Ba Official➚](https://www.youtube.com/@titikbaofficial7980)
