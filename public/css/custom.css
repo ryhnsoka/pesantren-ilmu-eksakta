@@ -64,11 +64,11 @@ body {
 .article-content h2, .prose h2,
 .article-content h3, .prose h3,
 .article-content h4, .prose h4 {
-    font-family: 'Lora', serif; /* Menggunakan font Lora yang elegan */
+    font-family: 'Lora', serif;
     font-weight: bold;
     color: #1f2937;
-    text-align: left; /* Selalu rata kiri */
-    border-bottom: none; /* Tidak ada garis bawah */
+    text-align: left;
+    border-bottom: none;
     padding-bottom: 0;
     margin-top: 2.5rem;
     margin-bottom: 1rem;
@@ -76,19 +76,22 @@ body {
 }
 
 /* Pengaturan ukuran font yang proporsional */
-.article-content h1, .prose h1 {
-    font-size: 2.25rem; /* 36px */
-}
-.article-content h2, .prose h2 {
-    font-size: 1.875rem; /* 30px */
-}
-.article-content h3, .prose h3 {
-    font-size: 1.5rem; /* 24px */
-}
-.article-content h4, .prose h4 {
-    font-size: 1.25rem; /* 20px */
+.article-content h1, .prose h1 { font-size: 2.25rem; }
+.article-content h2, .prose h2 { font-size: 1.875rem; }
+.article-content h3, .prose h3 { font-size: 1.5rem; }
+.article-content h4, .prose h4 { font-size: 1.25rem; }
+
+/* GAYA BARU UNTUK DAFTAR BERNOMOR (NUMBERED LIST) */
+.prose ol {
+    list-style-type: decimal; /* Menggunakan angka */
+    margin-left: 1.5rem;
+    margin-bottom: 1.75rem;
 }
 
+.prose ol li {
+    padding-left: 0.5rem;
+    margin-bottom: 0.75rem;
+}
 
 /* Menyamakan tinggi tombol di halaman beranda */
 .home-button {
@@ -115,17 +118,4 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-/* Mengubah warna hyperlink di dalam konten menjadi abu-abu */
-.prose a,
-.article-content a {
-    color: #4b5563; /* Warna abu-abu (gray-600) */
-    font-weight: 600; /* Dibuat tebal agar tetap terlihat menonjol */
-    text-decoration: underline;
-    transition: color 0.2s;
-}
-.prose a:hover,
-.article-content a:hover {
-    color: #1f2937; /* Menjadi lebih gelap saat disentuh kursor */
 }

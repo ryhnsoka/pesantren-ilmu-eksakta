@@ -31,6 +31,8 @@
   </url><url>
     <loc>//localhost:1313/pages/</loc>
   </url><url>
+    <loc>//localhost:1313/pages/program/</loc>
+  </url><url>
     <loc>//localhost:1313/pages/sejarah/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>

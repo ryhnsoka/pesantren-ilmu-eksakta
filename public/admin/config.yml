@@ -15,6 +15,12 @@ collections:
         fields:
           - {name: "sub_title", label: "Sub Judul (di bawah jargon)", widget: "string", required: false}
           - {name: "body", label: "Konten Halaman", widget: "markdown", required: false}
+      - file: "content/pages/program.md" 
+        label: "Halaman: Program Kami"
+        name: "halaman_program"
+        fields:
+          - {label: "Judul", name: "title", widget: "string"}
+          - {name: "body", label: "Konten Halaman", widget: "markdown", required: false}
       - file: "content/pages/sejarah.md" 
         label: "Halaman: Sejarah"
         name: "halaman_sejarah"
