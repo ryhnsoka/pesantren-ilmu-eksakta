@@ -1,7 +1,7 @@
 ---
 title: Titik Ba
 list_category: Titik Ba
-sub_title: "TITIK BA: ONTOLOGI DAN EPISTIMOLOGI"
+sub_title: "TITIK BA: ONTOLOGI DAN EPISTEMOLOGI"
 ---
 ![KH Hodri Ariev (ketua RMI PBNU) bersama Ahmad Thoha Faz dalam diskusi Titik Ba di Pondok Pesantren Bahrul Ulum, Karangharjo, Silo, Jember, 19 Januari 2025.](/images/uploads/whatsapp-image-2025-07-25-at-18.28.58_71ece148.jpg "KH Hodri Ariev (ketua RMI PBNU) bersama Ahmad Thoha Faz dalam diskusi Titik Ba di Pondok Pesantren Bahrul Ulum, Karangharjo, Silo, Jember, 19 Januari 2025.")
 
