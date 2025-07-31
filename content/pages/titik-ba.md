@@ -1,48 +1,64 @@
 ---
 title: Titik Ba
 list_category: Titik Ba
-sub_title: "TITIK BA: GAGASAN DAN GERAKAN"
+sub_title: "TITIK BA: ONTOLOGI DAN EPISTIMOLOGI"
 ---
 ![KH Hodri Ariev (ketua RMI PBNU) bersama Ahmad Thoha Faz dalam diskusi Titik Ba di Pondok Pesantren Bahrul Ulum, Karangharjo, Silo, Jember, 19 Januari 2025.](/images/uploads/whatsapp-image-2025-07-25-at-18.28.58_71ece148.jpg "KH Hodri Ariev (ketua RMI PBNU) bersama Ahmad Thoha Faz dalam diskusi Titik Ba di Pondok Pesantren Bahrul Ulum, Karangharjo, Silo, Jember, 19 Januari 2025.")
 
-Terinspirasi gagasan yang dikenal
-luas dalam peradaban Islam khususnya di kalangan pesantren dan *integrated
-systematic approach* yang menjadi paradigma pendidikan teknik industri saat
-itu, buku Titik Ba adalah karya intelektual Ahmad Thoha Faz yang
-dirumuskan  terutama selama menjalani masa
-kuliah di Institut Teknologi Bandung. Segera setelah terbit secara nasional
-(2007), Rektor ITB waktu itu (Prof.Dr.Ir.Djoko Santoso, M.Sc) membagikan dan
-menganjurkan Titik Ba untuk dibaca oleh seluruh dekan. 
+## ONTOLOGI TITIK BA 
 
-Pada 2018, Titik Ba beserta turunannya (yaitu
-Matematika Detik dan ToSM) diundang ke Madrasah Mu’allimin Muhammadiyah di
-Yogyakarta, ketika lembaga yang dirintis langsung KH. Ahmad Dahlan waktu tepat
-berusia 100 tahun. Pada saat itu Thoha bertemu langsung dan meminta nasihat
-sang guru bangsa yang juga pendukung Titik Ba, Prof.Dr.Ahmad Syafii Ma’arif.
+Perintah Allahu ta'ala yang pertama adalah "membaca" (decoding):
 
- Enam tahun kemudian, yaitu di
-tengah polemik Aqidah Korslet di media sosial, Ahmad Thoha Faz diundang
-menghadiri Muktamar Ilmu Pengetahuan ke-2, Desember 2004, di kampus UNS,
-Surakarta. Sejak saat itu Titik Ba mulai dikenal oleh Rektor ITB 2001-2004 dan
-Menteri Ristek 2004-2009, Prof. Dr.Ir. Kusmayanto Kadiman.
+##  ٱقۡرَأۡ بِٱسۡمِ رَبِّكَ ٱلَّذِی خَلَقَ 
 
-Dengan dukungan “Pak KK” Titik
-Ba, yaitu gagasan pesantren yang dikembangkan di ITB, dapat diperkenalkan
-kembali ke dunia pesantren. Dimulai dari Pondok Pesantren Bahrul Ulum, Jember,
-Jawa Timur, bersama KH Hodri Ariev, sang pengasuh yang merupakan ketua Rabithah
-Ma’ahid Indonesia PBNU pada 19 Januari 2025. Berlanjut di Pondok Pesantren
-Kulon Banon, Kajen, Margoyo, Pati, bersama KH. Muhammad Faeshol Muzammil (Ketua
-Lembaga Bahtsul Masail PWNU Jawa Tengah), yaitu dalam rangka haul Syaikh Ahmad
-Mutamakkin. 
+QS.Al-'Alaq: 1
 
-Selain gagasan, dengan diterjemahkan menjadi
-sejumlah konsep aplikatif, yaitu Matematika Detik dan ToSM, Titik Ba juga
-menginspirasi gerakan.  Didukung oleh
-Ikatan Alumni ITB, digulirkan Gerakan “Sumatera Selatan Berantas Gagap Hitung”.
 
-Cerita masih terus berlanjut. Saat
-ini, sebagai contoh, bersama tim profesional dari SD Al Biruni, Kabupaten
-Tegal, sedang dirumuskan “Matematika Titik”. Juga bersama penerbit al-Qur’an
-terkemuka saat ini sedang dirumuskan Ayat-Ayat Cerita (AAC), yang garis
-besarnya telah disampaikan melalui webinar yang diselenggarakan oleh Madrasah
-Mu’allimin Muhammadiyah.
+
+Apa yang dibaca, yang dipikirkan, yang diungkap dan dihimpun maknanya (decode)? Simbol, tanda, kode, ayat (اية).
+
+
+
+Apa saja ayat yang seharusnya dibaca? Inilah pembacaan dari luar ke dalam (outer-in), sebagai argumentasi bagi mereka yang meragukan al-Qur'an:
+
+##  سَنُرِیهِمۡ ءَایَـٰتِنَا فِی ٱلۡـَٔافَاقِ وَفِیۤ أَنفُسِهِمۡ حَتَّىٰ یَتَبَیَّنَ لَهُمۡ أَنَّهُ ٱلۡحَقُّۗ أَوَلَمۡ یَكۡفِ بِرَبِّكَ أَنَّهُۥ عَلَىٰ كُلِّ شَیۡءࣲ شَهِیدٌ 
+
+QS.Fushilat: 53
+
+
+
+Bagaimana bagi seorang muslim? Alhamdulillah,  telah diperlihatkan kepada kita sehingga kita "ma'rifat ayat-ayat Nya":
+
+##  وَقُلِ ٱلۡحَمۡدُ لِلَّهِ سَیُرِیكُمۡ ءَایَـٰتِهِۦ فَتَعۡرِفُونَهَاۚ وَمَا رَبُّكَ بِغَـٰفِلٍ عَمَّا تَعۡمَلُونَ 
+
+QS.An-Naml: 93
+
+![Proses pembacaan (decoding) , atau gerak kesadaran, dalam dua arah: inner-out (dalam ke luar) dan outer-in (luar ke dalam).](/images/uploads/whatsapp-image-2025-07-31-at-13.58.57_04ae9006.jpg "Proses pembacaan (decoding) , atau gerak kesadaran, dalam dua arah: inner-out (dalam ke luar) dan outer-in (luar ke dalam).")
+
+## EPISTEMOLOGI TITIK BA 
+
+
+
+Bacalah semua ayat, tanda, simbol ! Decode semua code! Tidak ada batasan, tapi yang penting, mulailah dengan basmalah.
+
+
+
+Titik Ba menawarkan 5-serangkai prinsip decoding (membaca) semua ayat Allahu ta'ala, yaitu:
+
+1. Tauhid
+
+2. Cinta (Rahmat)
+
+3. 'Adil
+
+4. Kadar
+
+5. Fana
+
+
+
+Jika anda ingin mengingat satu saja: Tauhid. Jika dua, maka: Tauhid dan Cinta (Rahmat). Itulah basmalah. Ada 2 nama pertama dari 99 asmaul husna.
+
+
+
+![Mulai dengan basmalah, memulai dengan Prinsip Tauhid dan Cinta](/images/uploads/whatsapp-image-2025-07-31-at-14.05.35_150df6c6.jpg "Mulai dengan basmalah, memulai dengan Prinsip Tauhid dan Cinta")
