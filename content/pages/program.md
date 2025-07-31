@@ -38,3 +38,9 @@ Selain untuk anak (siswa maupun mahasiswa), Program PI.E juga ditujukan untuk or
 Apa yang masuk ke dalam diri, baik makna maupun makan, turut membentuk pikiran dan tindakan kita. "Food City" menopang kegiatan PI.E dengan snack yang halal dan sehat.
 
 ![Dapur "Food City" berjarak sekitar 1,5 kilometer dari PI.E](/images/uploads/whatsapp-image-2025-07-31-at-15.46.21_ba7c258c.jpg "Dapur \"Food City\" berjarak sekitar 1,5 kilometer dari PI.E")
+
+
+
+## Berminat dengan PROGRAM KAMI?
+
+## [Hubungi WA Siti Nurhayati➚](https://wa.me/)
