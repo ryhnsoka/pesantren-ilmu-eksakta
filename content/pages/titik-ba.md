@@ -48,6 +48,6 @@ Jika anda ingin mengingat satu saja: Tauhid. Jika dua, maka: Tauhid dan Cinta (R
 ![Mulai dengan basmalah, memulai dengan Prinsip Tauhid dan Cinta](/images/uploads/whatsapp-image-2025-07-31-at-14.05.35_150df6c6.jpg "Mulai dengan basmalah, memulai dengan Prinsip Tauhid dan Cinta")
 
 
-{{< youtube sw4RbE >}} 
+{{< youtube oqFldwtxFq1VQfAK >}} 
 
 ## [Channel YT : Titik Ba Official➚](https://www.youtube.com/@titikbaofficial7980)
