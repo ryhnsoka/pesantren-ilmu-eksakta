@@ -64,6 +64,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Judul", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string", required: false}
       - {label: "Tanggal Publikasi", name: "date", widget: "datetime", required: true}
       - {label: "Deskripsi Singkat (untuk teaser)", name: "description", widget: "text", required: false}
       - {label: "Kategori", name: "categories", widget: "select", multiple: true, options: ["Titik Ba", "Ayat-Ayat Cerita", "Matematika Detik", "Matematika Titik", "Bimbel", "Kamp Santri"], required: false}
