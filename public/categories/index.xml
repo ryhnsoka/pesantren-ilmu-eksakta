@@ -6,13 +6,20 @@
     <description>Recent content in Categories on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Jul 2025 16:51:00 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 01 Aug 2025 09:11:00 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Titik Ba</title>
       <link>//localhost:1313/categories/titik-ba/</link>
-      <pubDate>Sun, 27 Jul 2025 16:51:00 +0700</pubDate>
+      <pubDate>Fri, 01 Aug 2025 09:11:00 +0700</pubDate>
       <guid>//localhost:1313/categories/titik-ba/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ayat-Ayat Cerita</title>
+      <link>//localhost:1313/categories/ayat-ayat-cerita/</link>
+      <pubDate>Thu, 31 Jul 2025 17:26:00 +0700</pubDate>
+      <guid>//localhost:1313/categories/ayat-ayat-cerita/</guid>
       <description></description>
     </item>
   </channel>

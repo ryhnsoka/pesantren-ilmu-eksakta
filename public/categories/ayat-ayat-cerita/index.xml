@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Artikels on </title>
-    <link>//localhost:1313/artikel/</link>
-    <description>Recent content in Artikels on </description>
+    <title>Ayat-Ayat Cerita on </title>
+    <link>//localhost:1313/categories/ayat-ayat-cerita/</link>
+    <description>Recent content in Ayat-Ayat Cerita on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Aug 2025 09:11:00 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/artikel/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>RELIGIUSITAS YANG MENGERIKAN </title>
-      <link>//localhost:1313/artikel/2025-08-01-religiusitas-yang-mengerikan/</link>
-      <pubDate>Fri, 01 Aug 2025 09:11:00 +0700</pubDate>
-      <guid>//localhost:1313/artikel/2025-08-01-religiusitas-yang-mengerikan/</guid>
-      <description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/526986128_10236319144626411_1623798318095599453_n.jpg&#34; alt=&#34;&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xA;    &#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;Kenekatan bodoh para agamawan sungguh mengerikan. Kelompok yang sering disebut sebagai ulama justru berada di barisan terdepan perusakan aqidah dan nalar umat Islam. Itu yang dapat disimpulkan dari polemik &amp;ldquo;1+1=2&amp;rdquo; yang berlangsung bertahun-tahun lalu.&lt;/p&gt;&#xA;&lt;p&gt;1+1 jelas berbeda dengan 2. Bagaimana mungkin 1+1=2 itu aksioma, tidak menuntut pembuktian?&lt;/p&gt;&#xA;&lt;p&gt;Para perusak logika umat Islam itu bukan para agamawan sembarangan. Mereka adalah para ustadz dengan kecerdasan di atas rata-rata sehingga getol menekuni manthiq yang dikenal sulit.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Thu, 31 Jul 2025 17:26:00 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/ayat-ayat-cerita/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sesi weekly Ayat paket#2 (9 pertemuan)</title>
       <link>//localhost:1313/artikel/2025-07-31-sesi-weekly-ayat-paket-2-9-pertemuan/</link>

@@ -5,11 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bimbel | </title>
     
+    <meta name="description" content="">
+    
+    <meta property="og:title" content="Bimbel">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="//localhost:1313/pages/bimbel/">
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bimbel">
+    <meta name="twitter:description" content="">
+    
+
     <script src="https://cdn.tailwindcss.com"></script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="/images/logo_pie.png">
     <link rel="stylesheet" href="/css/custom.css">
 </head>
@@ -140,31 +153,6 @@
 
     <script>
       
-      document.addEventListener('DOMContentLoaded', function () {
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        if (mobileMenuButton) {
-          mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-          });
-        }
-      });
-
-      
-      document.addEventListener('DOMContentLoaded', function () {
-        const addressBox = document.getElementById('address-box');
-        const toggleButton = document.getElementById('address-box-toggle');
-        const arrowDown = document.getElementById('address-arrow-down');
-        const arrowUp = document.getElementById('address-arrow-up');
-
-        if (toggleButton && addressBox) {
-          toggleButton.addEventListener('click', function() {
-            addressBox.classList.toggle('collapsed');
-            arrowDown.classList.toggle('hidden');
-            arrowUp.classList.toggle('hidden');
-          });
-        }
-      });
     </script>
 </body>
 </html>

@@ -6,11 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     
+    <meta name="description" content="">
+    
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="//localhost:1313/">
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    
+
     <script src="https://cdn.tailwindcss.com"></script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="/images/logo_pie.png">
     <link rel="stylesheet" href="/css/custom.css">
 </head>
@@ -188,13 +201,28 @@
                     
                     <div>
                         <h3 class="text-xl font-bold font-serif-display text-orange-600 border-b-2 border-orange-200 pb-2 mb-4">
+                            <a href="//localhost:1313/categories/ayat-ayat-cerita/" class="hover:underline">Kategori: Ayat-Ayat Cerita</a>
+                        </h3>
+                        <ul class="space-y-3 list-inside">
+                            
+                            <li class="sidebar-article-item">
+                                <a href="//localhost:1313/artikel/2025-07-31-sesi-weekly-ayat-paket-2-9-pertemuan/" class="text-gray-700 hover:text-orange-500 hover:underline transition-colors duration-200">
+                                    Sesi weekly Ayat paket#2 (9 pertemuan)
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-bold font-serif-display text-orange-600 border-b-2 border-orange-200 pb-2 mb-4">
                             <a href="//localhost:1313/categories/titik-ba/" class="hover:underline">Kategori: Titik Ba</a>
                         </h3>
                         <ul class="space-y-3 list-inside">
                             
                             <li class="sidebar-article-item">
-                                <a href="//localhost:1313/artikel/2025-07-27-persamaan-dan-keberpasangan-sebagai-hukum-pasti-dalam-akuntansi/" class="text-gray-700 hover:text-orange-500 hover:underline transition-colors duration-200">
-                                    PERSAMAAN DAN KEBERPASANGAN SEBAGAI HUKUM PASTI DALAM AKUNTANSI
+                                <a href="//localhost:1313/artikel/2025-08-01-religiusitas-yang-mengerikan/" class="text-gray-700 hover:text-orange-500 hover:underline transition-colors duration-200">
+                                    RELIGIUSITAS YANG MENGERIKAN 
                                 </a>
                             </li>
                             
@@ -219,31 +247,6 @@
 
     <script>
       
-      document.addEventListener('DOMContentLoaded', function () {
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        if (mobileMenuButton) {
-          mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-          });
-        }
-      });
-
-      
-      document.addEventListener('DOMContentLoaded', function () {
-        const addressBox = document.getElementById('address-box');
-        const toggleButton = document.getElementById('address-box-toggle');
-        const arrowDown = document.getElementById('address-arrow-down');
-        const arrowUp = document.getElementById('address-arrow-up');
-
-        if (toggleButton && addressBox) {
-          toggleButton.addEventListener('click', function() {
-            addressBox.classList.toggle('collapsed');
-            arrowDown.classList.toggle('hidden');
-            arrowUp.classList.toggle('hidden');
-          });
-        }
-      });
     </script>
 </body>
 </html>
