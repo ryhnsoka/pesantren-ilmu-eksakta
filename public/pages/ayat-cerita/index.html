@@ -5,28 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayat-Ayat Cerita | </title>
     
-    <meta name="description" content="Ayat QS.Thoha:99 memantik perhatian seorang mahasiswa baru dengan NIM (Nomor Induk Mahasiswa) 13499099, yaitu Ahmad Thoha Faz. Ayat tersebut terpampang di halaman pertama kalender 2000 yang diterbitkan oleh Mahasiswa Islam Teknik Industri (MITI) ITB.
-Terinspirasi, Thoha mulai merumuskan Ayat-Ayat Cerita (AAC) sebagai bagian dari kurikulum MAKIYAH.
-Gagasan AAC muncul lagi setelah bertemu Shabbany Shodaq, teman seangkatan yang pernah menjadi ketua MITI, setelah Thoha &ldquo;pensiun&rdquo; dari PNS pada tahun 2018. Sampai sekarang proses penelitian dan penghimpunan AAC masih terus berlangsung.
-">
-    
-    <meta property="og:title" content="Ayat-Ayat Cerita">
-    <meta property="og:description" content="Ayat QS.Thoha:99 memantik perhatian seorang mahasiswa baru dengan NIM (Nomor Induk Mahasiswa) 13499099, yaitu Ahmad Thoha Faz. Ayat tersebut terpampang di halaman pertama kalender 2000 yang diterbitkan oleh Mahasiswa Islam Teknik Industri (MITI) ITB.
-Terinspirasi, Thoha mulai merumuskan Ayat-Ayat Cerita (AAC) sebagai bagian dari kurikulum MAKIYAH.
-Gagasan AAC muncul lagi setelah bertemu Shabbany Shodaq, teman seangkatan yang pernah menjadi ketua MITI, setelah Thoha &ldquo;pensiun&rdquo; dari PNS pada tahun 2018. Sampai sekarang proses penelitian dan penghimpunan AAC masih terus berlangsung.
-">
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="//localhost:1313/pages/ayat-cerita/">
-    
-    
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ayat-Ayat Cerita">
-    <meta name="twitter:description" content="Ayat QS.Thoha:99 memantik perhatian seorang mahasiswa baru dengan NIM (Nomor Induk Mahasiswa) 13499099, yaitu Ahmad Thoha Faz. Ayat tersebut terpampang di halaman pertama kalender 2000 yang diterbitkan oleh Mahasiswa Islam Teknik Industri (MITI) ITB.
-Terinspirasi, Thoha mulai merumuskan Ayat-Ayat Cerita (AAC) sebagai bagian dari kurikulum MAKIYAH.
-Gagasan AAC muncul lagi setelah bertemu Shabbany Shodaq, teman seangkatan yang pernah menjadi ketua MITI, setelah Thoha &ldquo;pensiun&rdquo; dari PNS pada tahun 2018. Sampai sekarang proses penelitian dan penghimpunan AAC masih terus berlangsung.
-">
-    
-
     <script src="https://cdn.tailwindcss.com"></script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -184,17 +162,40 @@ Gagasan AAC muncul lagi setelah bertemu Shabbany Shodaq, teman seangkatan yang p
         
         <footer id="kontak" class="bg-white border-t border-gray-200 mt-12">
     <div class="container mx-auto px-6 py-8 text-center text-gray-600">
+        
+        <a href="https://www.hitwebcounter.com" target="_blank">
+        <img src="https://hitwebcounter.com/counter/counter.php?page=21287034&style=0024&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>                              
         <p class="text-sm">&copy; 2025 Pesantren Ilmu Eksakta. All Rights Reserved.</p>
     </div>
 </footer>
 
 
-<a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=21287034&style=0024&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>                              
     </div>
 
     <script>
-      
+      document.addEventListener('DOMContentLoaded', function () {
+        
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileMenuButton && mobileMenu) {
+          mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+          });
+        }
+
+        
+        const addressBox = document.getElementById('address-box');
+        const toggleButton = document.getElementById('address-box-toggle');
+        const arrowDown = document.getElementById('address-arrow-down');
+        const arrowUp = document.getElementById('address-arrow-up');
+        if (toggleButton && addressBox) {
+          toggleButton.addEventListener('click', function() {
+            addressBox.classList.toggle('collapsed');
+            arrowDown.classList.toggle('hidden');
+            arrowUp.classList.toggle('hidden');
+          });
+        }
+      });
     </script>
 </body>
 </html>
