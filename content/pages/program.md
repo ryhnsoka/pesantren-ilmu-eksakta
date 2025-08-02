@@ -27,7 +27,19 @@ Selain untuk anak (siswa maupun mahasiswa), Program PI.E juga ditujukan untuk or
 
 ## 4. PELATIHAN GURU/USTADZ
 
+Sejak 2018, penulis Titik Ba aktif menjadi pemateri pelatihan sejumlah lembaga ternama, termasuk YPM Salman ITB (Bandung), Madrasah Mu'allimin Muhammadiyah (Yogyakarta), FKIP Uhamka (Jakarta), sarasehan dan festival literasi sekolah di Kemendikbud RI (Jakarta), refresh instruktur nasional guru mafikibio Madrasah Aliyah oleh Kemenag RI, 200 guru pembina olimpiade matematika dan IPA seluruh Medan, Yayasan Pendidikan PUSRI Palembang, Creative Thinking Skill di Festival Sains Nasional 2025 (Bandung), dsb.
+
+
+
+Selain itu, terhitung mulai 31 Juli 2025, pelatihan guru /ustadz dipusatkan di Tegal
+
 ![13 ustadz dari Pondok Pesantren Modern (PPM) Darul Arqom, Tulung, Klaten, belajar tentang "the power of thinking without thinking".](/images/uploads/whatsapp-image-2025-07-31-at-15.08.59_64ca7ac1.jpg '13 ustadz dari Pondok Pesantren Modern (PPM) Darul Arqom, Tulung, Klaten, belajar tentang "the power of thinking without thinking".')
+
+![Pelatihan 200 guru SMP pembina olimpiade matematika dan IPA seluruh Kota Medan, November 2023.](/images/uploads/whatsapp-image-2025-08-02-at-08.33.00_8fe0e342.jpg "Pelatihan 200 guru SMP pembina olimpiade matematika dan IPA seluruh Kota Medan, November 2023.")
+
+![Pelatihan rutin pendidikan berbasis Titik Ba bagi orangtua pegiat homeschooling Tegal - Pemalang di kampus PI.E.](/images/uploads/whatsapp-image-2025-08-02-at-08.34.21_b42ce7fc.jpg "Pelatihan rutin pendidikan berbasis Titik Ba bagi orangtua pegiat homeschooling Tegal - Pemalang di kampus PI.E.")
+
+![Pelatihan Matematika Detik dalam rangka Refresh Instruktur Nasional Guru Mafikibi Madrasah Aliyah, 2 Mei 2019.Pelatihan Matematika Detik dalam rangka Refresh Instruktur Nasional Guru Mafikibi Madrasah Aliyah, 2 Mei 2019.](/images/uploads/whatsapp-image-2025-08-02-at-08.38.18_54416839.jpg "Pelatihan Matematika Detik dalam rangka Refresh Instruktur Nasional Guru Mafikibi Madrasah Aliyah, 2 Mei 2019.")
 
 ## 5. PUSAT SNACK "FOOD CITY"
 
