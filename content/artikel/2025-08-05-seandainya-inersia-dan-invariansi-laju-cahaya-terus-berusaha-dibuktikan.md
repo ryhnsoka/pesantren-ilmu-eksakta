@@ -1,6 +1,6 @@
 ---
 title: SEANDAINYA INERSIA DAN INVARIANSI LAJU CAHAYA TERUS BERUSAHA DIBUKTIKAN
-author: Ahmad Thoha Faz
+author: "Ahmad Thoha Faz "
 date: 2025-08-05T09:18:00.000+07:00
 categories:
   - Titik Ba
