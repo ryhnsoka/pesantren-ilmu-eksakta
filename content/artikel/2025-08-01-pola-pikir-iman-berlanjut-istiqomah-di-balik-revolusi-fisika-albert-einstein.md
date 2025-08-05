@@ -1,6 +1,6 @@
 ---
 title: POLA PIKIR "IMAN BERLANJUT ISTIQOMAH" DI BALIK REVOLUSI FISIKA ALBERT EINSTEIN
-author: Ahmad Thoha Faz
+author: "Ahmad Thoha Faz "
 date: 2025-08-01T21:28:00.000+07:00
 description: >
   Dalam perkembangan ilmu pengetahuan, terutama fisika dan matematika, banyak
