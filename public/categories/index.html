@@ -99,46 +99,68 @@
             
 <div class="max-w-4xl mx-auto px-4 py-8">
     <h1 class="text-3xl md:text-4xl font-bold font-serif-display text-orange-500 mb-8 border-b-2 border-orange-200 pb-4">
-        Categories
+        Artikel Kategori: Categories
     </h1>
 
-    <div class="mb-8 p-4 bg-gray-100 rounded-lg">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-                <label for="search-input" class="block text-sm font-medium text-gray-700">Cari Artikel</label>
-                <input type="text" id="search-input" placeholder="Ketik judul..." class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-300 focus:ring focus:ring-orange-200 focus:ring-opacity-50">
-            </div>
-            <div class="grid grid-cols-2 gap-4">
-                <div>
-                    <label for="filter-category" class="block text-sm font-medium text-gray-700">Filter Kategori</label>
-                    <select id="filter-category" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-300 focus:ring focus:ring-orange-200 focus:ring-opacity-50">
-                        <option value="">Semua Kategori</option>
-                        
-                            <option value="titik ba">titik ba</option>
-                        
-                            <option value="ayat-ayat cerita">ayat-ayat cerita</option>
-                        
-                            <option value="matematika titik">matematika titik</option>
-                        
-                    </select>
+    <div class="space-y-12">
+        
+        <article class="page-content">
+            <header>
+                <h2 class="text-2xl md:text-3xl font-bold font-serif-display mb-2">
+                    <a href="//localhost:1313/categories/titik-ba/" class="text-gray-900 hover:text-orange-500 transition-colors">Titik Ba</a>
+                </h2>
+                <div class="text-sm text-gray-500 mb-4">
+                    <time datetime="2025-08-05">5 August 2025</time>
+                    
                 </div>
-                <div>
-                    <label for="sort-by" class="block text-sm font-medium text-gray-700">Urutkan</label>
-                    <select id="sort-by" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-300 focus:ring focus:ring-orange-200 focus:ring-opacity-50">
-                        <option value="newest">Terbaru</option>
-                        <option value="oldest">Terlama</option>
-                        <option value="title-asc">Judul (A-Z)</option>
-                        <option value="title-desc">Judul (Z-A)</option>
-                    </select>
-                </div>
+            </header>
+            
+            <div class="prose max-w-none text-justify">
+                
             </div>
-        </div>
+            
+            
+        </article>
+        
+        <article class="page-content">
+            <header>
+                <h2 class="text-2xl md:text-3xl font-bold font-serif-display mb-2">
+                    <a href="//localhost:1313/categories/matematika-titik/" class="text-gray-900 hover:text-orange-500 transition-colors">Matematika Titik</a>
+                </h2>
+                <div class="text-sm text-gray-500 mb-4">
+                    <time datetime="2025-08-01">1 August 2025</time>
+                    
+                </div>
+            </header>
+            
+            <div class="prose max-w-none text-justify">
+                
+            </div>
+            
+            
+        </article>
+        
+        <article class="page-content">
+            <header>
+                <h2 class="text-2xl md:text-3xl font-bold font-serif-display mb-2">
+                    <a href="//localhost:1313/categories/ayat-ayat-cerita/" class="text-gray-900 hover:text-orange-500 transition-colors">Ayat-Ayat Cerita</a>
+                </h2>
+                <div class="text-sm text-gray-500 mb-4">
+                    <time datetime="2025-07-31">31 July 2025</time>
+                    
+                </div>
+            </header>
+            
+            <div class="prose max-w-none text-justify">
+                
+            </div>
+            
+            
+        </article>
+        
     </div>
 
-    <div id="article-list" class="space-y-12">
-        </div>
     
-    <p id="no-results" class="hidden text-center text-gray-500 mt-8">Tidak ada artikel yang cocok dengan kriteria Anda.</p>
 </div>
 
         </main>

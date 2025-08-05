@@ -1,5 +1,3 @@
-[permalinks]
-  artikel = "/artikel/:slug/"
 [outputs]
   section = ["HTML", "JSON"]
 [[menu.main]]

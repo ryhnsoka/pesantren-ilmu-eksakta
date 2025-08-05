@@ -5,7 +5,7 @@
     </h1>
 
     <div class="space-y-12">
-        {{ range .Pages }}
+        {{ range .Paginator.Pages }}
         <article class="page-content">
             <header>
                 <h2 class="text-2xl md:text-3xl font-bold font-serif-display mb-2">
@@ -13,11 +13,16 @@
                 </h2>
                 <div class="text-sm text-gray-500 mb-4">
                     <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+                    {{ with .Params.author }}
+                        <span> | Oleh: {{ . }}</span>
+                    {{ end }}
                 </div>
             </header>
-            <div class="text-gray-700 leading-relaxed">
+            
+            <div class="prose max-w-none text-justify">
                 {{ .Summary }}
             </div>
+            
             {{ if .Truncated }}
             <div class="mt-4">
                 <a href="{{ .Permalink }}" class="font-semibold text-orange-500 hover:text-orange-600 transition-colors">
@@ -28,5 +33,7 @@
         </article>
         {{ end }}
     </div>
+
+    {{ partial "pagination.html" . }}
 </div>
 {{ end }}
