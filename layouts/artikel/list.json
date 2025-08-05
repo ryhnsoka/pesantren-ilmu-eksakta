@@ -1,0 +1,6 @@
+{{- $.Scratch.Add "index" slice -}}
+{{- range .Paginator.Pages -}}
+    {{- $summary := .Summary | plainify | truncate 150 -}}
+    {{- $.Scratch.Add "index" (dict "title" .Title "categories" .Params.categories "summary" $summary "permalink" .Permalink "date" .Date) -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}

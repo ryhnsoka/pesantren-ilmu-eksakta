@@ -1,3 +1,5 @@
+[outputs]
+  section = ["HTML", "JSON"]
 [[menu.main]]
   name = "Beranda"
   url = "/"

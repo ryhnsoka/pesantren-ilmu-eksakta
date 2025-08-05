@@ -141,7 +141,31 @@
     </div>
 
     <script>
-      
+      document.addEventListener('DOMContentLoaded', function () {
+        
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileMenuButton && mobileMenu) {
+          mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+          });
+        }
+
+        
+        const addressBox = document.getElementById('address-box');
+        const toggleButton = document.getElementById('address-box-toggle');
+        const arrowDown = document.getElementById('address-arrow-down');
+        const arrowUp = document.getElementById('address-arrow-up');
+        if (toggleButton && addressBox) {
+          toggleButton.addEventListener('click', function() {
+            addressBox.classList.toggle('collapsed');
+            arrowDown.classList.toggle('hidden');
+            arrowUp.classList.toggle('hidden');
+          });
+        }
+      });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    <script src="/js/search.js"></script>
 </body>
 </html>

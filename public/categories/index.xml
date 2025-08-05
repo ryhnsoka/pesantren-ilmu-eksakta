@@ -6,13 +6,20 @@
     <description>Recent content in Categories on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Aug 2025 09:11:00 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 05 Aug 2025 09:18:00 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Titik Ba</title>
       <link>//localhost:1313/categories/titik-ba/</link>
-      <pubDate>Fri, 01 Aug 2025 09:11:00 +0700</pubDate>
+      <pubDate>Tue, 05 Aug 2025 09:18:00 +0700</pubDate>
       <guid>//localhost:1313/categories/titik-ba/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matematika Titik</title>
+      <link>//localhost:1313/categories/matematika-titik/</link>
+      <pubDate>Fri, 01 Aug 2025 21:26:00 +0700</pubDate>
+      <guid>//localhost:1313/categories/matematika-titik/</guid>
       <description></description>
     </item>
     <item>

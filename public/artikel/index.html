@@ -3,7 +3,7 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artikels | </title>
+    <title>Artikel | </title>
     
     <meta name="description" content="">
     
@@ -97,65 +97,48 @@
 
         <main class="flex-grow">
             
-<div class="max-w-4xl mx-auto">
+<div class="max-w-4xl mx-auto px-4 py-8">
     <h1 class="text-3xl md:text-4xl font-bold font-serif-display text-orange-500 mb-8 border-b-2 border-orange-200 pb-4">
-        Artikels
+        Artikel
     </h1>
 
-    <div class="space-y-12">
-        
-        <article class="page-content">
-            <header>
-                <h2 class="text-2xl md:text-3xl font-bold font-serif-display mb-2">
-                    <a href="//localhost:1313/artikel/2025-08-01-religiusitas-yang-mengerikan/" class="text-gray-900 hover:text-orange-500 transition-colors">RELIGIUSITAS YANG MENGERIKAN </a>
-                </h2>
-                <div class="text-sm text-gray-500 mb-4">
-                    <time datetime="2025-08-01">1 August 2025</time>
+    <div class="mb-8 p-4 bg-gray-100 rounded-lg">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+                <label for="search-input" class="block text-sm font-medium text-gray-700">Cari Artikel</label>
+                <input type="text" id="search-input" placeholder="Ketik judul..." class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-300 focus:ring focus:ring-orange-200 focus:ring-opacity-50">
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div>
+                    <label for="filter-category" class="block text-sm font-medium text-gray-700">Filter Kategori</label>
+                    <select id="filter-category" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-300 focus:ring focus:ring-orange-200 focus:ring-opacity-50">
+                        <option value="">Semua Kategori</option>
+                        
+                            <option value="titik ba">titik ba</option>
+                        
+                            <option value="ayat-ayat cerita">ayat-ayat cerita</option>
+                        
+                            <option value="matematika titik">matematika titik</option>
+                        
+                    </select>
                 </div>
-            </header>
-            <div class="text-gray-700 leading-relaxed">
-                <p><figure class="my-6">
-    <img src="/images/uploads/526986128_10236319144626411_1623798318095599453_n.jpg" alt="" class="rounded-lg shadow-lg mx-auto max-w-full h-auto">
-    
-</figure></p>
-<p>Kenekatan bodoh para agamawan sungguh mengerikan. Kelompok yang sering disebut sebagai ulama justru berada di barisan terdepan perusakan aqidah dan nalar umat Islam. Itu yang dapat disimpulkan dari polemik &ldquo;1+1=2&rdquo; yang berlangsung bertahun-tahun lalu.</p>
-<p>1+1 jelas berbeda dengan 2. Bagaimana mungkin 1+1=2 itu aksioma, tidak menuntut pembuktian?</p>
-<p>Para perusak logika umat Islam itu bukan para agamawan sembarangan. Mereka adalah para ustadz dengan kecerdasan di atas rata-rata sehingga getol menekuni manthiq yang dikenal sulit.</p>
-            </div>
-            
-            <div class="mt-4">
-                <a href="//localhost:1313/artikel/2025-08-01-religiusitas-yang-mengerikan/" class="font-semibold text-orange-500 hover:text-orange-600 transition-colors">
-                    Baca Selengkapnya →
-                </a>
-            </div>
-            
-        </article>
-        
-        <article class="page-content">
-            <header>
-                <h2 class="text-2xl md:text-3xl font-bold font-serif-display mb-2">
-                    <a href="//localhost:1313/artikel/2025-07-31-sesi-weekly-ayat-paket-2-9-pertemuan/" class="text-gray-900 hover:text-orange-500 transition-colors">Ayat-Ayat Cerita (AAC) QS. Al-Baqarah 30-32. Apakah malaikat itu hukum alam?</a>
-                </h2>
-                <div class="text-sm text-gray-500 mb-4">
-                    <time datetime="2025-07-31">31 July 2025</time>
+                <div>
+                    <label for="sort-by" class="block text-sm font-medium text-gray-700">Urutkan</label>
+                    <select id="sort-by" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-orange-300 focus:ring focus:ring-orange-200 focus:ring-opacity-50">
+                        <option value="newest">Terbaru</option>
+                        <option value="oldest">Terlama</option>
+                        <option value="title-asc">Judul (A-Z)</option>
+                        <option value="title-desc">Judul (Z-A)</option>
+                    </select>
                 </div>
-            </header>
-            <div class="text-gray-700 leading-relaxed">
-                <p><figure class="my-6">
-    <img src="/images/uploads/whatsapp-image-2025-07-31-at-17.17.35_7c3b1242.jpg" alt="" class="rounded-lg shadow-lg mx-auto max-w-full h-auto">
-    
-</figure></p>
-<p>Even angels ask (Bahkan Malaikat Pun Bertanya). Itu judul buku karya matematikawan, Profesor Jeffrey Lang, yang akhirnya masuk Islam setelah membaca al-Qur&rsquo;an. Ya, kisah Nabi Adam versus malaikat dalam kontestasi kekhalifahan sungguh memikat. Tapi siapakah malaikat?</p>
-<p><div class="video-responsive">
-  <iframe src="https://www.youtube.com/embed/67gqMhXP9vo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div><a href="https://wa.me/+6285228800416"></a></p>
             </div>
-            
-        </article>
-        
+        </div>
     </div>
 
+    <div id="article-list" class="space-y-12">
+        </div>
     
+    <p id="no-results" class="hidden text-center text-gray-500 mt-8">Tidak ada artikel yang cocok dengan kriteria Anda.</p>
 </div>
 
         </main>
@@ -170,7 +153,31 @@
     </div>
 
     <script>
-      
+      document.addEventListener('DOMContentLoaded', function () {
+        
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileMenuButton && mobileMenu) {
+          mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+          });
+        }
+
+        
+        const addressBox = document.getElementById('address-box');
+        const toggleButton = document.getElementById('address-box-toggle');
+        const arrowDown = document.getElementById('address-arrow-down');
+        const arrowUp = document.getElementById('address-arrow-up');
+        if (toggleButton && addressBox) {
+          toggleButton.addEventListener('click', function() {
+            addressBox.classList.toggle('collapsed');
+            arrowDown.classList.toggle('hidden');
+            arrowUp.classList.toggle('hidden');
+          });
+        }
+      });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    <script src="/js/search.js"></script>
 </body>
 </html>
