@@ -1,7 +1,7 @@
 ---
 title: "Berhentilah Mencari Bukti Adanya Tuhan: Sebuah Refleksi dari Dunia Ilmu
   Komputer Teoritis"
-author: "Faiq Miftakhul Falakh, Ph.D "
+author: Faiq Miftakhul Falakh, Ph.D
 date: 2025-08-05T08:52:00.000+07:00
 categories:
   - Titik Ba
