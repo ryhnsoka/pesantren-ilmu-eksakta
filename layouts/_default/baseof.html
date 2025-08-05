@@ -5,20 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
     
-    {{ $title := .Title }}
-    {{ $description := with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary | plainify | truncate 150 }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}
-    
-    {{ $image := "" }}
-    {{ if .Params.image }}
-        {{ $image = .Params.image | absURL }}
-    {{ else }}
-        {{ $firstImage := findRE `<img.*?src="(.*?)"` .Content 1 }}
-        {{ if $firstImage }}
-            {{ $image = index $firstImage 0 | replaceRE `<img.*?src="` "" | replaceRE `".*` "" | absURL }}
-        {{ else }}
-            {{ $image = "images/logo_pie.png" | absURL }}
-        {{ end }}
-    {{ end }}
+    {{- $title := .Title -}}
+    {{- $description := "" -}}
+    {{- if .Description -}}
+        {{- $description = .Description -}}
+    {{- else if .IsPage -}}
+        {{- $description = .Summary | plainify | truncate 150 -}}
+    {{- else -}}
+        {{- $description = .Site.Params.description -}}
+    {{- end -}}
+
+    {{- $image := "" -}}
+    {{- if .Params.image -}}
+        {{- $image = .Params.image | absURL -}}
+    {{- else -}}
+        {{- $firstImage := findRE `<img.*?src="(.*?)"` .Content 1 -}}
+        {{- if $firstImage -}}
+            {{- $image = index $firstImage 0 | replaceRE `<img.*?src="` "" | replaceRE `".*` "" | absURL -}}
+        {{- else -}}
+            {{- $image = "images/logo_pie.png" | absURL -}}
+        {{- end -}}
+    {{- end -}}
 
     <meta name="description" content="{{ $description }}">
     <meta property="og:title" content="{{ $title }}">
@@ -30,7 +37,6 @@
     <meta name="twitter:title" content="{{ $title }}">
     <meta name="twitter:description" content="{{ $description }}">
     <meta name="twitter:image" content="{{ $image }}">
-
     <script src="https://cdn.tailwindcss.com"></script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,11 +49,9 @@
 
     <div class="min-h-screen flex flex-col">
         {{ partial "header.html" . }}
-
         <main class="flex-grow">
             {{ block "main" . }}{{ end }}
         </main>
-        
         {{ partial "footer.html" . }}
     </div>
 
@@ -59,19 +63,6 @@
         if (mobileMenuButton && mobileMenu) {
           mobileMenuButton.addEventListener('click', () => {
             mobileMenu.classList.toggle('hidden');
-          });
-        }
-
-        // Logika untuk pop up/down kotak alamat di mobile (jika ada)
-        const addressBox = document.getElementById('address-box');
-        const toggleButton = document.getElementById('address-box-toggle');
-        const arrowDown = document.getElementById('address-arrow-down');
-        const arrowUp = document.getElementById('address-arrow-up');
-        if (toggleButton && addressBox) {
-          toggleButton.addEventListener('click', function() {
-            addressBox.classList.toggle('collapsed');
-            arrowDown.classList.toggle('hidden');
-            arrowUp.classList.toggle('hidden');
           });
         }
       });
