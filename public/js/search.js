@@ -8,14 +8,8 @@ document.addEventListener('DOMContentLoaded', function () {
     let articles = [];
     let fuse;
 
-    // Ambil data dari /artikel/index.json
     fetch('/artikel/index.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json();
-        })
+        .then(response => response.json())
         .then(data => {
             articles = data;
             fuse = new Fuse(articles, {
@@ -23,11 +17,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 includeScore: true,
                 threshold: 0.4,
             });
-            updateResults(); // Tampilkan semua artikel saat pertama kali dimuat
+            updateResults();
         })
         .catch(error => {
-            console.error('Error fetching or parsing index.json:', error);
-            articleList.innerHTML = '<p class="text-center text-red-500">Gagal memuat daftar artikel. Silakan coba lagi nanti.</p>';
+            console.error('Error fetching articles:', error);
+            articleList.innerHTML = '<p class="text-center text-red-500">Gagal memuat daftar artikel.</p>';
         });
 
     function renderArticles(results) {
@@ -39,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
         noResults.classList.add('hidden');
 
         results.forEach(article => {
-            const item = article.item ? article.item : article; // Fuse.js membungkus hasil dalam 'item'
+            const item = article.item ? article.item : article;
             const articleHTML = `
                 <article class="page-content">
                     <header>
@@ -50,13 +44,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             <time>${new Date(item.date).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                         </div>
                     </header>
-                    <div class="prose max-w-none text-justify">
-                        ${item.summary}
-                    </div>
+                    <div class="prose max-w-none text-justify">${item.summary}</div>
                     <div class="mt-4">
-                        <a href="${item.permalink}" class="font-semibold text-orange-500 hover:text-orange-600 transition-colors">
-                            Baca Selengkapnya →
-                        </a>
+                        <a href="${item.permalink}" class="font-semibold text-orange-500 hover:text-orange-600 transition-colors">Baca Selengkapnya →</a>
                     </div>
                 </article>
             `;
@@ -64,38 +54,33 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Fungsi utama yang sudah diperbaiki
     function updateResults() {
-        let currentResults = articles; // Selalu mulai dengan daftar artikel lengkap
-
-        // 1. Terapkan filter PENCARIAN terlebih dahulu
+        let currentResults = articles;
         const searchTerm = searchInput.value.trim();
+
         if (searchTerm) {
             currentResults = fuse.search(searchTerm).map(result => result.item);
         }
 
-        // 2. Terapkan filter KATEGORI pada hasil di atas
         const selectedCategory = categoryFilter.value;
         if (selectedCategory) {
             currentResults = currentResults.filter(article => 
-                article.categories && article.categories.includes(selectedCategory)
+                Array.isArray(article.categories) && article.categories.map(c => c.toLowerCase()).includes(selectedCategory.toLowerCase())
             );
         }
 
-        // 3. Terapkan PENGURUTAN pada hasil akhir
         const sortValue = sortBy.value;
         currentResults.sort((a, b) => {
-            if (sortValue === 'newest') { return new Date(b.date) - new Date(a.date); }
-            if (sortValue === 'oldest') { return new Date(a.date) - new Date(b.date); }
-            if (sortValue === 'title-asc') { return a.title.localeCompare(b.title); }
-            if (sortValue === 'title-desc') { return b.title.localeCompare(a.title); }
+            if (sortValue === 'newest') return new Date(b.date) - new Date(a.date);
+            if (sortValue === 'oldest') return new Date(a.date) - new Date(b.date);
+            if (sortValue === 'title-asc') return a.title.localeCompare(b.title);
+            if (sortValue === 'title-desc') return b.title.localeCompare(a.title);
             return 0;
         });
 
         renderArticles(currentResults);
     }
 
-    // Tambahkan event listener ke setiap elemen kontrol
     searchInput.addEventListener('input', updateResults);
     categoryFilter.addEventListener('change', updateResults);
     sortBy.addEventListener('change', updateResults);
