@@ -23,7 +23,7 @@
         {{- if $firstImage -}}
             {{- $image = index $firstImage 0 | replaceRE `<img.*?src="` "" | replaceRE `".*` "" | absURL -}}
         {{- else -}}
-            {{- $image = "images/logo_pie.png" | absURL -}}
+            {{- $image = "images/logo_pie.jpg" | absURL -}}
         {{- end -}}
     {{- end -}}
 
@@ -42,7 +42,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="{{ "images/logo_pie.png" | relURL }}">
+    <link rel="icon" type="image/png" href="{{ "images/logo_pie.jpg" | relURL }}">
     <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
 </head>
 <body class="bg-gray-50 text-gray-800">
