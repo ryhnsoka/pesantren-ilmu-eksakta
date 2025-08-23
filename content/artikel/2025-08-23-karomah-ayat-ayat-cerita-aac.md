@@ -3,7 +3,7 @@ title: '"KAROMAH" AYAT-AYAT CERITA (AAC)'
 author: Ahmad Thoha Faz
 date: 2025-08-23T08:50:00.000+07:00
 categories:
-  - Matematika Titik
+  - Ayat-Ayat Cerita
 ---
 ![Ustadz Mufrodi, kepala sekolah SMP IT Elmuna-vie, sedang berbagi inspirasi Ayat-Ayat Cerita (AAC).](/images/uploads/whatsapp-image-2025-08-23-at-08.45.55_59a759a7.jpg "Ustadz Mufrodi, kepala sekolah SMP IT Elmuna-vie, sedang berbagi inspirasi Ayat-Ayat Cerita (AAC).")
 
