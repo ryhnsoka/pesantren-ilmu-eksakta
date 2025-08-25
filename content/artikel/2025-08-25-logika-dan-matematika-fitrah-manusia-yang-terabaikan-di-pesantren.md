@@ -7,7 +7,7 @@ categories:
 ---
 ![Ahmad Thoha Faz, menyampaikan sekelumit filosofi Matematika Titik, didampingi Rois Syuriah dan Ketua Tanfidziyah PCNU Kota Tegal.](/images/uploads/whatsapp-image-2025-08-24-at-12.25.13_e515104d.jpg "Ahmad Thoha Faz, menyampaikan sekelumit filosofi Matematika Titik, didampingi Rois Syuriah dan Ketua Tanfidziyah PCNU Kota Tegal.")
 
-"Alhamdulillah si sulung sekarang diterima di Kedokteran UNILA Lampung," kata Edy asal Brebes, seorang yang usianya tepat sama, hanya beberapa jam lebih tua. 
+"Alhamdulillah si sulung sekarang diterima di Kedokteran UNILA Lampung," kata Edy asal Brebes, seorang yang usianya tepat sama, hanya beberapa jam lebih tua dibanding dengan usia saya.
 
 
 
@@ -19,19 +19,23 @@ Kali ini Edy mengantar si tengah, yang baru saja keluar dari sebuah pesantren te
 
 
 
-"Iya, secara umum, kekurangan terbesar pendidikan di pesantren itu mengabaikan logika visual. Matematika itu bahasa visual. Fisika itu bahasa visual. Pesantren kuat dalam budaya omon-omon (السمعيات), lebih dalam budaya visual-geometri (البصريات)." 
+"Iya, secara umum, kekurangan terbesar pendidikan di pesantren itu mengabaikan logika visual. Matematika itu bahasa visual. Fisika itu bahasa visual. Pesantren kuat dalam budaya ucap-dengar (السمعيات), kurang serius mengembangkan budaya visual-geometri (البصريات)." 
 
 
 
-Itu yang sering saya sampaikan di mana-mana tentang kelemahan pesantren, termasuk sewaktu mengisi diskusi Titik Ba di Jember bersama ketua RMI PBNU dan di Pati bersama ketua LBM PWNU Jawa Tengah.
+Itu yang sering saya sampaikan di mana-mana tentang kelemahan pesantren, termasuk sewaktu mengisi diskusi Titik Ba di Jember bersama ketua RMI PBNU (KH Hodri Ariev) dan di Pati bersama ketua LBM PWNU Jawa Tengah (KH Muhammad Faeshol Muzammil).
+
+
 
 ## MERINTIS PESANTREN YANG PEDULI ILMU EKSAKTA 
+
+
 
 "Kita buat pesantren NU. Saya fokus di sarana - prasarana, Gus Thoha fokus di kurikulum," kata Pak SBY (Subhan Yusup), pendiri Sekolah Al Biruni.
 
 
 
-Pak SBY tidak omon-omon. Sekeluarga semua belajar di Pesantren Ilmu Eksakta (PI.E): Bapak-ibu dan anak-anaknya kecuali si sulung yang saat ini sedang tugas belajar di Manila, Filipina.
+Pak SBY tidak berhenti pada ucapan. Sekeluarga semua belajar di Pesantren Ilmu Eksakta (PI.E): Bapak-ibu dan anak-anaknya kecuali si sulung yang saat ini sedang tugas belajar di Manila, Filipina.
 
 
 
