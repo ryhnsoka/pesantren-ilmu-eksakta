@@ -7,11 +7,11 @@ categories:
 ---
 ![Mengikuti Musa atau Qarun? QS.28:79 disampaikan Ahmad Thoha Faz ketika dipercaya memimpin doa pada syukuran wisuda Teknik Industri ITB, Maret 2005. Tepat sehari sebelumnya, Rektor ITB secara resmi memberi endorsement untuk Titik Ba.](/images/uploads/whatsapp-image-2025-09-03-at-12.06.24_e414dab9.jpg "Mengikuti Musa atau Qarun? QS.28:79 disampaikan Ahmad Thoha Faz ketika dipercaya memimpin doa pada syukuran wisuda Teknik Industri ITB, Maret 2005. Tepat sehari sebelumnya, Rektor ITB secara resmi memberi endorsement untuk Titik Ba.")
 
-# \> ﴿فَخَرَجَ عَلَىٰ قَوْمِهِۦ فِى زِينَتِهِۦۖ قَالَ ٱلَّذِينَ يُرِيدُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا يَـٰلَيْتَ لَنَا مِثْلَ مَآ أُوتِىَ قَـٰرُونُ إِنَّهُۥ لَذُو حَظٍّ عَظِيمٍ﴾  
+# فَخَرَجَ عَلَىٰ قَوْمِهِۦ فِى زِينَتِهِۦۖ قَالَ ٱلَّذِينَ يُرِيدُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا يَـٰلَيْتَ لَنَا مِثْلَ مَآ أُوتِىَ قَـٰرُونُ إِنَّهُۥ لَذُو حَظٍّ عَظِيمٍ
 
-\> (QS Al-Qashash: 79)  
+(QS Al-Qashash: 79)  
 
-\> “Maka keluarlah Qarun kepada kaumnya dengan kemegahannya. Berkatalah orang-orang yang menginginkan kehidupan dunia: ‘Wahai, semoga kita memiliki seperti apa yang telah diberikan kepada Qarun. Sesungguhnya dia benar-benar memiliki keberuntungan yang besar.’”
+“Maka keluarlah Qarun kepada kaumnya dengan kemegahannya. Berkatalah orang-orang yang menginginkan kehidupan dunia: ‘Wahai, semoga kita memiliki seperti apa yang telah diberikan kepada Qarun. Sesungguhnya dia benar-benar memiliki keberuntungan yang besar.’”
 
 Ayat ini menggambarkan fenomena sosial yang terus berulang: kekaguman terhadap kemewahan yang tidak dibarengi dengan integritas. Qarun adalah simbol dari kekayaan yang tidak amanah, yang akhirnya ditelan bumi karena kesombongannya. Dalam konteks Indonesia hari ini, dua nama Chalid mencerminkan dua jalan yang sangat berbeda. KH Idham Chalid meneladani jalan Musa—hidup sederhana, menjaga amanah, dan berpihak pada rakyat. Sementara Riza Chalid menelusuri jejak Qarun—mengumpulkan kekayaan luar biasa dari sektor strategis negara, namun terjerat dalam skandal korupsi yang merugikan bangsa.
 
