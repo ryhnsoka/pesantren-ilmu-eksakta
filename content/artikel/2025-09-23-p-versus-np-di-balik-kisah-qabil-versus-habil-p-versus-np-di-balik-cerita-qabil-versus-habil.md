@@ -3,7 +3,7 @@ title: DARI ABSTRAK (TITIK BA) KE KONKRET (ToSM)
 author: Ahmad Thoha Faz
 date: 2025-09-30T16:10:00.000+07:00
 categories:
-  - Matematika Detik
+  - Titik Ba
 ---
 ![Dari spiritual set (Titik Ba) hingga tool set (ToSM)](/images/uploads/whatsapp-image-2025-09-28-at-20.58.11.jpeg "Dari spiritual set (Titik Ba) hingga tool set (ToSM)")
 
