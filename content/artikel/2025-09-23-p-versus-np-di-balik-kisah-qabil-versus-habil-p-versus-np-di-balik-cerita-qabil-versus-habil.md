@@ -1,45 +1,74 @@
 ---
-title: 'P Versus NP: Di Balik Kisah Qabil Versus Habil "P VERSUS NP": DI BALIK
-  CERITA QABIL VERSUS HABIL '
+title: DARI ABSTRAK (TITIK BA) KE KONKRET (ToSM)
 author: Ahmad Thoha Faz
-date: 2025-09-23T10:01:00.000+07:00
+date: 2025-09-30T16:10:00.000+07:00
 categories:
-  - Ayat-Ayat Cerita
+  - Matematika Detik
 ---
-!["P = NP ?" merupakan salah satu masalah paling penting sekaligus paling sulit dalam peradaban manusia, termasuk satu dari tujuh masalah yang dihargai $ 1 juta bagi siapapun yang dapat memecahkannya.](/images/uploads/whatsapp-image-2025-09-22-at-16.41.03_3b2bbc2b.jpg "\"P = NP ?\" merupakan salah satu masalah paling penting sekaligus paling sulit dalam peradaban manusia, termasuk satu dari tujuh masalah yang dihargai $ 1 juta bagi siapapun yang dapat memecahkannya.")
+![Dari spiritual set (Titik Ba) hingga tool set (ToSM)](/images/uploads/whatsapp-image-2025-09-28-at-20.58.11.jpeg "Dari spiritual set (Titik Ba) hingga tool set (ToSM)")
 
-Dalam ilmu komputer, kelas masalah P (Polynomial time) adalah himpunan masalah yang dapat dipecahkan secara efisien oleh sebuah algoritma. Ini berarti ada sebuah "resep" atau "langkah-langkah" yang jelas dan cepat untuk mencapai solusi.
-
-​Dalam kisah ini, Qabil sedang mencari algoritma tersebut. Ia menghadapi masalah: Bagaimana cara mengubur mayat? Masalah ini bagi Qabil saat itu seolah-olah bukan bagian dari kelas P. Ia tidak memiliki "algoritma penguburan" dalam pengetahuannya. Setiap kali ia mencoba, usahanya mungkin tidak efisien, memakan waktu, atau tidak berhasil. Ia seperti seorang programmer yang mencoba menulis kode untuk sebuah masalah, tetapi tidak menemukan cara yang efisien.
+##### 1. Titik Ba sebagai Spiritual Set
 
 
 
-​Gagak dan Masalah NP (Nondeterministic Polynomial Time)
+Tauhid (توحيد) adalah simbol verbal, terucap. Apa simbol visual, yang terlihat? Titik Ba.
 
 
 
-​Kelas masalah NP (Nondeterministic Polynomial time) adalah himpunan masalah di mana jika sebuah solusi diberikan, kebenarannya dapat diverifikasi dengan cepat. Mencari solusi mungkin sulit, tetapi memverifikasinya mudah.
+Terinspirasi gagasan yang berasal dari Sayyidina 'Ali bin Abi Thalib, terbit buku Titik Ba pada tahun 2007 (Mizan, Bandung) dan terbit ulang pada 2021 (Republika, Jakarta).
 
 
 
-​Inilah momen yang paling relevan dengan kisah Qabil. Ketika gagak datang, ia tidak menjelaskan teori penguburan kepada Qabil. Ia hanya menunjukkan solusinya secara langsung: menggali tanah dengan cakarnya. Dalam sekejap, Qabil dapat memverifikasi bahwa solusi itu benar, sederhana, dan efektif.
-
-​Penyesalan Qabil, “Celaka aku! Mengapa aku tidak mampu berbuat seperti gagak ini?”, adalah cerminan dari kesadaran bahwa ia gagal menemukan solusi yang begitu jelas dan mudah untuk diverifikasi. Ia tidak bisa menemukan jawaban, tetapi ketika jawaban itu diberikan kepadanya, ia langsung mengerti kebenarannya. Ini adalah esensi dari masalah NP: sulit untuk ditemukan, tetapi mudah untuk diperiksa.
+##### 2. Ayat-Ayat Cerita (AAC) sebagai Heart Set
 
 
 
-​Kisah P=NP?
+Bagaimana menumbuhkan tauhid? Tidak ada yang lebih baik daripada cerita. Sebab, manusia diprogram dan diprogram ulang dengan cerita.
 
 
 
-​Misteri besar P=NP? adalah pertanyaan apakah setiap masalah yang mudah diverifikasi (NP) juga mudah untuk dipecahkan (P).
-
-​Jika P=NP terbukti benar, maka artinya setiap masalah yang solusinya bisa diperiksa dengan cepat, juga bisa ditemukan dengan cepat. Jika ini diterapkan pada kisah Qabil, itu berarti seharusnya Qabil secara logis mampu menemukan cara mengubur jenazah saudaranya, karena solusi (menggali tanah) itu sendiri sangat mudah untuk diverifikasi. Tidak ada kebutuhan untuk gagak.
+Tidak ada yang lebih baik daripada "cerita terbaik" (احسن القصص) yang merupakan bagian terbesar dari al-Qur'an. 
 
 
 
-​Namun, pengalaman Qabil—bahwa ia tidak mampu menemukan solusi, dan sangat terkejut saat melihatnya—secara intuitif menunjukkan bahwa P tidak sama dengan NP dalam kasus ini. Sulit untuk menemukan solusi penguburan bagi Qabil, meskipun solusinya sangat mudah untuk diverifikasi setelah terlihat.
+Tadarus Ayat-Ayat Cerita (AAC) saat ini sedang berproses menjadi kebiasaan baru, baik bagi orang dewasa maupun anak-anak, baik secara online maupun offline.
 
 
 
-​Meskipun konsep P vs NP adalah produk dari ilmu komputer modern, kisah Al-Qur'an ini secara luar biasa mengilustrasikan perbedaan fundamental antara kesulitan menemukan jawaban dan kemudahan memverifikasi kebenaran jawaban itu. Ia mengingatkan kita bahwa ada masalah yang, pada pandangan pertama, tampak tak terpecahkan, tetapi solusinya mungkin sangat sederhana—asalkan kita memiliki kebijaksanaan untuk menemukannya.
+Selain pembentukan kebiasaan bagi setiap muslim yang sudah menguasai baca-tulis al-Qur'an, AAC juga dirumuskan dalam bentuk mushaf. Insya Allah diterbitkan oleh alQosbah di Bandung, "mushaf AAC" berisi klasifikasi AAC ke dalam 7 kelompok dan juga rujuk-silang ayat.
+
+
+
+##### 3. Metode aRTi (MRT) sebagai Mind Set
+
+
+
+MRT merupakan terjemahan dan lanjutan Titik Ba dalam konteks pengembangan "thinking skill" dan "natural intelligence". Proses perumusan berlangsung pada 2006-2014, terutama sewaktu menjadi bagian dari Institute for Education Reform (IER) Universitas Paramadina.
+
+
+
+Saat ini, secara bertahap dan langsung eksekusi melalui praktik kelas, MRT dijabarkan lagi ke konteks pembelajaran matematika bersama Tim Matematika Detik dari Sekolah Al Biruni.
+
+
+
+##### 4. Matematika Detik (MD) dan Matematika Titik (MT) sebagai Skill Set
+
+
+
+Perumusan MD dan MT terutama berpijak dari buku Thinking, Fast and Slow karya Daniel Kahneman. MD adalah tentang Fast Thinking, sedangkan MT tentang Slow Thinking.
+
+
+
+MD, yang direncanakan terdiri dari 4 level (A, B, C, D), dirumuskan TANPA merujuk urutan kurikulum. Matematika Detik (Second Mathematics) adalah matematika kedua, semacam suplemen.
+
+
+
+Sementara itu, MT adalah tentang pembelajaran berpikir melalui matematika, dengan urutan sesuai kurikulum.
+
+
+
+##### 5. Test of Second Mathematics (ToSM) sebagai Tool Set
+
+
+
+ToSM adalah bagian dari Matematika Detik (MD), yaitu MD Level A "Membaca Angka Secepat Membaca Kata". Saat ini tersedia dalam bentuk lembar kerja (berbasis kertas) maupun aplikasi digital.
