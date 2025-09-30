@@ -7,7 +7,7 @@ categories:
 ---
 ![Dari spiritual set (Titik Ba) hingga tool set (ToSM)](/images/uploads/whatsapp-image-2025-09-28-at-20.58.11.jpeg "Dari spiritual set (Titik Ba) hingga tool set (ToSM)")
 
-##### 1. Titik Ba sebagai Spiritual Set
+#### **1. Titik Ba sebagai Spiritual Set**
 
 
 
@@ -19,7 +19,7 @@ Terinspirasi gagasan yang berasal dari Sayyidina 'Ali bin Abi Thalib, terbit buk
 
 
 
-##### 2. Ayat-Ayat Cerita (AAC) sebagai Heart Set
+#### **2. Ayat-Ayat Cerita (AAC) sebagai Heart Set**
 
 
 
@@ -39,7 +39,7 @@ Selain pembentukan kebiasaan bagi setiap muslim yang sudah menguasai baca-tulis 
 
 
 
-##### 3. Metode aRTi (MRT) sebagai Mind Set
+#### **3. Metode aRTi (MRT) sebagai Mind Set**
 
 
 
@@ -51,7 +51,7 @@ Saat ini, secara bertahap dan langsung eksekusi melalui praktik kelas, MRT dijab
 
 
 
-##### 4. Matematika Detik (MD) dan Matematika Titik (MT) sebagai Skill Set
+#### **4. Matematika Detik (MD) dan Matematika Titik (MT) sebagai Skill Set**
 
 
 
@@ -67,7 +67,7 @@ Sementara itu, MT adalah tentang pembelajaran berpikir melalui matematika, denga
 
 
 
-##### 5. Test of Second Mathematics (ToSM) sebagai Tool Set
+#### **5. Test of Second Mathematics (ToSM) sebagai Tool Set**
 
 
 
