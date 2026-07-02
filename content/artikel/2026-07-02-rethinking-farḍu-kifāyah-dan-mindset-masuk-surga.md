@@ -13,6 +13,8 @@ Masalahnya ialah bagaimana tolok ukur *farḍu kifāyah* itu sendiri? Seringkali
 
 Dalam konteks Indonesia, pemerintah sudah menyadari akan ketertinggalan Indonesia di bidang SAINTEK yang seharusnya dirasakan juga oleh umat Islam yang notabene menjadi masyarakat mayoritas. 
 
+![](/images/uploads/gemini_generated_image_bcrcpbbcrcpbbcrc.png)
+
 Dilansir dari [CNN Indonesia](https://www.cnnindonesia.com/ekonomi/20260115151544-532-1317420/prabowo-perintahkan-80-persen-kuota-lpdp-buat-jurusan-saintek) berita pada Kamis, 15 Jan 2026 15:39 WIB bahwa Menteri Sekretaris Negara Prasetyo Hadi mengungkap Presiden RI Prabowo Subianto menginstruksikan 80 persen kuota beasiswa Lembaga Pengelola Dana Pendidikan (LPDP) dialokasikan untuk keilmuan saintek (*science*, *technology*, *engineering*, and *mathematic*/STEM). Pemerintah tengah fokus mengejar ketertinggalannya dalam bidang ilmu pengetahuan dan teknologi (IPTEK).
 
 Sampai di sini kiranya masalah dan solusinya semakin jelas, dari segi definisi *farḍu kifāyah* mesti diperjelas dan dipertegas dengan melihat konteks zaman now. Artinya, nggak harus satu daerah menguasai ilmu tersebut  adalah seorang saja, melainkan sejauh mana kebutuhan dan luas daerah yang dipertimbangkan. 
@@ -22,7 +24,5 @@ Kedua, mindset *wasīlah* yang tidak tebang pilih. Kaidah **للوسائل حك�
 Lebih-lebih lagi, kalau kita tarik mundur ke era keemasan Islam, kita bakal melihat dengan nyata bahwa para ulama dahulu itu *polymath* alias *mutafannin*, jago di berbagai rumpun keilmuan. Maka dari itu, meneladani mereka sebagai upaya kembali ke masa keemasan Islam kesemestian yang kudu diupayakan.
 
 Oleh karena itu, penting untuk melahirkan saintis dan ahli IT di setiap desa. Melahirkan saintis dan ahli IT tak kalah penting dari mencetak para ahli fikih, karena di zaman sekarang kita tahu sains dan teknologi (SAINTEK) itu menjadi kunci dalam peradaban maju suatu bangsa.
-
-
 
 *Wallāhu a'lam*.
