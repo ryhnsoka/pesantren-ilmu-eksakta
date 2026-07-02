@@ -13,7 +13,7 @@ Masalahnya ialah bagaimana tolok ukur *farḍu kifāyah* itu sendiri? Seringkali
 
 Dalam konteks Indonesia, pemerintah sudah menyadari akan ketertinggalan Indonesia di bidang SAINTEK yang seharusnya dirasakan juga oleh umat Islam yang notabene menjadi masyarakat mayoritas. 
 
-![](/images/uploads/gemini_generated_image_bcrcpbbcrcpbbcrc.png)
+![](/images/uploads/gemini_generated_image_bcrcpbbcrcpbbcrc-1-.png)
 
 Dilansir dari [CNN Indonesia](https://www.cnnindonesia.com/ekonomi/20260115151544-532-1317420/prabowo-perintahkan-80-persen-kuota-lpdp-buat-jurusan-saintek) berita pada Kamis, 15 Jan 2026 15:39 WIB bahwa Menteri Sekretaris Negara Prasetyo Hadi mengungkap Presiden RI Prabowo Subianto menginstruksikan 80 persen kuota beasiswa Lembaga Pengelola Dana Pendidikan (LPDP) dialokasikan untuk keilmuan saintek (*science*, *technology*, *engineering*, and *mathematic*/STEM). Pemerintah tengah fokus mengejar ketertinggalannya dalam bidang ilmu pengetahuan dan teknologi (IPTEK).
 
