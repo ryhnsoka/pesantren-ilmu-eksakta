@@ -20,6 +20,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="/images/logo_pie.jpg">
     <link rel="stylesheet" href="/css/custom.css">
+
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
@@ -118,7 +120,7 @@
         </main>
         <footer id="kontak" class="bg-white border-t border-gray-200 mt-12">
     <div class="container mx-auto px-6 py-8 text-center text-gray-600">                  
-        <p class="text-sm">&copy; 2025 Pesantren Ilmu Eksakta. All Rights Reserved.</p>
+        <p class="text-sm">&copy; 2026 Pesantren Ilmu Eksakta. All Rights Reserved.</p>
     </div>
 </footer>
 
@@ -139,5 +141,17 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
     <script src="/js/search.js"></script>
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
 </body>
 </html>

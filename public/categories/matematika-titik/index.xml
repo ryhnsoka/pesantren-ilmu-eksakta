@@ -1,26 +1,232 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Matematika Titik on </title>
-    <link>//localhost:1313/categories/matematika-titik/</link>
-    <description>Recent content in Matematika Titik on </description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 05 Aug 2025 20:49:00 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/matematika-titik/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>KAIDAH #1 MABADI AWWALIYAH</title>
-      <link>//localhost:1313/artikel/2025-08-05-kaidah-1-mabadi-awwaliyah/</link>
-      <pubDate>Tue, 05 Aug 2025 20:49:00 +0700</pubDate>
-      <guid>//localhost:1313/artikel/2025-08-05-kaidah-1-mabadi-awwaliyah/</guid>
-      <description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-08-05-at-14.11.09_764d840e.jpg&#34; alt=&#34;&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xA;    &#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;Semua anggota tim perumusan Matematika Titik membawa kitab Mabadi Awwaliyah. Bu Rahma, Bu Tika, Bu Ana dan Bu Ririn. Adapun Bu Asri saat ini hanya sebagai koordinator saja.&lt;/p&gt;&#xA;&lt;p&gt;Apa tujuan pembelajaran bangun datar kali ini, yaitu untuk kelas 2 SD? Mengapa saya mempertanyakan tujuan?&lt;/p&gt;&#xA;&lt;p&gt;Saya lalu minta mereka menulis, lalu menghapal kaidah pertama, yang tertulis pada halaman 30 kitab Mabadi Awwaliyah:&lt;/p&gt;&#xA;&lt;p&gt;الامور بمقاصدها&lt;/p&gt;&#xA;&lt;p&gt;Banyak jawaban disampaikan tentang tujuan materi kali ini. Tapi saya mengingatkan dua hal yaitu:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>KITAB MABADI AWWALIYAH, RUJUKAN PERUMUSAN MATEMATIKA TITIK </title>
-      <link>//localhost:1313/artikel/2025-08-01-kitab-mabadi-awwaliyah-rujukan-perumusan-matematika-titik/</link>
-      <pubDate>Fri, 01 Aug 2025 21:26:00 +0700</pubDate>
-      <guid>//localhost:1313/artikel/2025-08-01-kitab-mabadi-awwaliyah-rujukan-perumusan-matematika-titik/</guid>
-      <description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-08-01-at-21.17.17_28a09162.jpg&#34; alt=&#34;Keunggulan dunia pesantren adalah budaya verbal. Keunggulan dunia sekolah umum seharusnya adalah budaya visual. Mari bekerja sama!&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xA;    &#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Keunggulan dunia pesantren adalah budaya verbal. Keunggulan dunia sekolah umum seharusnya adalah budaya visual. Mari bekerja sama!&lt;/figcaption&gt;&#xA;    &#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Bukan يصبب الفرع tapi لم يصب الفرع.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;Saya mengoreksi bacaan anggota tim perumusan Matematika Titik. Entah, mungkin sudah ratusan kali menyampaikan kaidah berpikir tersebut, sehingga telinga ini sangat peka.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Matematika Titik on </title>
+		<link>//localhost:1313/categories/matematika-titik/</link>
+		<description>Recent content in Matematika Titik on </description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 13 Jul 2026 07:55:00 +0700</lastBuildDate>
+		
+			<atom:link href="//localhost:1313/categories/matematika-titik/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>7 (TUJUH) REVOLUSI &#34;ENCODING&#34; DALAM SEJARAH MATEMATIKA</title>
+				<link>//localhost:1313/artikel/2026-07-13-7-tujuh-revolusi-encoding-dalam-sejarah-matematika/</link>
+				<pubDate>Mon, 13 Jul 2026 07:55:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2026-07-13-7-tujuh-revolusi-encoding-dalam-sejarah-matematika/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2026-07-12-at-4.34.23-pm.jpeg&#34; alt=&#34;&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;Dalam sejarah matematika, revolusi terbesar sering kali bukan lahir dari penemuan rumus baru, melainkan dari keberhasilan mengubah konsep yang semula hanya diungkapkan dengan bahasa verbal menjadi representasi formal yang dapat dioperasikan. Proses inilah yang dapat disebut sebagai encoding. Setelah suatu konsep berhasil di-encode, ia tidak lagi sekadar dapat dibicarakan, tetapi juga dapat dihitung, dibuktikan, digeneralisasi, bahkan dijadikan objek kajian matematika.&lt;/p&gt;&#xA;&lt;p&gt;Revolusi pertama adalah ṣifr (0). Sebelum nol diperkenalkan, &amp;ldquo;ketiadaan&amp;rdquo; hanyalah sebuah gagasan dalam bahasa sehari-hari. Dengan encoding menjadi bilangan 0, ketiadaan berubah menjadi objek matematika yang dapat dijumlahkan, dikurangkan, menjadi identitas penjumlahan, dan menjadi fondasi sistem nilai tempat. Inilah salah satu revolusi terbesar dalam sejarah peradaban.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>MATEMATIKA TITIK: APA SAJA ?</title>
+				<link>//localhost:1313/artikel/2026-06-14-matematika-titik-apa-saja/</link>
+				<pubDate>Sun, 14 Jun 2026 10:40:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2026-06-14-matematika-titik-apa-saja/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2026-06-09-at-1.08.46-pm.jpeg&#34; alt=&#34;Integral lipat untuk mahasiswa Mechanical Engineering, University of Kentucky&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Integral lipat untuk mahasiswa Mechanical Engineering, University of Kentucky&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;Matematika Detik, khususnya Level A dan B, berkaitan dengan TKKB (Tambah, Kurang, Kali, Bagi) serta Pangkat dan Logaritma.&lt;/p&gt;&#xA;&lt;p&gt;Matematika Titik tentang apa? Sebelum Tambah (+) adalah menghitung satu demi satu (enumerasi). Itulah cakupan Matematika Titik.&lt;/p&gt;&#xA;&lt;p&gt;Hanya itu? Hanya itu!&lt;/p&gt;&#xA;&lt;p&gt;Bahkan termasuk ketika membahas multivariable calculus, yang di ITB sering disebut sebagai Kalkulus II dan III.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>MATEMATIKA TITIK: DARI TITIK BA, THINKING FAST AND SLOW, KE
+DETAIL-OPERASIONAL</title>
+				<link>//localhost:1313/artikel/2026-05-31-matematika-titik-dari-titik-ba-thinking-fast-and-slow-ke-detail-operasional/</link>
+				<pubDate>Sun, 31 May 2026 10:09:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2026-05-31-matematika-titik-dari-titik-ba-thinking-fast-and-slow-ke-detail-operasional/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2026-05-30-at-5.15.26-pm.jpeg&#34; alt=&#34;Matematika Titik tumbuh sebagai detail-operasional Titik Ba&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Matematika Titik tumbuh sebagai detail-operasional Titik Ba&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ada satu pertanyaan yang pernah membuat Georg Cantor, salah satu matematikawan terbesar abad ke-19, terdiam lama sebelum akhirnya menulis surat kepada sahabatnya Richard Dedekind pada 29 Juni 1877. Pertanyaan itu bukan soal teorema yang gagal. Justru sebaliknya: ia menemukan sesuatu yang berhasil — dan itu yang membuatnya tidak percaya.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>&#34;STRAIGHT A&#34; FROM UNIVERSITY OF KENTUCKY, USA </title>
+				<link>//localhost:1313/artikel/2026-05-19-straight-a-from-university-of-kentucky-usa/</link>
+				<pubDate>Tue, 19 May 2026 07:40:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2026-05-19-straight-a-from-university-of-kentucky-usa/</guid>
+				<description>&lt;p&gt;+&lt;/p&gt;&#xA;&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2026-05-16-at-7.25.48-pm.jpeg&#34; alt=&#34;Dialog tentang Matematika Detik dan Matematika Titik di WA Group Alumni Teknik Industri ITB Angkatan 99&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Dialog tentang Matematika Detik dan Matematika Titik di WA Group Alumni Teknik Industri ITB Angkatan 99&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;Kemarin ada kabar gembira dari sosok santri Pesantren Ilmu Eksakta (PI.E), yaitu mahasiswa Mechanical Engineering, University of Kentucky. Namanya Mas Qil. Semester musim semi ini GPA 4.0 alias &amp;ldquo;straight A&amp;rdquo;, dan GPA kumulatif 3.9. Guru mana yang tidak bangga?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>RUKUN IMAN KE-1 MATEMATIKA: KETIADAAN</title>
+				<link>//localhost:1313/artikel/2026-05-03-rukun-iman-ke-1-matematika-ketiadaan/</link>
+				<pubDate>Sun, 03 May 2026 09:24:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2026-05-03-rukun-iman-ke-1-matematika-ketiadaan/</guid>
+				<description>&lt;h2 id=&#34;pengantar-matematika-titik&#34;&gt;(PENGANTAR &amp;ldquo;MATEMATIKA TITIK&amp;rdquo;)&lt;/h2&gt;&#xA;&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2026-05-01-at-10.27.56-am.jpeg&#34; alt=&#34;&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;I. Sebuah Keimanan yang Susah Diterima&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ada sebuah aksioma dalam matematika yang, jika kita renungkan dengan jujur, terasa lebih misterius dari banyak pernyataan teologi. Ia tidak berbicara tentang bintang, tentang atom, atau tentang struktur ruang-waktu yang melengkung. Ia berbicara tentang sesuatu yang jauh lebih dekat sekaligus jauh lebih sulit ditangkap:Ketiadaan itu ada.&lt;/p&gt;&#xA;&lt;p&gt;Pernyataan ini bukan metafora. Ia bukan puisi. Ia adalah fondasi formal dari seluruh matematika modern — sebuah aksioma yang ditetapkan, dipilih, dan dari sana seluruh bangunan aritmetika, aljabar, kalkulus, dan komputasi dibangun. Tanpa keimanan pada keberadaan ketiadaan, matematika tidak bisa dimulai. Sama sekali.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>CERITA SEBELUM MATEMATIKA: KASUS EIGEN VECTOR</title>
+				<link>//localhost:1313/artikel/2026-03-25-cerita-sebelum-matematika-kasus-eigen-vector/</link>
+				<pubDate>Wed, 25 Mar 2026 16:43:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2026-03-25-cerita-sebelum-matematika-kasus-eigen-vector/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2026-03-25-at-10.59.41-am.jpeg&#34; alt=&#34;Eigen value konsistensi arah di tengah transformasi.&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Eigen value konsistensi arah di tengah transformasi.&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;Eigen Vector: Menemukan Input yang Tak Berubah Arah&lt;/p&gt;&#xA;&lt;p&gt;Dalam banyak sistem, perubahan adalah keniscayaan. Setiap masukan yang melewati suatu mekanisme akan mengalami modifikasi: arah bergeser, bentuk berubah, atau laju disesuaikan. Namun, di balik kerumitan itu, selalu ada fenomena unik—sebuah arah yang tidak dibelokkan. Inilah yang dalam matematika disebut eigen vector.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>MATRIKS DAN GENERALISASI DOT PRODUCT MENUJU MEKANIKA KUANTUM DAN TEORI RELATIVITAS</title>
+				<link>//localhost:1313/artikel/2026-03-25-matriks-dan-generalisasi-dot-product-menuju-mekanika-kuantum-dan-teori-relativitas-1/</link>
+				<pubDate>Wed, 25 Mar 2026 16:32:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2026-03-25-matriks-dan-generalisasi-dot-product-menuju-mekanika-kuantum-dan-teori-relativitas-1/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2026-03-24-at-1.05.20-pm.jpeg&#34; alt=&#34;Matematika Titik: &amp;ldquo;Dot Product&amp;rdquo;&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Matematika Titik: &amp;quot;Dot Product&amp;quot;&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;Segala sesuatu bermula dari gagasan yang tampak sederhana: cara mengukur “kedekatan” atau “keselarasan” dua arah. Di ruang biasa yang kita kenal, gagasan itu hadir sebagai dot product—alat untuk mengatakan apakah dua arah sejalan, tegak lurus, atau berlawanan. Dari sinilah panjang, sudut, dan proyeksi menjadi bermakna. Namun, kesederhanaan ini ternyata menyimpan potensi luar biasa: ia bisa digeneralisasi, diperluas, dan pada akhirnya menjadi fondasi bagi dua teori terbesar dalam fisika modern.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>AL-KHAWARIZMI DI NU ONLINE</title>
+				<link>//localhost:1313/artikel/2026-01-03-al-khawarizmi-di-nu-online/</link>
+				<pubDate>Sat, 03 Jan 2026 19:06:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2026-01-03-al-khawarizmi-di-nu-online/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-12-24-at-14.33.14.jpeg&#34; alt=&#34;NU Online menayangkan sosok al-Khawarizmi&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;NU Online menayangkan sosok al-Khawarizmi&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tepat satu tahun lalu, Rajab 1446, Januari 2025, diadakan bedah buku Titik Ba di Pondok Pesantren Bahrul Ulum, Jember. Sampai saat ini itu perjalanan terjauh, karena saya terbang dari Palembang. Segera setelah memenuhi undangan Ikatan Alumni ITB menginisiasi Gerakan Sumatera Selatan Berantas Gagap Hitung.&lt;/p&gt;&#xA;&lt;p&gt;Tujuan saya di Jember cuma satu: menyadarkan warga NU, bahwa saat ini kita sedang memasuki era algoritma. Tidak lain algoritma merupakan sebutan tidak fasih, karena orang Eropa tidak paham makhorijul huruf, dari nama sebenarnya &amp;ldquo;Abu Ja&amp;rsquo;far Muhammad bin Musa al-Khawarizmi&amp;rdquo;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>&#34;I SEE IT, BUT I DON&#39;T BELIEVE IT&#34;: LOMPATAN KOGNITIF DARI GEOMETRI
+EUCLID KE ALJABAR LINEAR</title>
+				<link>//localhost:1313/artikel/2025-12-23-i-see-it-but-i-dont-believe-it-lompatan-kognitif-dari-geometri-euclid-ke-aljabar-linear/</link>
+				<pubDate>Tue, 23 Dec 2025 13:55:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-12-23-i-see-it-but-i-dont-believe-it-lompatan-kognitif-dari-geometri-euclid-ke-aljabar-linear/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-12-22-at-18.52.25.jpeg&#34; alt=&#34;sangat menakutkan bagi sebagian besar siswa SMA, mengapa?&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;sangat menakutkan bagi sebagian besar siswa SMA, mengapa?&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;​&lt;/p&gt;&#xA;&lt;p&gt;Dunia geometri Euclid yang kita pelajari sejak sekolah dasar adalah dunia visual yang intuitif, di mana sebuah garis atau bangun ruang terikat erat pada lokasinya. Dalam kacamata ini, rusuk AB dan DC pada sebuah jajaran genjang dipandang sebagai dua entitas yang berbeda karena mereka menempati koordinat posisi yang berbeda di ruang. Kita bisa melihatnya secara fisik sebagai dua &amp;ldquo;benda&amp;rdquo; yang terpisah; jika kita menghapus satu, yang lain tetap ada. Inilah tahap &amp;ldquo;I See It&amp;rdquo;—kita mempercayai mata kita bahwa lokasi menentukan identitas sebuah objek geometri.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>FISIKA SMA MEMBONGKAR KESESATAN ATOMISME / ABSOLUTISME GERAK DALAM KITAB AQIDAH &#34;UMMUL BARAHIN&#34;</title>
+				<link>//localhost:1313/artikel/2025-12-23-fisika-sma-membongkar-kesesatan-atomisme-absolutisme-gerak-dalam-kitab-aqidah-ummul-barahin/</link>
+				<pubDate>Tue, 23 Dec 2025 13:53:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-12-23-fisika-sma-membongkar-kesesatan-atomisme-absolutisme-gerak-dalam-kitab-aqidah-ummul-barahin/</guid>
+				<description>&lt;p&gt;​&lt;/p&gt;&#xA;&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-12-21-at-08.51.08.jpeg&#34; alt=&#34;Cikal-bakal kesesatan konsep جوهر فرد yang kemudian dihancurkan oleh Isaac Newton dengan kalkulus.&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Cikal-bakal kesesatan konsep جوهر فرد yang kemudian dihancurkan oleh Isaac Newton dengan kalkulus.&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;Kitab Ummul Barahin karya Imam al-Sanusi telah lama menjadi fondasi akidah Asy&amp;rsquo;ariyah yang membentuk pola pikir umat Islam, bahkan sejak era penjelajahan samudra Columbus. Dalam salah satu premis logisnya, kitab ini menegaskan kemustahilan berkumpulnya dua hal yang berlawanan, yaitu &amp;ldquo;diam&amp;rdquo; dan &amp;ldquo;gerak&amp;rdquo; pada satu objek di waktu yang sama. Pandangan ini berakar pada atomisme (جوهر فرد), sebuah logika ruang-waktu diskret yang menganggap realitas tersusun dari kepingan-kepingan beku. Akibatnya, gerak dianggap sebagai deretan posisi statis yang terputus-putus. Pola pikir ini, meski dimaksudkan untuk menjaga kemutlakan kuasa Tuhan dalam setiap momen penciptaan, secara tidak sengaja memerangkap nalar umat dalam absolutisme gerak yang kaku, menjadikannya resisten terhadap perkembangan sains modern yang justru berdiri di atas kontinuitas dan relativitas.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>DARI FILOSOFIS HINGGA PRAKTIS </title>
+				<link>//localhost:1313/artikel/2025-12-02-dari-filosofis-hingga-praktis/</link>
+				<pubDate>Tue, 02 Dec 2025 14:21:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-12-02-dari-filosofis-hingga-praktis/</guid>
+				<description>&lt;p&gt;Itu pertanyaan dari alumni Teknik Informatika ITB, yang datang ke Pesantren Ilmu Eksakta (PI.E) dan menyatakan berminat turut mengembangkan Matematika Detik. Saya katakan kepada sang &amp;ldquo;manusia kalkulator&amp;rdquo; tersebut lebih baik ke Matematika Titik. Cakupannya lebih luas.&lt;/p&gt;&#xA;&lt;p&gt;Filosofi Matematika Titik adalah bahwa matematika adalah tentang penamaan titik. Nah, detail - operasional yang konsisten bagaimana dalam praktek kelas menit demi menit, dari kelas 1 SD dan seterusnya?&lt;/p&gt;&#xA;&lt;p&gt;Berbeda dengan sewaktu merumuskan Matematika Detik yang dibantu banyak sukarelawan, sekarang dalam perumusan Matematika Titik saya dibantu oleh tim profesional. Mereka juga semua praktisi, yaitu dari Sekolah Al Biruni, sehingga satu pertanyaan yang ada di pikiran mereka adalah bagaimana Matematika Titik benar-benar memudahkan mereka sekaligus mengokohkan nalar anak-anak melalui proses berpikir dengan matematika?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>GÖDEL MEMANDANG GOLDBACH: KEBENARAN DAN KETERBUKTIAN</title>
+				<link>//localhost:1313/artikel/2025-11-13-g%C3%B6del-memandang-goldbach-kebenaran-dan-keterbuktian/</link>
+				<pubDate>Thu, 13 Nov 2025 09:25:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-11-13-g%C3%B6del-memandang-goldbach-kebenaran-dan-keterbuktian/</guid>
+				<description>&lt;p&gt;​Di satu sudut, kita memiliki Konjektur Goldbach: sebuah pernyataan yang sangat sederhana dari tahun 1742 yang dapat dipahami oleh seorang siswa sekolah menengah, namun belum terpecahkan selama berabad-abad. Di sudut lain, kita memiliki Teorema Ketidaklengkapan Gödel: salah satu pencapaian intelektual terdalam abad ke-20, yang membuktikan bahwa ada batas fundamental pada apa yang dapat dibuktikan oleh matematika.&lt;/p&gt;&#xA;&lt;p&gt;​Ketika dua raksasa ini bertemu, mereka menciptakan pertanyaan filosofis yang menakjubkan: Bagaimana jika Konjektur Goldbach itu benar, tetapi kita tidak akan pernah bisa membuktikannya?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>SETELAH TITIK BA, MENGAPA BUKAN MATEMATIKA TITIK ?</title>
+				<link>//localhost:1313/artikel/2025-11-13-setelah-titik-ba-mengapa-bukan-matematika-titik/</link>
+				<pubDate>Thu, 13 Nov 2025 09:23:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-11-13-setelah-titik-ba-mengapa-bukan-matematika-titik/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-11-13-at-08.38.31.jpeg&#34; alt=&#34;Dari Thinking Fast muncul Matematika Detik, dari Thinking Slow muncul Matematika Titik.&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Dari Thinking Fast muncul Matematika Detik, dari Thinking Slow muncul Matematika Titik.&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;Dari Titik Ba ke Matematika Detik. Seperti ada loncatan atau keterputusan. Diskontinuitas.&lt;/p&gt;&#xA;&lt;p&gt;Mengapa?&lt;/p&gt;&#xA;&lt;p&gt;Dibimbing Mas Tom (almarhum Utomo Dananjaya) yang saat itu menjadi direktur Institute for Education Reform (IER) Universitas Paramadina, akhirnya terumuskan Metode aRTi, yang disingkat MRT. Intinya, berkaitan dengan reformasi pendidikan, pembelajaran seharusnya berfokus pada bagaimana berpikir (how to think) bukan sekadar apa yang dipikirkan (what to think). Sebagai contoh, tertulis di kata pengantar buku pegangan Kimia Universitas, &amp;ldquo;&amp;hellip;bukan memahami IPA, melainkan berpikir melalui IPA.&amp;rdquo;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>BUKAN DARI PLATO MAUPUN ARISTOTELES, MELAINKAN DARI FILSAFAT INDIA, AL-KHAWARIZMI MENGADOPSI &#34;KETIADAAN&#34;</title>
+				<link>//localhost:1313/artikel/2025-11-12-bukan-dari-plato-maupun-aristoteles-melainkan-dari-filsafat-india-al-khawarizmi-mengadopsi-ketiadaan/</link>
+				<pubDate>Wed, 12 Nov 2025 09:02:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-11-12-bukan-dari-plato-maupun-aristoteles-melainkan-dari-filsafat-india-al-khawarizmi-mengadopsi-ketiadaan/</guid>
+				<description>&lt;h4 id=&#34;jeda-sejarah-ketiadaan-yang-ditolak-barat&#34;&gt;Jeda Sejarah: Ketiadaan yang Ditolak Barat&lt;/h4&gt;&#xA;&lt;p&gt;​Selama berabad-abad, peradaban Barat yang dibangun di atas fondasi intelektual Yunani Kuno menghadapi masalah mendasar dalam matematika dan filsafat: bagaimana menerima ketiadaan atau kekosongan (the void).&lt;/p&gt;&#xA;&lt;p&gt;​Para filsuf paling berpengaruh di Barat kala itu, Plato dan Aristoteles, sepakat menolak gagasan kekosongan—meski dari sudut pandang yang berbeda. Idealisme Plato mengagungkan Bentuk-Bentuk yang substansial, membuat kekosongan metafisik menjadi tidak relevan. Sementara itu, fisika Aristoteles secara eksplisit melarang kekosongan fisik (horror vacui), menyatakan bahwa semua ruang harus diisi oleh zat. Karena angka dipandang sebagai atribut dari benda-benda yang ada, memberikan simbol pada &amp;ldquo;tidak ada apa-apa&amp;rdquo; dianggap sebagai pelanggaran filosofis yang serius. Konsekuensinya, Eropa Abad Pertengahan, yang berpegangan teguh pada kerangka Aristoteles, menolak angka nol selama berabad-abad.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>DAKWAH KEPADA MEREKA YANG TIDAK MENGIMANI EKSISTENSI HIMPUNAN KOSONG:
+MENGAPA DAN BAGAIMANA?</title>
+				<link>//localhost:1313/artikel/2025-11-12-dakwah-kepada-mereka-yang-tidak-mengimani-eksistensi-himpunan-kosong-mengapa-dan-bagaimana/</link>
+				<pubDate>Wed, 12 Nov 2025 09:00:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-11-12-dakwah-kepada-mereka-yang-tidak-mengimani-eksistensi-himpunan-kosong-mengapa-dan-bagaimana/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-11-11-at-21.03.21.jpeg&#34; alt=&#34;Rukun iman ke-1 dalam matematika&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Rukun iman ke-1 dalam matematika&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;1-himpunan-kosong-aksioma-mutlak-yang-mustahil-dibuktikan&#34;&gt;​1. Himpunan Kosong: Aksioma Mutlak yang Mustahil Dibuktikan&lt;/h4&gt;&#xA;&lt;p&gt;​Di mata filsuf realis empiris, Himpunan Kosong adalah entitas yang problematik karena ia tidak dapat diobservasi, ditimbang, atau diindra di dunia nyata. Namun, pemahaman yang lebih dalam tentang matematika mengungkapkan fakta yang lebih radikal: Himpunan Kosong tidak mungkin dibuktikan, baik secara empiris maupun secara logis.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>APAKAH KETIADAAN ITU ADA?</title>
+				<link>//localhost:1313/artikel/2025-11-08-apakah-ketiadaan-itu-ada/</link>
+				<pubDate>Sun, 09 Nov 2025 06:47:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-11-08-apakah-ketiadaan-itu-ada/</guid>
+				<description>&lt;p&gt;IMPLIKASI KETIADAAN AKSIOMA HIMPUNAN KOSONG&lt;/p&gt;&#xA;&lt;p&gt;Pertanyaan apakah &amp;ldquo;ketiadaan&amp;rdquo; (non-existence), yang direpresentasikan secara matematis sebagai himpunan kosong, memiliki keberadaan, merupakan persimpangan filosofis yang fundamental. Untuk memahaminya, kita harus meninjau dua aliran epistemologis utama: idealisme Plato dan empirisme Aristoteles.&lt;/p&gt;&#xA;&lt;p&gt;Secara esensial, eksistensi ketiadaan ini harus diterima secara aksiomatik, dan menolak aksioma tersebut akan menghancurkan fondasi pengetahuan modern.&lt;/p&gt;&#xA;&lt;p&gt;I. ALIRAN EPISTEMOLOGIS: KETIADAAN DI MATA PLATO DAN ARISTOTELES&lt;/p&gt;&#xA;&lt;p&gt;Plato dan Aristoteles memberikan arah yang berbeda mengenai asal-usul pengetahuan, yang memengaruhi pandangan mereka terhadap entitas abstrak seperti ketiadaan.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>MATEMATIKA &#34;DETIK&#34; BERTEMU MATEMATIKA &#34;TITIK</title>
+				<link>//localhost:1313/artikel/2025-11-05-matematika-detik-bertemu-matematika-titik/</link>
+				<pubDate>Wed, 05 Nov 2025 16:23:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-11-05-matematika-detik-bertemu-matematika-titik/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-11-05-at-13.04.24.jpeg&#34; alt=&#34;Catatan Dewi Insantika, salah satu anggota Tim Perumus Matematika Titik dari Sekolah Al Biruni.&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Catatan Dewi Insantika, salah satu anggota Tim Perumus Matematika Titik dari Sekolah Al Biruni.&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;و-النظري-ما-احتاج-للتامل&#34;&gt;و النظري ما احتاج للتامل&lt;/h3&gt;&#xA;&lt;h3 id=&#34;وعكسه-هو-الضروري-الجلى&#34;&gt;وعكسه هو الضروري الجلى&lt;/h3&gt;&#xA;&lt;p&gt;Itu penggalan dari kitab manthiq berjudul Sullamul Munawraq. Itu melengkapi buku Thinking Fast and Slow karya Daniel Kahneman, yang merupakan rujukan utama Matematika Detik. Pengetahuan ضروري adalah tentang berpikir cepat, sedang نظري tentang berpikir lambat.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>PERUMUSAN &#34;IMAN BERLANJUT ISTIQOMAH&#34; DALAM FILSAFAT MATEMATIKA DAN SAINS </title>
+				<link>//localhost:1313/artikel/2025-11-03-perumusan-iman-berlanjut-istiqomah-dalam-filsafat-matematika-dan-sains/</link>
+				<pubDate>Mon, 03 Nov 2025 22:52:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-11-03-perumusan-iman-berlanjut-istiqomah-dalam-filsafat-matematika-dan-sains/</guid>
+				<description>&lt;p&gt;PERUMUSAN &amp;ldquo;IMAN BERLANJUT ISTIQOMAH&amp;rdquo; DALAM FILSAFAT MATEMATIKA DAN SAINS&lt;/p&gt;&#xA;&lt;p&gt;​Pola pikir &amp;ldquo;Iman Berlanjut Istiqamah&amp;rdquo;—yaitu penetapan fondasi yang diterima (Aksioma/Iman) diikuti dengan pencarian konsistensi logis (Istiqamah)—adalah tulang punggung metodologi yang menggerakkan matematika dan sains modern. Meskipun istilah tersebut berakar pada ajaran Islam, esensi metodologisnya telah dirumuskan secara eksplisit oleh para filsuf dan ilmuwan, terutama saat menghadapi krisis fondasi intelektual.&lt;/p&gt;&#xA;&lt;p&gt;​1. Definisi Metodologis: Aksiomatisasi Berlanjut Konsistensi&lt;/p&gt;&#xA;&lt;p&gt;​Dalam konteks sains dan matematika, &amp;ldquo;Iman Berlanjut Istiqamah&amp;rdquo; memiliki arti metodologis yang ketat:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>RANGKAIAN SEJARAH &#34;IMAN BERLANJUT ISTIQOMAH&#34;: PLATO - ARISTOTELES,
+BERLANJUT EUCLID, BERLANJUT NEWTON - EINSTEIN </title>
+				<link>//localhost:1313/artikel/2025-11-03-rangkaian-sejarah-iman-berlanjut-istiqomah-plato-aristoteles-berlanjut-euclid-berlanjut-newton-einstein/</link>
+				<pubDate>Mon, 03 Nov 2025 22:50:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-11-03-rangkaian-sejarah-iman-berlanjut-istiqomah-plato-aristoteles-berlanjut-euclid-berlanjut-newton-einstein/</guid>
+				<description>&lt;p&gt;Pola pikir &amp;ldquo;Iman Berlanjut Istiqamah&amp;rdquo;—yaitu menetapkan fondasi dasar yang diterima (Aksioma/Iman) kemudian menarik konsekuensi logis secara konsisten (Istiqamah)—bukanlah penemuan tunggal, melainkan sebuah warisan metodologis yang mengalir dalam sejarah pemikiran Barat, dari filsafat Yunani hingga fisika modern. Pola ini menunjukkan bahwa kemajuan intelektual yang sehat selalu dimulai dengan penetapan prinsip dan fokus pada konsistensi, sebuah antitesis terhadap Aqidah Korslet yang melumpuhkan.&lt;/p&gt;&#xA;&lt;p&gt;​1. Fondasi Filsafat (Plato &amp;amp; Aristoteles): Mencari Prinsip Pertama&lt;/p&gt;&#xA;&lt;p&gt;​Kesadaran akan perlunya Iman Berlanjut Istiqamah berakar kuat pada pemikiran filsafat Yunani klasik yang berupaya mencari kebenaran yang tidak berubah:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>MUNGKINKAH MUNCUL PERADABAN MODERN SEANDAINYA TANPA AKSIOMATISASI DALAM MATEMATIKA DAN SAINS?</title>
+				<link>//localhost:1313/artikel/2025-10-27-mungkinkah-muncul-peradaban-modern-seandainya-tanpa-aksiomatisasi-dalam-matematika-dan-sains/</link>
+				<pubDate>Mon, 27 Oct 2025 20:41:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-10-27-mungkinkah-muncul-peradaban-modern-seandainya-tanpa-aksiomatisasi-dalam-matematika-dan-sains/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;h2 id=&#34;lets-newton-be-and-all-was-light&#34;&gt;​&amp;quot;Let&amp;rsquo;s Newton be! And all was light.&amp;quot;&lt;/h2&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;​Kutipan terkenal Alexander Pope ini merayakan kejeniusan Isaac Newton yang menyinari pemahaman manusia tentang alam semesta. Namun, cahaya yang dibawa Newton, dan kemudian diperluas oleh Einstein, bukanlah sihir—melainkan hasil dari penerapan metodologi kuno yang paling fundamental: Aksiomatisasi. Pertanyaannya, mungkinkah peradaban modern—dengan segala teknologinya, dari GPS hingga AI—berdiri jika tidak ada tradisi aksiomatisasi yang diturunkan dari Euclid? Jawabannya adalah Tidak.&lt;/p&gt;&#xA;&lt;p&gt;​Aksiomatisasi adalah proses penetapan fondasi yang mutlak, yang menjadi prasyarat logis dan struktural bagi sistem pengetahuan yang kompleks. Tanpa proses ini, sains dan matematika akan terjebak dalam siklus infinite regress dan ambiguitas, yang mustahil menghasilkan konsistensi operasional yang diperlukan oleh peradaban modern.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>MANTHIQ: HUJJATUL ISLAM VERSUS SYAIKHUL ISLAM  Menelusuri Dua Kutub
+Epistemologis dan Menyikapi Warisan Abad Pertengahan</title>
+				<link>//localhost:1313/artikel/2025-09-21-manthiq-hujjatul-islam-versus-syaikhul-islam-menelusuri-dua-kutub-epistemologis-dan-menyikapi-warisan-abad-pertengahan/</link>
+				<pubDate>Sun, 21 Sep 2025 13:14:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-09-21-manthiq-hujjatul-islam-versus-syaikhul-islam-menelusuri-dua-kutub-epistemologis-dan-menyikapi-warisan-abad-pertengahan/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-09-14-at-10.59.14_87301903.jpg&#34; alt=&#34;Kutipan dari kitab manthiq &amp;ldquo;Sullamul Munawraq&amp;rdquo;&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Kutipan dari kitab manthiq &amp;quot;Sullamul Munawraq&amp;quot;&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;Perdebatan tentang manṭiq (logika formal) dalam khazanah pemikiran Islam bukanlah sekadar silang pendapat metodologis, melainkan cerminan dari orientasi epistemologis yang mendalam. Dua tokoh besar yang menempati posisi kutub dalam perdebatan ini adalah Imam al-Ghazālī, Hujjatul Islam, dan Ibnu Taimiyah, Syaikhul Islam. Keduanya bukan hanya ulama besar, tetapi juga pembentuk paradigma yang memengaruhi lanskap keilmuan Islam selama berabad-abad.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>DASAR (FONDASI) ATAUKAH TURUNAN (KONSEKUENSI)?</title>
+				<link>//localhost:1313/artikel/2025-09-21-dasar-fondasi-ataukah-turunan-konsekuensi/</link>
+				<pubDate>Sun, 21 Sep 2025 13:02:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-09-21-dasar-fondasi-ataukah-turunan-konsekuensi/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-09-13-at-05.30.10_bf741bfb.jpg&#34; alt=&#34;Bimbel online &amp;ldquo;Termodinamika Teknik&amp;rdquo; untuk  mahasiswa Teknik Fisika ITS&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Bimbel online &amp;quot;Termodinamika Teknik&amp;quot; untuk  mahasiswa Teknik Fisika ITS&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hukum III Termodinamika sukses dibuktikan benar, sehingga ia turun tahta dari hukum dasar menjadi sekadar hukum turunan. Pada situasi sebaliknya, postulat ke-5 Euclid gagal dibuktikan benar dari postulat lain, sehingga ia bertahan sebagai pengetahuan dasar. Benarkah? Jelaskan.&lt;/p&gt;&#xA;&lt;p&gt;Ya, benar. Perbandingan ini sangat tepat dan mencerminkan perbedaan mendasar antara pengetahuan turunan dan pengetahuan dasar dalam kerangka deduktif filsafat sains dan matematika.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>APA JADINYA JIKA FONDISI FISIKA DIKACAUKAN ATAS NAMA AQIDAH?</title>
+				<link>//localhost:1313/artikel/2025-09-10-apa-jadinya-jika-fondisi-fisika-dikacaukan-atas-nama-aqidah/</link>
+				<pubDate>Wed, 10 Sep 2025 20:17:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-09-10-apa-jadinya-jika-fondisi-fisika-dikacaukan-atas-nama-aqidah/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-09-09-at-15.30.46_cf3550a7.jpg&#34; alt=&#34;Hati-hati, ajaran anti logika dan anti sains dalam Ummul Barahin&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Hati-hati, ajaran anti logika dan anti sains dalam Ummul Barahin&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-09-09-at-15.30.46_d06efbbb.jpg&#34; alt=&#34;Posisi selalu bersifat relatif terhadap acuan, begitu juga gerak.&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Posisi selalu bersifat relatif terhadap acuan, begitu juga gerak.&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;Apa yang teman-teman ikuti: kitab aqidah Ummul Barāhin, ataukah fisika yang merupakan pemimpin sains?&lt;/p&gt;&#xA;&lt;p&gt;Hari itu, tim Matematika Titik Sekolah Al Biruni sedang mendiskusikan tentang posisi, yaitu bagian dari materi matematika kelas 2 SD. Meski tampak sederhana, posisi adalah tema terpenting dalam fisika, karena darinya lahir pemahaman tentang diam dan gerak. Dan ketika bahasan ini muncul di ruang kelas, ia tidak hanya menjadi soal pedagogi, tapi juga medan pertempuran epistemik—karena harus berhadapan langsung dengan penyebaran kesesatan oleh para agamawan yang mengklaim aqidah sebagai fondasi nalar, padahal justru merusaknya.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>MITOS DARI SMA NEGERI 1 TEGAL </title>
+				<link>//localhost:1313/artikel/2025-09-09-mitos-dari-sma-negeri-1-tegal/</link>
+				<pubDate>Tue, 09 Sep 2025 09:57:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-09-09-mitos-dari-sma-negeri-1-tegal/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-09-09-at-08.45.17_53a25f95.jpg&#34; alt=&#34; Tugas kuliah Prodi Sejarah UGM tentang biografi Ahmad Thoha Faz&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Tugas kuliah Prodi Sejarah UGM tentang biografi Ahmad Thoha Faz&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Biarkan saja.&amp;rdquo; Terdengar suara Ibu Edhy Widiastuti menegur teman sebangku, Krisnanto. Sepertinya dia sedang mengisi lembar jawab milik atas namaku.&lt;/p&gt;&#xA;&lt;p&gt;Kelas 3 IPA 2. Ulangan fisika, tapi aku telanjur tertidur. Kepala telanjur lunglai menempel meja, malas  aku mengubah posisi. Juga takut.&lt;/p&gt;&#xA;&lt;p&gt;Beruntung, selain guru olahraga, hanya Ibu Edhy yang terus mengajar aku sejak kelas satu. Jadi sudah kenal lama. Jadi aku dibiarkan saja. Toh aku hampir selalu meraih nilai tertinggi.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>PENGUJIAN (TEST) ADALAH PENERAPAN KONSISTEN, BUKAN PEMBUKTIAN (PROOF)</title>
+				<link>//localhost:1313/artikel/2025-08-30-pengujian-test-adalah-penerapan-konsisten-bukan-pembuktian-proof/</link>
+				<pubDate>Sat, 30 Aug 2025 12:43:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-08-30-pengujian-test-adalah-penerapan-konsisten-bukan-pembuktian-proof/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-08-29-at-14.13.28_41058b62.jpg&#34; alt=&#34;Pengujian versus Pembuktian&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Pengujian versus Pembuktian&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;-أحسب-ٱلناس-أن-يتركوا-أن-يقولوا-ءامنا-وهم-لا-يفتنون&#34;&gt;&amp;gt; أَحَسِبَ ٱلنَّاسُ أَن يُتْرَكُوٓا۟ أَن يَقُولُوٓا۟ ءَامَنَّا وَهُمْ لَا يُفْتَنُونَ&lt;/h2&gt;&#xA;&lt;p&gt;QS. Al-‘Ankabūt: 2&lt;/p&gt;&#xA;&lt;p&gt;Ayat ini bukan ekspresi keraguan, melainkan penegasan epistemik: keimanan tidak dibuktikan, tetapi diuji. Dalam logika formal, ini adalah distingsi antara aksioma dan konsekuensi operasional. Keimanan adalah titik tolak yang tidak tunduk pada pembuktian, melainkan untuk diterapkan secara konsisten dalam situasi nyata.&lt;/p&gt;&#xA;&lt;p&gt;Untuk memperjelas distingsi ini, mari kita ambil contoh bilangan 2025 dan keterbagiannya dengan 9.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>LOGIKA DAN MATEMATIKA, FITRAH MANUSIA YANG TERABAIKAN DI PESANTREN (?)</title>
+				<link>//localhost:1313/artikel/2025-08-25-logika-dan-matematika-fitrah-manusia-yang-terabaikan-di-pesantren/</link>
+				<pubDate>Mon, 25 Aug 2025 07:52:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-08-25-logika-dan-matematika-fitrah-manusia-yang-terabaikan-di-pesantren/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-08-24-at-12.25.13_e515104d.jpg&#34; alt=&#34;Ahmad Thoha Faz, menyampaikan sekelumit filosofi Matematika Titik, didampingi Rois Syuriah dan Ketua Tanfidziyah PCNU Kota Tegal.&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Ahmad Thoha Faz, menyampaikan sekelumit filosofi Matematika Titik, didampingi Rois Syuriah dan Ketua Tanfidziyah PCNU Kota Tegal.&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Alhamdulillah si sulung sekarang diterima di Kedokteran UNILA Lampung,&amp;rdquo; kata Edy asal Brebes, seorang yang usianya tepat sama, hanya beberapa jam lebih tua dibanding dengan usia saya.&lt;/p&gt;&#xA;&lt;p&gt;Dulu putrinya, si sulung, intens belajar matematika di Pesantren Ilmu Eksakta (PI.E) sewaktu mengisi liburan. Sehari-hari dia belajar di sebuah pesantren terkemuka di Klaten, Jawa Tengah.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>BERKAT PAK SBY, AKHIRNYA JADI &#34;PNS&#34; LAGI </title>
+				<link>//localhost:1313/artikel/2025-08-22-berkat-pak-sby-akhirnya-jadi-pns-lagi/</link>
+				<pubDate>Fri, 22 Aug 2025 19:54:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-08-22-berkat-pak-sby-akhirnya-jadi-pns-lagi/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-08-22-at-19.13.16_7a7dce9e.jpg&#34; alt=&#34;&amp;ldquo;Pak SBY&amp;rdquo; dan Ahmad Thoha Faz di Pesantren Ilmu Eksakta (PI.E)&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;&amp;quot;Pak SBY&amp;quot; dan Ahmad Thoha Faz di Pesantren Ilmu Eksakta (PI.E)&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Insya Allah nanti setiap bulan akan kami transfer, setiap tanggal 26.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;Pesan WhatsApp tertanggal 28 Mei 2025 dari Sekolah Al Biruni itu terdengar merdu. Tidak terduga akhirnya seperti PNS lagi.&lt;/p&gt;&#xA;&lt;p&gt;Maksud saya &amp;ldquo;seperti PNS&amp;rdquo; adalah rutinitas di luar rumah bersama tim profesional. Saya tidak harus datang ke kantor setiap hari, tapi hanya 2 sampai 3 jam setiap Selasa pagi. Jarak kantor pun sangat dekat, hanya sekitar 3 menit jalan kaki.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>&#34;AQIDAH&#34; VERSUS FONDASI FISIKA </title>
+				<link>//localhost:1313/artikel/2025-08-19-aqidah-versus-fondasi-fisika/</link>
+				<pubDate>Tue, 19 Aug 2025 15:52:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-08-19-aqidah-versus-fondasi-fisika/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-08-19-at-13.03.09_e3b63fbb.jpg&#34; alt=&#34;&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;Pelatihan rutin #MatematikaTitik kali ini membahas materi kelas 2 SD tentang posisi, bersama Tim Perumusan Matematika Titik Sekolah Al Biruni. Posisi yang dimaksud adalah  kiri - kanan, atas - bawah dan depan - belakang.&lt;/p&gt;&#xA;&lt;p&gt;Posisi! Ini kesempatan bagus untuk meluruskan bagian sesat dalam kitab Ummul Barahin tentang kemustahilan benda mengalami diam sekaligus gerak. Kesesatan sebenarnya hal biasa, tapi menjadi susah diberangus karena ada stempel aqidah sebagai bungkus.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>KAIDAH #1 MABADI AWWALIYAH</title>
+				<link>//localhost:1313/artikel/2025-08-05-kaidah-1-mabadi-awwaliyah/</link>
+				<pubDate>Tue, 05 Aug 2025 20:49:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-08-05-kaidah-1-mabadi-awwaliyah/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-08-05-at-14.11.09_764d840e.jpg&#34; alt=&#34;&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;Semua anggota tim perumusan Matematika Titik membawa kitab Mabadi Awwaliyah. Bu Rahma, Bu Tika, Bu Ana dan Bu Ririn. Adapun Bu Asri saat ini hanya sebagai koordinator saja.&lt;/p&gt;&#xA;&lt;p&gt;Apa tujuan pembelajaran bangun datar kali ini, yaitu untuk kelas 2 SD? Mengapa saya mempertanyakan tujuan?&lt;/p&gt;&#xA;&lt;p&gt;Saya lalu minta mereka menulis, lalu menghapal kaidah pertama, yang tertulis pada halaman 30 kitab Mabadi Awwaliyah:&lt;/p&gt;&#xA;&lt;p&gt;الامور بمقاصدها&lt;/p&gt;&#xA;&lt;p&gt;Banyak jawaban disampaikan tentang tujuan materi kali ini. Tapi saya mengingatkan dua hal yaitu:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>KITAB MABADI AWWALIYAH, RUJUKAN PERUMUSAN MATEMATIKA TITIK </title>
+				<link>//localhost:1313/artikel/2025-08-01-kitab-mabadi-awwaliyah-rujukan-perumusan-matematika-titik/</link>
+				<pubDate>Fri, 01 Aug 2025 21:26:00 +0700</pubDate>
+				<guid>//localhost:1313/artikel/2025-08-01-kitab-mabadi-awwaliyah-rujukan-perumusan-matematika-titik/</guid>
+				<description>&lt;p&gt;&lt;figure class=&#34;my-6&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;//localhost:1313/images/uploads/whatsapp-image-2025-08-01-at-21.17.17_28a09162.jpg&#34; alt=&#34;Keunggulan dunia pesantren adalah budaya verbal. Keunggulan dunia sekolah umum seharusnya adalah budaya visual. Mari bekerja sama!&#34; class=&#34;rounded-lg shadow-lg mx-auto max-w-full h-auto&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;figcaption class=&#34;text-center italic text-sm mt-2 text-gray-600&#34;&gt;Keunggulan dunia pesantren adalah budaya verbal. Keunggulan dunia sekolah umum seharusnya adalah budaya visual. Mari bekerja sama!&lt;/figcaption&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Bukan يصبب الفرع tapi لم يصب الفرع.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;Saya mengoreksi bacaan anggota tim perumusan Matematika Titik. Entah, mungkin sudah ratusan kali menyampaikan kaidah berpikir tersebut, sehingga telinga ini sangat peka.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

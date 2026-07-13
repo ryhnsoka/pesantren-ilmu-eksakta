@@ -3,15 +3,15 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KAIDAH #1 MABADI AWWALIYAH | </title><meta name="description" content=" Semua anggota tim perumusan Matematika Titik membawa kitab Mabadi Awwaliyah. Bu Rahma, Bu Tika, Bu Ana dan Bu Ririn. Adapun Bu Asri saat ini hanya …">
+    <title>KAIDAH #1 MABADI AWWALIYAH | </title><meta name="description" content="Semua anggota tim perumusan Matematika Titik membawa kitab Mabadi Awwaliyah. Bu Rahma, Bu Tika, Bu Ana dan Bu Ririn. Adapun Bu Asri saat ini hanya …">
     <meta property="og:title" content="KAIDAH #1 MABADI AWWALIYAH">
-    <meta property="og:description" content=" Semua anggota tim perumusan Matematika Titik membawa kitab Mabadi Awwaliyah. Bu Rahma, Bu Tika, Bu Ana dan Bu Ririn. Adapun Bu Asri saat ini hanya …">
+    <meta property="og:description" content="Semua anggota tim perumusan Matematika Titik membawa kitab Mabadi Awwaliyah. Bu Rahma, Bu Tika, Bu Ana dan Bu Ririn. Adapun Bu Asri saat ini hanya …">
     <meta property="og:type" content="article">
     <meta property="og:url" content="//localhost:1313/artikel/2025-08-05-kaidah-1-mabadi-awwaliyah/">
     <meta property="og:image" content="//localhost:1313/images/uploads/whatsapp-image-2025-08-05-at-14.11.09_764d840e.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="KAIDAH #1 MABADI AWWALIYAH">
-    <meta name="twitter:description" content=" Semua anggota tim perumusan Matematika Titik membawa kitab Mabadi Awwaliyah. Bu Rahma, Bu Tika, Bu Ana dan Bu Ririn. Adapun Bu Asri saat ini hanya …">
+    <meta name="twitter:description" content="Semua anggota tim perumusan Matematika Titik membawa kitab Mabadi Awwaliyah. Bu Rahma, Bu Tika, Bu Ana dan Bu Ririn. Adapun Bu Asri saat ini hanya …">
     <meta name="twitter:image" content="//localhost:1313/images/uploads/whatsapp-image-2025-08-05-at-14.11.09_764d840e.jpg">
     <script src="https://cdn.tailwindcss.com"></script>
     
@@ -20,6 +20,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="/images/logo_pie.jpg">
     <link rel="stylesheet" href="/css/custom.css">
+
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
@@ -133,7 +135,7 @@
         </main>
         <footer id="kontak" class="bg-white border-t border-gray-200 mt-12">
     <div class="container mx-auto px-6 py-8 text-center text-gray-600">                  
-        <p class="text-sm">&copy; 2025 Pesantren Ilmu Eksakta. All Rights Reserved.</p>
+        <p class="text-sm">&copy; 2026 Pesantren Ilmu Eksakta. All Rights Reserved.</p>
     </div>
 </footer>
 
@@ -154,5 +156,17 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
     <script src="/js/search.js"></script>
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
 </body>
 </html>
