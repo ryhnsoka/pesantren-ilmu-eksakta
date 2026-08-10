@@ -11,7 +11,7 @@ Pasti Anda sudah tidak asing dengan kata “integritas”. Kata tersebut sering 
 
 Integritas didefinisikan dengan seberapa tinggi kesesuaian antara pikiran, ucapan, dan tindakan seseorang. Seseorang yang berintegritas tinggi berarti memiliki kesesuaian yang tinggi antara ketiga elemen itu dalam kehidupannya. Atau istilah lainnya orang yang xmenjalankan ucapannya (*walk the talk*), bukan yang hanya membicarakan ucapannya (*not only talk the talk*) —  terdengar familiar? (intermezo)
 
-![Meme Plesetan "we walk the talk not only talk the talk"](/images/uploads/analisis_biaya_transportasi.png "Meme Plesetan \"we walk the talk not only talk the talk\"G")
+![Meme Plesetan "we walk the talk not only talk the talk"](/images/uploads/new-project-2025-05-08t172524942-3222055002.png "Meme Plesetan \"we walk the talk not only talk the talk\"")
 
 Jika kita mau merenungi kembali, untuk menjadi pribadi yang berintegritas tidak bisa hanyamengandalkan situasi-situasi yang terjadi secara terpisah. Kita tidak bisa menilai integritasseseorang secara utuh hanya dengan mengamati satu atau dua perilaku yang pernahdilakukannya, karena dalam kehidupan sehari-hari yang tenang kita cenderung hanyamengikuti norma-norma atau aturan-aturan yang sudah berlaku di masyarakat. Jujur adalahsebuah kebaikan karena dengan menjadi pribadi yang jujur kita bisa diterima di masyarakat.Namun, dalam kondisi lingkungan yang mengesampingkan nilai-nilai kejujuran, bisakah kitatetap menjadi orang yang jujur? Apakah menjadi pribadi yang jujur benar-benar karakter kita,apa pun keadaannya?
 
