@@ -5,7 +5,7 @@ date: 2026-08-10T13:23:00.000+07:00
 categories:
   - Ayat-Ayat Cerita
 ---
-![Ilustrasi Kata Integritas dalam Bahasa Inggris](/images/uploads/integritas-adalah-ekrut.jpg "Ilustrasi Kata Integritas dalam Bahasa Inggris")
+![Ilustrasi Kata Integritas dalam Bahasa Inggris](https://www.google.com/imgres?q=Integritas&imgurl=https%3A%2F%2Fstorage.googleapis.com%2Fekrutassets%2Fblogs%2Fimages%2F000%2F001%2F472%2Foriginal%2Fintegritas-adalah-EKRUT.jpg&imgrefurl=https%3A%2F%2Fwww.ekrut.com%2Fmedia%2Fpentingnya-integritas-bagi-perusahaan-dan-cara-penerapannya&docid=7BzHXuElmRpSfM&tbnid=8dSNDzRgQLcJDM&vet=12ahUKEwj4m_SkvZWWAxU3zTgGHWoxNzUQnPAOegUIhAIQAA..i&w=800&h=500&hcb=2&ved=2ahUKEwj4m_SkvZWWAxU3zTgGHWoxNzUQnPAOegUIhAIQAA "Ilustrasi Kata Integritas dalam Bahasa Inggris")
 
 Pasti Anda sudah tidak asing dengan kata “integritas”. Kata tersebut sering didengungkandalam jargon-jargon kampanye atau dalam dunia profesional, bahwa kita diharapkanmemiliki integritas yang tinggi. Namun, apa itu integritas? Mengapa itu begitu penting? Danbagaimana psikologi manusia bekerja dalam mewujudkan pribadi yang berintegritas, sertabagaimana cerita dalam Al-Qur'an memberi sebuah model pribadi yang berintegritas tinggi?
 
