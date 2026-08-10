@@ -61,7 +61,7 @@ Demikian pula pada Nabi Nuh yang tidak mungkin menjadi orang yang mengusir orang
 
 "Siapakah yang akan menolongku dari (azab) Allah jika aku mengusir mereka?" (QS. Hūd: 30)
 
-Tingkatan Integritas Berdasarkan Fokus
+Kedua tokoh ini memiliki prinsip yang kuat terhadap Tuhannya sehingga segala tindak-tanduk mereka akan mencoba selaras dengan kehendak-Nya. Berbeda dari ketakutan karena hukuman, takut mereka merupakan sebuah kesadaran akan tanggung jawab dihadapan-Nya.
 
 ![Model Integritas](/images/uploads/screenshot-2026-08-10-133820.png "Model Integritas")
 
