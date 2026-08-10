@@ -1,5 +1,5 @@
 ---
-title: "Model Integritas dalam Cerita Habil dan Nuh "
+title: "Model Integritas dalam Cerita Habil dan Nabi Nuh "
 author: Royhan
 date: 2026-08-10T13:23:00.000+07:00
 categories:
