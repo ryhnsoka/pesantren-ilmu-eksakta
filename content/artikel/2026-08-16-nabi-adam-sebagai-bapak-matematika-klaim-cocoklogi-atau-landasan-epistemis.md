@@ -31,7 +31,7 @@ Jadi, siapakah bapak matematika—sosok yang mendahului aljabar maupun geometri?
 
 Untuk menjawabnya, kita perlu membongkar hakikat matematika terlebih dahulu: bagaimana cara kerjanya, serta apa objek material dan formalnya.
 
-Dasar dari seluruh cabang matematika modern adalah teori himpunan. Aljabar, analisis, topologi, bahkan logika formal itu sendiri dapat direduksi ke dalam bahasa himpunan. Berdasarkan konstruksi John von Neumann pada awal abad ke-20, dasar dari seluruh teori himpunan adalah himpunan kosong ($\emptyset$). Bilangan nol didefinisikan sebagai himpunan tanpa anggota, satu sebagai himpunan berisi himpunan kosong, dan seterusnya, sehingga seluruh semesta bilangan tersusun murni dari kekosongan yang berstruktur.
+Dasar dari seluruh cabang matematika modern adalah teori himpunan. Aljabar, analisis, topologi, bahkan logika formal itu sendiri dapat direduksi ke dalam bahasa himpunan. Berdasarkan konstruksi John von Neumann pada awal abad ke-20, dasar dari seluruh teori himpunan adalah himpunan kosong (∅). Bilangan nol didefinisikan sebagai himpunan tanpa anggota, satu sebagai himpunan berisi himpunan kosong, dan seterusnya, sehingga seluruh semesta bilangan tersusun murni dari kekosongan yang berstruktur.
 
 Namun, jika ditelusuri lebih jauh lagi, apa sebenarnya "himpunan kosong" itu? Ia adalah buah dari aktivitas kognitif paling primitif yang bisa dilakukan pikiran: *encoding*—yaitu penamaan, penyebutan, dan pemberian tanda simbolik pada sesuatu (termasuk pada ketiadaan itu sendiri, yang diberi nama "kosong"). Penyebutan dan pembilangan, pada akarnya, adalah keseluruhan esensi matematika. Setiap simbol, operasi, dan teorema merupakan lapisan-lapisan *encoding* di atas *encoding* yang lebih mendasar.
 
