@@ -5,6 +5,8 @@ date: 2026-08-16T21:11:00.000+07:00
 categories:
   - Ayat-Ayat Cerita
 ---
+![Ilustrasi Nabi Adam Sebagai Bapak Matematika](/images/uploads/gemini_generated_image_u1swxqu1swxqu1sw.jpeg "Ilustrasi Nabi Adam Sebagai Bapak Matematika")
+
 ### 1. Siapa yang Layak Dikenang?
 
 Tidak semua orang layak dikenang sepanjang zaman. Kebanyakan manusia sekadar lahir, tumbuh dewasa, menghabiskan hidupnya mengejar validasi dari lingkungan sekitar, meninggalkan keturunan yang kelak memperebutkan harta warisan, lalu—selayaknya—cepat dilupakan. Hanya mereka yang berani membangun terobosan dengan manfaat nyata dan bertahan lintas generasi yang layak terus dikenang. Kepada sosok-sosok seperti inilah, di bidang masing-masing, peradaban kerap menyematkan gelar "bapak"—atau "ibu", jika ia berkromosom XX.
@@ -14,8 +16,6 @@ Aristoteles disebut bapak logika karena ia orang pertama yang menyusun sistem pe
 Tak satu pun dari mereka mengklaim diri sebagai "bapak". Namun, jejak mereka terpahat nyata dalam sejarah peradaban. Suka atau tidak, cara kita berpikir dan menjalani kehidupan hari ini terbentuk oleh kontribusi mereka. Manfaatnya dirasakan hingga sekarang, serta informasi mengenai karya mereka terbuka, tepercaya, dan dapat diverifikasi siapa pun.
 
 ### 2. Pertanyaan yang Belum Terjawab: Siapa Bapak Matematika?
-
-![Ilustrasi Nabi Adam Sebagai Bapak Matematika](/images/uploads/gemini_generated_image_u1swxqu1swxqu1sw.jpeg "Ilustrasi Nabi Adam Sebagai Bapak Matematika")
 
 Pertanyaannya sekarang: siapakah bapak matematika?
 
