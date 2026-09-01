@@ -5,6 +5,8 @@ date: 2026-08-31T10:25:00.000+07:00
 categories:
   - Matematika Detik
 ---
+![DARI KOTA MALANG: NABI ADAM BAPAK MATEMATIKA](/images/uploads/gemini_generated_image_pzsxrgpzsxrgpzsx.jpeg "DARI KOTA MALANG: NABI ADAM BAPAK MATEMATIKA")
+
 ## "Bagian Ini Apakah Boleh Dimuat di Proposal?"
 
 Itu pertanyaan dari Malang, Jawa Timur. Dari seorang guru matematika, juga pelatih olimpiade matematika SD.
@@ -25,7 +27,7 @@ Kali ini, dari Malang, inisiatif justru TIDAK datang dariku. Nikmat Tuhan mana l
 
 Tidak mengejutkan, sebenarnya. Beliau memang lulusan Universitas Islam Negeri Maulana Malik Ibrahim — kampus yang sejak awal berdiri memang mengawinkan sains dan wahyu dalam satu atap fakultas. *The right man on the right idea!*
 
----
+- - -
 
 ## Pertanyaan yang Sudah Kuantisipasi
 
@@ -37,7 +39,7 @@ Alhasil, dari Malang aku mendapatkan tanda seru. Pendapatku mendapat validasi. Y
 
 > "Sebenarnya ini hal yang baru juga bagi saya, Pak, menghubungkan langsung matematika dengan Al-Qur'an dan hadits sebagai landasan ToSM. Ini nanti mungkin yang perlu juga disampaikan ketika bertemu para kepala sekolah. Harus bisa menjelaskan landasan spiritualnya."
 
----
+- - -
 
 ## Pertarungan Laten yang Sudah Lama Kurasakan Sendiri
 
@@ -47,7 +49,7 @@ Awalnya beliau hanya menyampaikan wabah gagap hitung yang hampir merata bahkan s
 
 Itu fakta yang aku sampaikan kepadanya. Tidak ada koreksi sedikit pun dari beliau. Kami merasakan disonansi kognitif yang sama, di semua atau hampir semua sekolah Muslim di negeri ini. Bedanya, beliau belum sempat merumuskan keresahan itu, sedangkan aku memang telat menelitinya — bertahun-tahun telat, tapi akhirnya sampai juga.
 
----
+- - -
 
 ## Bukan Pengalihan, Melainkan Fondasi
 
@@ -55,7 +57,7 @@ Jadi, cerita Nabi Adam bukan untuk mengalihkan tujuan awal, yaitu memberantas wa
 
 Clear merumuskan ini dengan tajam: perubahan perilaku yang paling tahan lama bukan dimulai dari hasil yang ingin dicapai (*outcome-based*), melainkan dari jenis manusia yang ingin dijadikan (*identity-based*). Bukan "aku ingin bisa berhitung cepat", melainkan "aku adalah orang yang spontan berhitung". Setiap tindakan kecil yang diulang, dalam kerangka Clear, adalah satu suara — satu *vote* — bagi identitas yang sedang dibangun. Semakin sering suara itu diberikan, semakin kokoh identitas itu tertanam, dan semakin otomatis perilaku itu berjalan tanpa perlu motivasi sadar setiap kali.
 
----
+- - -
 
 ## Identitas yang Dibentuk Melalui ToSM
 
@@ -65,7 +67,7 @@ Maka inilah tiga lapis identitas yang ingin dibentuk melalui ToSM, bukan sekadar
 * **Keturunan Nabi Adam:** Bukan "matematika adalah pelajaran sekolah yang berat", melainkan "aku adalah keturunan manusia yang pertama kali diajari Allah untuk menamai dan membilang segala sesuatu — kompetensi ini sudah ada dalam darahku sejak Bapak seluruh manusia".
 * **Spontan Berhitung:** Bukan "aku sedang berusaha keras menghafal fakta bilangan", melainkan "aku secara alami dan spontan mampu membilang, sebagaimana leluhurku yang pertama juga melakukannya secara spontan atas perintah Allah".
 
----
+- - -
 
 ## Mengapa Cerita, Bukan Sekadar Instruksi, yang Membentuk Identitas?
 
@@ -79,7 +81,7 @@ Teori identitas sosial (*social identity theory*) dari Henri Tajfel dan John Tur
 
 Tiga teori ini — narasi identitas McAdams, persepsi-diri Bem, dan identitas sosial Tajfel-Turner — dari tiga sudut psikologi yang berbeda, menjelaskan mengapa satu lembar komik sederhana berjudul *Adam Bapak Matematika* berpotensi mengubah lebih banyak perilaku anak dibanding seribu lembar soal latihan berhitung: komik itu tidak mengajarkan teknik, ia menawarkan identitas — dan identitas, bukan pengetahuan, yang menjadi akar dari kebiasaan yang bertahan.
 
----
+- - -
 
 ## Penutup: Ketika Malang Menjawab Tegal dan Cimahi
 
