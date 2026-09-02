@@ -16,19 +16,11 @@ Tulisan ini ditujukan bagi Muslim yang menekuni matematika dan sains, namun gala
 
 Periksa jejak digital dengan kata kunci "Aqidah Korslet". Ajaran yang menjadikan alam semesta sebagai bukti (dalil) yang membuktikan eksistensi Tuhan adalah akibat dari terlalu terpukau pada filsafat dan logika Aristoteles. Sebutan itu menohok tajam. Sejak 2018 hingga kini, saya terus berdebat dengan banyak tokoh mendebat Aqidah Korslet, yaitu mendebat mereka yang bertaqlid pada ajaran *Umm al-Barahin*.
 
-Saya tidak bersepakat dengan *Umm al-Barahin* — kitab yang nyaris disakralkan dalam masalah aqidah, antara lain sebagai rujukan utama argumen definitif-konklusif:
+Saya tidak bersepakat dengan *Umm al-Barahin* — kitab yang nyaris disakralkan dalam masalah aqidah, antara lain sebagai rujukan utama argumen definitif-konklusif (البراهين القطعية) pembuktian keimanan, khususnya rukun iman pertama. Apalagi konsekuensi logisnya berupa pernyataan yang mengerikan:
 
-{{< quran >}}
-البراهين القطعية
-{{< /quran >}}
+> فَإِنْ أَبَى تَبَيَّنَ عِنَادُهُ فَوَجَبَ اسْتِخْرَاجُهُ بِالسَّيْفِ أَوْ يَمُوتَ
 
-pembuktian keimanan, khususnya rukun iman pertama. Apalagi konsekuensi logisnya berupa pernyataan yang mengerikan:
-
-{{< quran >}}
-فَإِنْ أَبَى تَبَيَّنَ عِنَادُهُ فَوَجَبَ اسْتِخْرَاجُهُ بِالسَّيْفِ أَوْ يَمُوتَ
-{{< /quran >}}
-
-— "jika ia menolak, tampaklah kedegilannya, sehingga wajib dipaksa keluar dengan pedang, atau ia mati."
+"jika ia menolak, tampaklah kedegilannya, sehingga wajib dipaksa keluar dengan pedang, atau ia mati."
 
 Selama sekitar empat tahun, saya mendebat Aqidah Korslet ini — mendebat mereka yang bertaqlid dengan ajaran *Umm al-Barahin*. Pengaruh kitab ini memang luar biasa besar: ia menjadi rujukan aqidah baku di ribuan pesantren dan madrasah tradisional selama lebih dari lima abad, dihafal, disyarahi berlapis-lapis, dan diajarkan turun-temurun tanpa banyak dipertanyakan ulang.
 
@@ -38,9 +30,7 @@ Selama sekitar empat tahun, saya mendebat Aqidah Korslet ini — mendebat mereka
 
 Padahal kitab *Umm al-Barahin* itu sendiri melarang dan mencela sikap taqlid dalam urusan aqidah. Ini adalah ironi paling mendasar yang layak direnungkan setiap pembacanya. Bahkan tradisi keilmuan Islam sejak awal menegaskan keutamaan akal dalam beragama:
 
-{{< quran >}}
-لَا دِينَ لِمَنْ لَا عَقْلَ لَهُ
-{{< /quran >}}
+> لَا دِينَ لِمَنْ لَا عَقْلَ لَهُ
 
 "Tidak ada agama bagi orang yang tidak memiliki akal."
 
@@ -52,63 +42,19 @@ Ungkapan ini — yang beredar luas dalam tradisi keilmuan Islam sebagai penegasa
 
 Pembuktian Tuhan juga ditentang keras oleh Ibnu 'Atha'illah as-Sakandari dalam *Al-Hikam*, salah satu maha-karya tasawuf paling dihormati dalam tradisi Sunni:
 
-{{< quran >}}
-شَتَّانَ بَيْنَ مَنْ يَسْتَدِلُّ بِهِ أَوْ يَسْتَدِلُّ عَلَيْهِ
-{{< /quran >}}
+> شَتَّانَ بَيْنَ مَنْ يَسْتَدِلُّ بِهِ أَوْ يَسْتَدِلُّ عَلَيْهِ
 
 "Sungguh jauh berbeda antara orang yang berdalil DENGAN-Nya, dengan orang yang berdalil ATAS-Nya."
 
-Namun oleh mereka yang bertaqlid pada *Umm al-Barahin*, pernyataan tajam ini justru dijinakkan dan dianggap saling melengkapi, bukan saling bertentangan. Menurut rekonsiliasi mereka:
+Namun oleh mereka yang bertaqlid pada *Umm al-Barahin*, pernyataan tajam ini justru dijinakkan dan dianggap saling melengkapi, bukan saling bertentangan. Menurut rekonsiliasi mereka: يستدل به (berdalil dengan-Nya) adalah cara bertauhid khusus bagi para 'arif billah — kaum elite spiritual yang telah mencapai makrifat — sedangkan bagi kaum awam, harus digunakan logika. Keimanan kepada Allah, bagi kaum awam, harus disimpulkan lewat penalaran logis yang niscaya (البراهين القطعية). Itulah yang mereka maksud dengan يستدل عليه (berdalil atas-Nya).
 
-{{< quran >}}
-يستدل به
-{{< /quran >}}
-
-(berdalil dengan-Nya) adalah cara bertauhid khusus bagi para 'arif billah — kaum elite spiritual yang telah mencapai makrifat — sedangkan bagi kaum awam, harus digunakan logika. Keimanan kepada Allah, bagi kaum awam, harus disimpulkan lewat penalaran logis yang niscaya:
-
-{{< quran >}}
-البراهين القطعية
-{{< /quran >}}
-
-Itulah yang mereka maksud dengan:
-
-{{< quran >}}
-يستدل عليه
-{{< /quran >}}
-
-(berdalil atas-Nya).
-
-Rekonsiliasi ini tampak elegan, namun sesungguhnya adalah penjinakan yang keliru. Ibnu 'Atha'illah tidak sedang membicarakan dua jalur yang setara-namun-berbeda-audiens; ia sedang menegaskan bahwa satu arah dalil:
-
-{{< quran >}}
-يستدل عليه
-{{< /quran >}}
-
-— menuntut pembuktian atas Allah — secara struktural adalah kekeliruan arah, betapapun ia disematkan kepada "kaum awam" sekalipun. Kaum awam tidak butuh argumen definitif-konklusif yang keliru arahnya untuk beriman — mereka butuh iman yang diikrarkan dan dijalani, sebagaimana ditegaskan dalam kajian-kajian sebelumnya tentang pola "iman berlanjut istiqamah".
+Rekonsiliasi ini tampak elegan, namun sesungguhnya adalah penjinakan yang keliru. Ibnu 'Atha'illah tidak sedang membicarakan dua jalur yang setara-namun-berbeda-audiens; ia sedang menegaskan bahwa satu arah dalil (يستدل عليه — menuntut pembuktian atas Allah) secara struktural adalah kekeliruan arah, betapapun ia disematkan kepada "kaum awam" sekalipun. Kaum awam tidak butuh argumen definitif-konklusif yang keliru arahnya untuk beriman — mereka butuh iman yang diikrarkan dan dijalani, sebagaimana ditegaskan dalam kajian-kajian sebelumnya tentang pola "iman berlanjut istiqamah".
 
 ---
 
 ## Tiga Jalur, Satu Kesimpulan
 
-Kritik saya terutama justru ditempuh lewat jalur logika:
-
-{{< quran >}}
-برهاني
-{{< /quran >}}
-
-— dan yang menakjubkan, jalur ini ternyata konsisten juga dengan dua jalur epistemologi Islam lainnya: dalil naqliyah:
-
-{{< quran >}}
-بياني
-{{< /quran >}}
-
-(tekstual) maupun perspektif tasawuf:
-
-{{< quran >}}
-عرفاني
-{{< /quran >}}
-
-(intuitif-spiritual), sebagaimana ditelusuri panjang lebar dalam kajian sebelumnya tentang rekonstruksi *Umm al-Barahin* secara bayani-'irfani-burhani. Pembuktian kebenaran fondasional — dalam hal ini rukun iman pertama — justru menjungkirbalikkan cara kerja logika itu sendiri, dari tiga arah yang berbeda namun bertemu pada satu simpulan yang sama.
+Kritik saya terutama justru ditempuh lewat jalur logika (برهاني) — dan yang menakjubkan, jalur ini ternyata konsisten juga dengan dua jalur epistemologi Islam lainnya: dalil naqliyah (بياني, tekstual) maupun perspektif tasawuf (عرفاني, intuitif-spiritual), sebagaimana ditelusuri panjang lebar dalam kajian sebelumnya tentang rekonstruksi *Umm al-Barahin* secara bayani-'irfani-burhani. Pembuktian kebenaran fondasional — dalam hal ini rukun iman pertama — justru menjungkirbalikkan cara kerja logika itu sendiri, dari tiga arah yang berbeda namun bertemu pada satu simpulan yang sama.
 
 ---
 
@@ -132,13 +78,7 @@ Apakah keimanan merupakan "titik awal"? Jawaban pendeknya tegas: YA.
 
 Titik awal tidak dibuktikan — justru ia menjadi fondasi pembuktian. Titik awal harus diyakini benar, meski (dalam sains) itu merupakan keyakinan yang bersifat sementara (provisional), sebagaimana ditelusuri dalam kajian sebelumnya tentang perbedaan filsafat matematika dan filsafat sains.
 
-Euclid pasti meyakini kebenaran lima serangkai postulatnya, sehingga ia dapat membuktikan ratusan pernyataan geometri sebagai benar atau salah secara niscaya:
-
-{{< quran >}}
-قطعي
-{{< /quran >}}
-
-— di dalam sistem yang ia bangun. Begitu pula dua sosok raksasa yang membaca *Elements* Euclid dengan saksama sejak usia muda: Isaac Newton pasti percaya inersia, sehingga dapat membangun seluruh mekanika klasik di atasnya. Albert Einstein pasti percaya dua serangkai postulat relativitas khusus dan prinsip ekuivalensi, sehingga dapat menurunkan seluruh konsekuensi menakjubkan relativitas umum.
+Euclid pasti meyakini kebenaran lima serangkai postulatnya, sehingga ia dapat membuktikan ratusan pernyataan geometri sebagai benar atau salah secara niscaya (قطعي) — di dalam sistem yang ia bangun. Begitu pula dua sosok raksasa yang membaca *Elements* Euclid dengan saksama sejak usia muda: Isaac Newton pasti percaya inersia, sehingga dapat membangun seluruh mekanika klasik di atasnya. Albert Einstein pasti percaya dua serangkai postulat relativitas khusus dan prinsip ekuivalensi, sehingga dapat menurunkan seluruh konsekuensi menakjubkan relativitas umum.
 
 Setelah "mengimani" titik awal, satu-satunya pertanyaan yang layak diajukan adalah: detail-operasional-konsisten yang dapat dirumuskan dan dilakukan, bagaimana?
 
@@ -164,13 +104,7 @@ Bayangkan sebaliknya: jika Euclid, Newton, atau Einstein bersikeras berusaha mem
 
 Euclid yang menuntut pembuktian atas lima postulatnya sendiri akan terjebak *circular reasoning* — sebab pembuktian apa pun yang ia susun pasti membutuhkan asumsi dasar lain, yang pada gilirannya juga membutuhkan pembuktian, tanpa akhir (*regressus ad infinitum*), atau ia terpaksa menggunakan postulat itu sendiri untuk membuktikan dirinya sendiri (lingkaran logis). Newton yang menuntut pembuktian mutlak atas inersia sebelum membangun mekanika akan terjebak menunggu selamanya — sebab pembuktian mutlak atas hukum universal menuntut pengujian di setiap titik alam semesta sepanjang waktu, sesuatu yang mustahil dilakukan makhluk terbatas. Einstein yang menuntut pembuktian mutlak atas postulat kecepatan cahaya sebelum menurunkan relativitas akan mandek di titik yang sama.
 
-Mereka yang terjebak dalam kubangan pembuktian sirkular semacam ini persis digambarkan Al-Qur'an sebagai golongan yang:
-
-{{< quran >}}
-مُّذَبْذَبِينَ
-{{< /quran >}}
-
-— terombang-ambing, tidak condong ke sini maupun ke sana:
+Mereka yang terjebak dalam kubangan pembuktian sirkular semacam ini persis digambarkan Al-Qur'an sebagai golongan yang مُذَبْذَبِينَ — terombang-ambing, tidak condong ke sini maupun ke sana:
 
 {{< quran >}}
 مُّذَبْذَبِينَ بَيْنَ ذَٰلِكَ لَا إِلَىٰ هَٰؤُلَاءِ وَلَا إِلَىٰ هَٰؤُلَاءِ
@@ -220,13 +154,7 @@ Antara lain dengan menjawab pertanyaan yang jauh lebih produktif daripada perdeb
 
 Tidak perlu bingung mencari jawabannya. Pertanyaan itu telah dijawab ilmuwan Muslim selama berabad-abad. Kemajuan di bidang matematika, sains, dan teknik pada masa keemasan Islam tidak terlepas dari upaya menjalankan syariat Islam secara konkret.
 
-Al-Khawarizmi, dalam pembuka kitabnya *Al-Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala* — kitab yang melahirkan aljabar sebagai disiplin sistematis — secara eksplisit menyatakan bahwa karyanya disusun untuk memecahkan persoalan praktis yang dihadapi umat: pembagian warisan:
-
-{{< quran >}}
-مواريث
-{{< /quran >}}
-
-— fara'idh, salah satu cabang fiqih paling rumit perhitungannya karena melibatkan pecahan-pecahan bagian yang harus dijumlahkan tepat hingga menghabiskan seluruh harta), pembagian wasiat, transaksi jual-beli, dan survei tanah. Aljabar, disiplin matematika yang hari ini menjadi fondasi seluruh ilmu komputer dan rekayasa modern, lahir bukan dari spekulasi abstrak semata, melainkan dari keimanan yang menuntut penerapan syariat waris secara presisi dan adil.
+Al-Khawarizmi, dalam pembuka kitabnya *Al-Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala* — kitab yang melahirkan aljabar sebagai disiplin sistematis — secara eksplisit menyatakan bahwa karyanya disusun untuk memecahkan persoalan praktis yang dihadapi umat: pembagian warisan (مواريث — fara'idh, salah satu cabang fiqih paling rumit perhitungannya karena melibatkan pecahan-pecahan bagian yang harus dijumlahkan tepat hingga menghabiskan seluruh harta), pembagian wasiat, transaksi jual-beli, dan survei tanah. Aljabar, disiplin matematika yang hari ini menjadi fondasi seluruh ilmu komputer dan rekayasa modern, lahir bukan dari spekulasi abstrak semata, melainkan dari keimanan yang menuntut penerapan syariat waris secara presisi dan adil.
 
 Ibnu al-Haytsam merumuskan metode ilmiah — hipotesis yang diuji lewat eksperimen terkontrol, bukan sekadar otoritas argumen — dalam kerangka keyakinan tauhid yang menegaskan bahwa kebenaran hakiki hanya milik Allah, sehingga klaim manusia atas alam semesta harus senantiasa diuji ulang dengan kerendahan hati, bukan diterima begitu saja dari otoritas Yunani kuno sekalipun. Astronomi Islam berkembang pesat karena kebutuhan syariat yang konkret: menentukan arah kiblat secara presisi dari titik mana pun di bumi, dan menentukan waktu shalat berdasarkan posisi matahari yang akurat.
 
@@ -264,7 +192,7 @@ Cantor, dalam korespondensi ekstensif dengan para teolog Katolik seperti Kardina
 
 Sejarah mencatat betapa mahalnya harga yang dibayar ketika manusia memaksa membuktikan titik awal yang semestinya cukup diikrarkan. Pada abad ke-9, Khalifah Al-Ma'mun memberlakukan *Mihna* — inkuisisi negara yang memaksa para ulama dan hakim mengakui doktrin Mu'tazilah bahwa Al-Qur'an adalah makhluk (diciptakan), bukan kalam Allah yang qadim. Imam Ahmad bin Hanbal, yang menolak tunduk pada paksaan doktrinal ini, dipenjara dan disiksa bertahun-tahun. Ironisnya, argumen Mu'tazilah sendiri dibangun di atas kecintaan mereka pada logika Aristoteles dan Yunani — persis pola "Aqidah Korslet" yang dikritik di awal tulisan ini, hanya berbeda kesimpulan doktrinalnya, namun sama persis cara berpikirnya: memaksakan argumen definitif-konklusif atas perkara yang semestinya menjadi wilayah keimanan yang diikrarkan, bukan dipertengkarkan dengan kekuasaan negara.
 
-Konflik Sunni-Syiah yang bermula dari perbedaan pandangan politik-teologis tentang kepemimpinan pasca-wafatnya Rasulullah ﷺ telah menelan darah selama lebih dari 1.300 tahun, dari tragedi Karbala hingga konflik sektarian kontemporer di Irak, Suriah, Yaman, dan Pakistan. Gerakan takfiri kontemporer — dari Al-Qaeda hingga ISIS — membunuh sesama Muslim dengan tuduhan kekafiran atas perbedaan furu'iyah maupun perbedaan penafsiran teologis yang, jika ditelusuri ke akarnya, tidak lebih dari perbedaan aksioma yang dipaksakan menjadi kebenaran mutlak yang harus ditegakkan dengan pedang — persis warisan logis dari kalimat mengerikan *Umm al-Barahin* yang dikutip di awal tulisan ini: "wajib dipaksa keluar dengan pedang, atau ia mati." Berabad-abad energi, darah, dan potensi intelektual umat terkuras oleh perang aksioma yang, secara struktural, tidak akan pernah tuntas — sebagaimana debat postulat kelima Euclid tidak pernah "dimenangkan" satu pihak secara mutlak, melainkan melahirkan dua sistem geometri yang sah dalam domainnya masing-masing.
+Konflik Sunni-Syiah yang bermula dari perbedaan pandangan politik-teologis tentang kepemimpinan pasca-wafatnya Rasulullah ﷺ telah menelan darah selama lebih dari 1.300 tahun, dari tragedi Karbala hingga konflik sektarian kontemporer di Irak, Suriah, Yaman, dan Pakistan. Gerakan takfiri kontemporer — dari Al-Qaeda hingga ISIS — membunuh sesama Muslim dengan tuduhan kekafiran atas perbedaan furu'iyah maupun perbedaan penafsiran teologis yang, jika ditelusuri ke akarnya, tidak lebih dari perbedaan aksioma yang dipaksakan menjadi kebenaran mutlak yang harus ditegakkan dengan pedang — persis warisan logis dari kalimat mengerikan *Umm al-Barahin* yang dikutip di awal tulisan ini: "wajib dipaksa keluar dengan pedang, atau ia mati." Berabad-abad energi, darah, dan potensi intelektual umat terkuras oleh perang aksioma yang, secara struktural, tidak akan pernah tuntas — sebagaimana debat postulat kelima Euclid tidak pernah "dimenangkan" satu pihak secara mutlak, melahirkan dua sistem geometri yang sah dalam domainnya masing-masing.
 
 ---
 
@@ -292,19 +220,11 @@ Jika jawabannya jujur adalah "hampir demikian", maka persoalannya bukan pada aja
 
 Islam itu benar — namun bukan karena rukun imannya telah "terbukti benar" lewat argumen definitif-konklusif mana pun. Islam itu benar bagi setiap Muslim karena ia telah mengikrarkannya sebagai titik tolak eksistensinya, persis sebagaimana diajarkan dalam pengakuan yang diucapkan setiap pagi oleh jutaan Muslim:
 
-{{< quran >}}
-رَضِيتُ بِاللَّهِ رَبًّا وَبِالْإِسْلَامِ دِينًا وَبِمُحَمَّدٍ نَبِيًّا وَرَسُولًا
-{{< /quran >}}
+> رَضِيتُ بِاللَّهِ رَبًّا وَبِالْإِسْلَامِ دِينًا وَبِمُحَمَّدٍ نَبِيًّا وَرَسُولًا
 
 "Aku ridha (rela dan menerima sepenuhnya) Allah sebagai Tuhan, Islam sebagai agama, dan Muhammad sebagai nabi dan rasul."
 
-Perhatikan kata kuncinya:
-
-{{< quran >}}
-رضيت
-{{< /quran >}}
-
-— "aku ridha", bukan "aku telah membuktikan". Tidak perlu membohongi diri sendiri dengan menyatakan bahwa rukun iman telah terbukti benar secara logis-niscaya, sebagaimana keliru dilakukan tradisi *Umm al-Barahin* yang dikritik sepanjang tulisan ini. Cukup diikrarkan dengan kerelaan hati (ridha), sebagaimana Euclid mengikrarkan lima postulatnya, Newton mengikrarkan inersia, dan Einstein mengikrarkan konstansi kecepatan cahaya — tanpa satu pun dari mereka mampu, atau perlu, membuktikannya secara mutlak. Titik awal itu tidak dibuktikan, dan tidak perlu dibuktikan — justru ia menjadi fondasi bagi segala pembuktian dan pemikiran berikutnya.
+Perhatikan kata kuncinya: رضيت — "aku ridha", bukan "aku telah membuktikan". Tidak perlu membohongi diri sendiri dengan menyatakan bahwa rukun iman telah terbukti benar secara logis-niscaya, sebagaimana keliru dilakukan tradisi *Umm al-Barahin* yang dikritik sepanjang tulisan ini. Cukup diikrarkan dengan kerelaan hati (ridha), sebagaimana Euclid mengikrarkan lima postulatnya, Newton mengikrarkan inersia, dan Einstein mengikrarkan konstansi kecepatan cahaya — tanpa satu pun dari mereka mampu, atau perlu, membuktikannya secara mutlak. Titik awal itu tidak dibuktikan, dan tidak perlu dibuktikan — justru ia menjadi fondasi bagi segala pembuktian dan pemikiran berikutnya.
 
 Namun pertanyaan yang jauh lebih produktif, jauh lebih bermanfaat bagi peradaban, dan jauh lebih layak menyita energi setiap Muslim yang menekuni matematika dan sains, bukanlah "apakah Islam benar" — pertanyaan yang, sebagaimana ditunjukkan panjang lebar di atas, secara struktural tidak akan pernah tuntas dijawab lewat argumen definitif-konklusif tanpa terjebak *circular reasoning*, atau lebih buruk lagi, tanpa terjebak dalam pertumpahan darah sebagaimana dicatat sejarah Mihna, konflik sektarian, dan terorisme takfiri.
 
