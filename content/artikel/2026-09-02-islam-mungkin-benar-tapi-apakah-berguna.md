@@ -18,7 +18,9 @@ Periksa jejak digital dengan kata kunci "Aqidah Korslet". Ajaran yang menjadikan
 
 Saya tidak bersepakat dengan *Umm al-Barahin* — kitab yang nyaris disakralkan dalam masalah aqidah, antara lain sebagai rujukan utama argumen definitif-konklusif (البراهين القطعية) pembuktian keimanan, khususnya rukun iman pertama. Apalagi konsekuensi logisnya berupa pernyataan yang mengerikan:
 
-> فَإِنْ أَبَى تَبَيَّنَ عِنَادُهُ فَوَجَبَ اسْتِخْرَاجُهُ بِالسَّيْفِ أَوْ يَمُوتَ
+{{< quran >}}
+فَإِنْ أَبَى تَبَيَّنَ عِنَادُهُ فَوَجَبَ اسْتِخْرَاجُهُ بِالسَّيْفِ أَوْ يَمُوتَ
+{{< /quran >}}
 
 "jika ia menolak, tampaklah kedegilannya, sehingga wajib dipaksa keluar dengan pedang, atau ia mati."
 
@@ -30,7 +32,9 @@ Selama sekitar empat tahun, saya mendebat Aqidah Korslet ini — mendebat mereka
 
 Padahal kitab *Umm al-Barahin* itu sendiri melarang dan mencela sikap taqlid dalam urusan aqidah. Ini adalah ironi paling mendasar yang layak direnungkan setiap pembacanya. Bahkan tradisi keilmuan Islam sejak awal menegaskan keutamaan akal dalam beragama:
 
-> لَا دِينَ لِمَنْ لَا عَقْلَ لَهُ
+{{< quran >}}
+لَا دِينَ لِمَنْ لَا عَقْلَ لَهُ
+{{< /quran >}}
 
 "Tidak ada agama bagi orang yang tidak memiliki akal."
 
@@ -42,7 +46,9 @@ Ungkapan ini — yang beredar luas dalam tradisi keilmuan Islam sebagai penegasa
 
 Pembuktian Tuhan juga ditentang keras oleh Ibnu 'Atha'illah as-Sakandari dalam *Al-Hikam*, salah satu maha-karya tasawuf paling dihormati dalam tradisi Sunni:
 
-> شَتَّانَ بَيْنَ مَنْ يَسْتَدِلُّ بِهِ أَوْ يَسْتَدِلُّ عَلَيْهِ
+{{< quran >}}
+شَتَّانَ بَيْنَ مَنْ يَسْتَدِلُّ بِهِ أَوْ يَسْتَدِلُّ عَلَيْهِ
+{{< /quran >}}
 
 "Sungguh jauh berbeda antara orang yang berdalil DENGAN-Nya, dengan orang yang berdalil ATAS-Nya."
 
@@ -220,7 +226,9 @@ Jika jawabannya jujur adalah "hampir demikian", maka persoalannya bukan pada aja
 
 Islam itu benar — namun bukan karena rukun imannya telah "terbukti benar" lewat argumen definitif-konklusif mana pun. Islam itu benar bagi setiap Muslim karena ia telah mengikrarkannya sebagai titik tolak eksistensinya, persis sebagaimana diajarkan dalam pengakuan yang diucapkan setiap pagi oleh jutaan Muslim:
 
-> رَضِيتُ بِاللَّهِ رَبًّا وَبِالْإِسْلَامِ دِينًا وَبِمُحَمَّدٍ نَبِيًّا وَرَسُولًا
+{{< quran >}}
+رَضِيتُ بِاللَّهِ رَبًّا وَبِالْإِسْلَامِ دِينًا وَبِمُحَمَّدٍ نَبِيًّا وَرَسُولًا
+{{< /quran >}}
 
 "Aku ridha (rela dan menerima sepenuhnya) Allah sebagai Tuhan, Islam sebagai agama, dan Muhammad sebagai nabi dan rasul."
 
