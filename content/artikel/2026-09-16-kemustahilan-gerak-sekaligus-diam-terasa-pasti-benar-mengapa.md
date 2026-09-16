@@ -13,7 +13,7 @@ Ada jenis kesalahan tertentu yang jauh lebih berbahaya daripada kesalahan biasa:
 
 Mari telusuri argumen itu, sesederhana dan semeyakinkan aslinya.
 
-- - -
+---
 
 ## 2. Kelereng, Koordinat, dan Definisi yang Tampak Netral
 
@@ -25,7 +25,7 @@ $$v = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1}$$
 
 Definisi ini tampak begitu netral, begitu ilmiah. Tapi perhatikan konsekuensinya.
 
-- - -
+---
 
 ## 3. Larangan Akal: Pembagian dengan Nol
 
@@ -35,7 +35,7 @@ Konsekuensinya tampak tak terelakkan: tidak ada yang namanya "kecepatan sesaat".
 
 Ini bukan sekadar spekulasi liar. Ini terasa seperti penerapan langsung prinsip non-kontradiksi — hukum logika paling dasar yang menyatakan sesuatu tidak bisa berada dalam dua keadaan yang saling bertentangan pada saat dan segi yang sama. "Diam" dan "bergerak" tampak seperti dua predikat yang saling meniadakan.
 
-- - -
+---
 
 ## 4. Aristoteles: Segala yang Bergerak Digerakkan oleh yang Lain
 
@@ -45,7 +45,7 @@ Jauh sebelum kalam Islam merumuskannya secara formal, Aristoteles telah bergulat
 
 Argumen ini menjadi fondasi bagi apa yang kemudian dikenal sebagai argumen *unmoved mover* (penggerak yang tidak digerakkan) dalam *Metafisika* Aristoteles: karena rantai sebab-akibat gerak tidak mungkin mundur tanpa batas, harus ada satu penggerak pertama yang dirinya sendiri tidak digerakkan oleh apa pun. Namun penting dicatat — Aristoteles merumuskan ini sebagai kosmologi kausal, bukan sebagai pembuktian formal atas eksistensi Tuhan dalam pengertian teologis yang kemudian dikembangkan para filosof dan teolog setelahnya.
 
-- - -
+---
 
 ## 5. Mutakallimun dan Jawhar Fard: Dari Fisika Menuju Dalil Ketuhanan
 
@@ -55,7 +55,7 @@ Logikanya mengikuti alur yang sama seperti yang kita telusuri lewat kelereng: ka
 
 Argumen ini secara struktural sangat elegan — ia mengubah sebuah kesulitan matematis (pembagian dengan nol) menjadi fondasi metafisika dan teologi sekaligus.
 
-- - -
+---
 
 ## 6. Paradoks Zeno: Bayang-Bayang yang Sama, Kesimpulan yang Sama
 
@@ -63,13 +63,13 @@ Jauh sebelum baik Aristoteles maupun mutakallimun, Zeno dari Elea (abad ke-5 SM)
 
 Paradoks Achilles dan kura-kura, paradoks dikotomi, dan paradoks panah — semuanya bertumpu pada kesulitan yang sama: bagaimana menyatukan kontinuitas gerak dengan diskritnya titik-titik yang menyusun ruang dan waktu. Argumen ini bertahan sebagai teka-teki filosofis serius selama lebih dari dua ribu tahun, justru karena logikanya tampak begitu rapi.
 
-- - -
+---
 
 ## 7. Mengapa Argumen Ini Begitu Meyakinkan?
 
 Kekuatan argumen ini bukan terletak pada kelemahan nalar penyusunnya — sebaliknya, ia adalah produk nalar yang sangat cermat, yang justru terjebak karena satu hal: belum tersedianya alat matematis untuk mendefinisikan limit secara rigor. Pembagian dengan nol memang mustahil. Tapi pertanyaan yang sebenarnya diajukan bukanlah "berapa $\Delta x$ dibagi $\Delta t$ ketika $\Delta t$ sama dengan nol", melainkan "berapa nilai yang didekati oleh $\Delta x/\Delta t$ ketika $\Delta t$ semakin kecil mendekati nol". Itu adalah dua pertanyaan yang secara logis sangat berbeda — namun perbedaannya baru bisa dirumuskan secara matematis matang berabad-abad kemudian.
 
-- - -
+---
 
 ## 8. Galileo: Pemberontakan yang Dimulai dari Gerak Peluru
 
@@ -79,19 +79,19 @@ Pada titik tertinggi lintasannya, benda tersebut secara bersamaan bergerak terha
 
 Namun ini baru penyelesaian untuk kasus dua dimensi. Problem aslinya — kecepatan sesaat dalam gerak satu dimensi — masih menunggu alat yang lebih tajam.
 
-- - -
+---
 
 ## 9. Newton: Kalkulus sebagai Jawaban atas Larangan Pembagian dengan Nol
 
 Isaac Newton (bersama Leibniz, secara independen) memperkenalkan kalkulus diferensial — dan dengan itu, konsep limit. Kecepatan sesaat didefinisikan bukan sebagai pembagian $\Delta x$ dengan $\Delta t = 0$ (yang memang tetap mustahil), melainkan sebagai nilai limit dari $\Delta x/\Delta t$ ketika $\Delta t$ mendekati nol tanpa pernah benar-benar mencapainya:
 
-$$v*{sesaat} = \lim*{\Delta t \to 0} \frac{\Delta x}{\Delta t} = \frac{dx}{dt}$$
+$$v_{\text{sesaat}} = \lim_{\Delta t \to 0} \frac{\Delta x}{\Delta t} = \frac{dx}{dt}$$
 
 Dengan satu langkah matematis ini, sebuah benda ternyata bisa memiliki posisi sesaat sekaligus kecepatan sesaat pada satu titik waktu tunggal — tanpa kontradiksi, tanpa pembagian oleh nol. "Gerak" dan "diam" bukan lagi dua kategori yang saling meniadakan, melainkan dua deskripsi yang bisa dipersatukan dalam kerangka kalkulus.
 
-Lebih jauh, Newton merumuskan Hukum I (Hukum Inersia): sebuah benda yang diam atau bergerak lurus beraturan akan tetap dalam keadaan itu kecuali ada gaya luar yang bekerja padanya. Implikasi filosofis hukum ini luar biasa: diam dan gerak lurus beraturan pada dasarnya tidak dapat dibedakan secara absolut — keduanya hanya berbeda tergantung kerangka acuan pengamat. Inilah fondasi relativitas gerak Galilea (*Galilean relativity*), yang menjadi tulang punggung seluruh fisika klasik setelahnya.
+Lebih jauh, Newton merumuskan **Hukum I Newton (Hukum Inersia)**: sebuah benda yang diam atau bergerak lurus beraturan akan tetap dalam keadaan itu kecuali ada gaya luar yang bekerja padanya. Implikasi filosofis hukum ini luar biasa: diam dan gerak lurus beraturan pada dasarnya tidak dapat dibedakan secara absolut — keduanya hanya berbeda tergantung kerangka acuan pengamat. Inilah fondasi relativitas gerak Galilea (*Galilean relativity*), yang menjadi tulang punggung seluruh fisika klasik setelahnya.
 
-- - -
+---
 
 ## 10. Einstein: Warisan Pemberontakan Galileo
 
@@ -99,7 +99,7 @@ Ketika Albert Einstein merumuskan teori relativitas khusus pada 1905, ia membang
 
 Jadi ketika kita menelusuri garis keturunan gagasan ini: dari argumen kelereng yang tampak tak terbantahkan, menuju atomisme kalam dan *unmoved mover* Aristoteles, menuju paradoks Zeno yang bertahan dua milenium, hingga akhirnya dipatahkan oleh Galileo dan disempurnakan Newton dengan kalkulus — kita sampai pada Einstein, yang postulat pertamanya adalah gaung dari pemberontakan Galileo terhadap Aristoteles, empat abad sebelumnya.
 
-- - -
+---
 
 ## 11. Penutup: Pelajaran dari Argumen yang Tampak Sempurna
 
