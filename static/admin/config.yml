@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
+publish_mode: editorial_workflow
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
@@ -19,48 +20,64 @@ collections:
         name: "halaman_titik_ba"
         fields:
           - {label: "Judul", name: "title", widget: "string"}
+          - {label: "List Category", name: "list_category", widget: "string", required: false}
+          - {label: "Sub Judul", name: "sub_title", widget: "string", required: false}
           - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
       - file: "content/pages/ayat-cerita.md"
         label: "Halaman: Ayat-Ayat Cerita"
         name: "halaman_ayat_cerita"
         fields:
           - {label: "Judul", name: "title", widget: "string"}
+          - {label: "List Category", name: "list_category", widget: "string", required: false}
+          - {label: "Sub Judul", name: "sub_title", widget: "string", required: false}
           - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
       - file: "content/pages/matematika-detik.md"
         label: "Halaman: Matematika Detik"
         name: "halaman_matematika_detik"
         fields:
           - {label: "Judul", name: "title", widget: "string"}
+          - {label: "List Category", name: "list_category", widget: "string", required: false}
+          - {label: "Sub Judul", name: "sub_title", widget: "string", required: false}
           - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
       - file: "content/pages/matematika-titik.md"
         label: "Halaman: Matematika Titik"
         name: "halaman_matematika_titik"
         fields:
           - {label: "Judul", name: "title", widget: "string"}
+          - {label: "List Category", name: "list_category", widget: "string", required: false}
+          - {label: "Sub Judul", name: "sub_title", widget: "string", required: false}
           - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
       - file: "content/pages/bimbel.md"
         label: "Halaman: Bimbel"
         name: "halaman_bimbel"
         fields:
           - {label: "Judul", name: "title", widget: "string"}
+          - {label: "List Category", name: "list_category", widget: "string", required: false}
+          - {label: "Sub Judul", name: "sub_title", widget: "string", required: false}
           - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
       - file: "content/pages/kamp-santri.md"
         label: "Halaman: Kamp Santri"
         name: "halaman_kamp_santri"
         fields:
           - {label: "Judul", name: "title", widget: "string"}
+          - {label: "List Category", name: "list_category", widget: "string", required: false}
+          - {label: "Sub Judul", name: "sub_title", widget: "string", required: false}
           - {name: "body", label: "Konten Halaman (di bawah jargon)", widget: "markdown", required: false}
       - file: "content/pages/sejarah.md"
         label: "Halaman: Sejarah"
         name: "halaman_sejarah"
         fields:
           - {label: "Judul", name: "title", widget: "string"}
+          - {label: "List Category", name: "list_category", widget: "string", required: false}
+          - {label: "Sub Judul", name: "sub_title", widget: "string", required: false}
           - {name: "body", label: "Konten Halaman", widget: "markdown", required: false}
       - file: "content/pages/program.md"
         label: "Halaman: Program Kami"
         name: "halaman_program"
         fields:
           - {label: "Judul", name: "title", widget: "string"}
+          - {label: "List Category", name: "list_category", widget: "string", required: false}
+          - {label: "Sub Judul", name: "sub_title", widget: "string", required: false}
           - {name: "body", label: "Konten Halaman", widget: "markdown", required: false}
 
   - name: "artikel"
@@ -71,9 +88,10 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Judul", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "string", required: false} # <-- DIKEMBALIKAN DI SINI
+      - {label: "Author", name: "author", widget: "string", required: false}
       - {label: "Tanggal Publikasi", name: "date", widget: "datetime", required: true}
       - {label: "Kategori", name: "categories", widget: "select", multiple: true, options: ["Titik Ba", "Ayat-Ayat Cerita", "Matematika Detik", "Matematika Titik", "Bimbel", "Kamp Santri"], required: false}
+      - {label: "Gambar Sampul", name: "image", widget: "image", required: false}
       - {label: "Isi Artikel", name: "body", widget: "markdown", required: false}
         
   - name: "video"
