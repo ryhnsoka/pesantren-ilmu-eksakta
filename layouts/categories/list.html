@@ -4,32 +4,50 @@
         Artikel Kategori: {{ .Title }}
     </h1>
 
-    <div class="space-y-12">
+    <div class="space-y-6">
         {{ range .Paginator.Pages }}
-        <article class="page-content">
-            <header>
-                <h2 class="text-2xl md:text-3xl font-bold font-serif-display mb-2">
+        {{- $thumb := "" -}}
+        {{- if .Params.image -}}
+            {{- $thumb = .Params.image | absURL -}}
+        {{- else -}}
+            {{- $firstImage := findRE `<img.*?src="(.*?)"` .Content 1 -}}
+            {{- if $firstImage -}}
+                {{- $thumb = index $firstImage 0 | replaceRE `<img.*?src="` "" | replaceRE `".*` "" | absURL -}}
+            {{- else -}}
+                {{- $thumb = "images/logo_pie.jpg" | absURL -}}
+            {{- end -}}
+        {{- end -}}
+        <article class="bg-white rounded-lg border border-gray-200 p-4 md:p-5 hover:border-orange-300 hover:shadow-md transition-all flex gap-4">
+            <div class="w-24 h-24 md:w-36 md:h-36 flex-shrink-0 overflow-hidden rounded bg-gray-100 border border-gray-200">
+                <a href="{{ .Permalink }}"><img src="{{ $thumb }}" alt="{{ .Title }}" loading="lazy" class="w-full h-full object-cover object-center"></a>
+            </div>
+            <div class="flex-1 min-w-0">
+                {{ with .Params.categories }}
+                <span class="inline-block text-[11px] font-bold uppercase tracking-wider text-orange-600 mb-1">{{ index . 0 }}</span><br>
+                {{ end }}
+                <h2 class="text-lg md:text-2xl font-bold font-serif-display mb-1 leading-snug">
                     <a href="{{ .Permalink }}" class="text-gray-900 hover:text-orange-500 transition-colors">{{ .Title }}</a>
                 </h2>
-                <div class="text-sm text-gray-500 mb-4">
+                <div class="text-xs md:text-sm text-gray-500 mb-2">
                     <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
                     {{ with .Params.author }}
                         <span> | Oleh: {{ . }}</span>
                     {{ end }}
                 </div>
-            </header>
-            
-            <div class="prose max-w-none text-justify">
-                {{ .Summary }}
+                <div class="prose max-w-none text-sm md:text-base text-gray-600 text-justify">
+                    {{ .Summary }}
+                </div>
+                {{ if .Truncated }}
+                <div class="mt-3">
+                    <a href="{{ .Permalink }}" class="inline-flex items-center gap-1 px-4 py-2 rounded-lg bg-orange-500 text-white text-sm font-bold hover:bg-orange-600 transition-all shadow-sm">
+                        Baca Selengkapnya
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                </div>
+                {{ end }}
             </div>
-            
-            {{ if .Truncated }}
-            <div class="mt-4">
-                <a href="{{ .Permalink }}" class="font-semibold text-orange-500 hover:text-orange-600 transition-colors">
-                    Baca Selengkapnya →
-                </a>
-            </div>
-            {{ end }}
         </article>
         {{ end }}
     </div>
