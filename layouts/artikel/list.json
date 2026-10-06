@@ -1,6 +1,16 @@
-{{- $.Scratch.Add "index" slice -}}
-{{- range .Paginator.Pages -}}
+{{- $.Scratch.Set "index" slice -}}
+{{- $all := where .Site.RegularPages "Section" "artikel" -}}
+{{- range $all.ByDate.Reverse -}}
+    {{- $img := "/images/logo_pie.jpg" -}}
+    {{- with .Params.image -}}
+        {{- $img = . -}}
+    {{- else -}}
+        {{- $first := findRE `<img.*?src="(.*?)"` .Content 1 -}}
+        {{- if $first -}}
+            {{- $img = index $first 0 | replaceRE `<img.*?src="` "" | replaceRE `".*` "" -}}
+        {{- end -}}
+    {{- end -}}
     {{- $summary := .Summary | plainify | truncate 150 -}}
-    {{- $.Scratch.Add "index" (dict "title" .Title "categories" .Params.categories "summary" $summary "permalink" .Permalink "date" .Date) -}}
+    {{- $.Scratch.Add "index" (dict "title" .Title "categories" .Params.categories "summary" $summary "permalink" .Permalink "date" .Date "image" $img) -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
