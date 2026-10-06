@@ -48,6 +48,55 @@
     <article class="prose prose-lg max-w-none text-justify">
         {{ .Content }}
     </article>
+
+    <!-- ================= ARTIKEL TERBARU + PAGER ================= -->
+    <section class="mt-12 pt-8 border-t border-gray-200 not-prose">
+        <div class="flex items-center justify-between mb-6">
+            <h2 class="text-xl md:text-2xl font-bold font-serif-display text-gray-900">Artikel Terbaru</h2>
+            <a href="{{ "/artikel/" | relURL }}" class="inline-flex items-center text-xs font-bold uppercase tracking-wider text-orange-600 hover:text-orange-700 transition-colors gap-1">
+                Lihat Semua
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+                </svg>
+            </a>
+        </div>
+
+        {{ $currentLink := .Permalink }}
+        {{ $latestList := first 40 (where (where .Site.RegularPages "Section" "artikel") "Permalink" "!=" $currentLink) }}
+        <div id="latestGrid" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {{ range $i, $p := $latestList }}
+            {{- $thumb := "" -}}
+            {{- if $p.Params.image -}}
+                {{- $thumb = $p.Params.image | absURL -}}
+            {{- else -}}
+                {{- $firstImage := findRE `<img.*?src="(.*?)"` $p.Content 1 -}}
+                {{- if $firstImage -}}
+                    {{- $thumb = index $firstImage 0 | replaceRE `<img.*?src="` "" | replaceRE `".*` "" | absURL -}}
+                {{- else -}}
+                    {{- $thumb = "images/logo_pie.jpg" | absURL -}}
+                {{- end -}}
+            {{- end -}}
+            <a href="{{ $p.Permalink }}" class="latest-card flex items-start gap-4 group bg-white rounded-lg border border-gray-200 p-3 hover:border-orange-300 hover:shadow-md transition-all" data-idx="{{ $i }}">
+                <div class="w-20 h-20 flex-shrink-0 overflow-hidden rounded bg-gray-100 border border-gray-200">
+                    <img src="{{ $thumb }}" alt="{{ $p.Title }}" loading="lazy" class="w-full h-full object-cover object-center">
+                </div>
+                <div class="flex-1 min-w-0">
+                    {{ with $p.Params.categories }}
+                    <span class="inline-block text-[11px] font-bold uppercase tracking-wider text-orange-600 mb-1">{{ index . 0 }}</span>
+                    {{ end }}
+                    <h3 class="text-gray-900 font-semibold text-sm md:text-base leading-snug group-hover:text-orange-600 transition-colors">{{ $p.Title }}</h3>
+                    <time class="text-xs text-gray-500">{{ $p.Date.Format "2 January 2006" }}</time>
+                </div>
+            </a>
+            {{ end }}
+        </div>
+
+        <div class="flex items-center justify-center gap-3 mt-6">
+            <button id="latestPrev" class="px-4 py-2 text-sm font-semibold rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-100 transition-all">&laquo; Sebelumnya</button>
+            <span id="latestInfo" class="text-sm text-gray-500"></span>
+            <button id="latestNext" class="px-4 py-2 text-sm font-semibold rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-100 transition-all">Berikutnya &raquo;</button>
+        </div>
+    </section>
 </div>
 
 <!-- Letakkan script logika di bagian paling bawah file (cukup sekali saja) -->
@@ -88,6 +137,35 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 2000);
         }).catch(err => console.error('Gagal menyalin:', err));
     }
+});
+</script>
+
+<!-- Logika pager Artikel Terbaru: 8 kartu per halaman -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    var cards = Array.prototype.slice.call(document.querySelectorAll('.latest-card'));
+    var perPage = 8;
+    var page = 0;
+    var pages = Math.max(1, Math.ceil(cards.length / perPage));
+    var btnPrev = document.getElementById('latestPrev');
+    var btnNext = document.getElementById('latestNext');
+    var info = document.getElementById('latestInfo');
+    if (!btnPrev || !btnNext || !info) return;
+
+    function render() {
+        cards.forEach(function (el, i) {
+            el.style.display = (Math.floor(i / perPage) === page) ? '' : 'none';
+        });
+        info.textContent = 'Halaman ' + (page + 1) + ' dari ' + pages;
+        btnPrev.disabled = page === 0;
+        btnNext.disabled = page >= pages - 1;
+        btnPrev.classList.toggle('opacity-40', page === 0);
+        btnNext.classList.toggle('opacity-40', page >= pages - 1);
+    }
+
+    btnPrev.addEventListener('click', () => { if (page > 0) { page--; render(); } });
+    btnNext.addEventListener('click', () => { if (page < pages - 1) { page++; render(); } });
+    render();
 });
 </script>
 {{ end }}
