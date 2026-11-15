@@ -4,7 +4,7 @@ author: Redaksi
 date: 2026-11-15T17:37:00.000+07:00
 categories:
   - Titik Ba
-draft: true
+draft: false
 ---
 
 ![Diagram lintasan gerak parabola proyektil](/images/uploads/gerak-parabola-proyektil.png "Diagram lintasan gerak parabola proyektil — pada titik puncak, kecepatan vertikal bernilai nol sementara gerak horizontal tetap berlangsung (Sumber: Wikimedia Commons File:Projectile_motion.svg, CC0)")
