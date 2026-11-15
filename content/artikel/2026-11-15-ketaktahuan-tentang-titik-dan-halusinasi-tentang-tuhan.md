@@ -1,6 +1,9 @@
 ---
 title: 'Ketaktahuan tentang "Titik" dan Halusinasi tentang "Tuhan"'
+author: Redaksi
 date: 2026-11-15T14:16:00.000+07:00
+categories:
+  - Titik Ba
 draft: true
 ---
 
@@ -113,7 +116,7 @@ Perhatikan urutannya: *dzikir* (kesadaran akan nama-Nya) terlebih dahulu, baru k
 
 Di sinilah letak tragedi yang menyentak. Selama berabad-abad, sebagian umat Islam terjebak dalam perdebatan ilmu kalam tentang **hakikat Dzat Allah** — sifat-sifat-Nya, apakah Al-Qur'an makhluk atau bukan, perdebatan yang bahkan berujung pertumpahan darah antar mazhab teologi. Padahal Rasulullah ﷺ secara eksplisit melarang keras aktivitas semacam ini:
 
-*"Berpikirlah tentang ciptaan Allah, dan jangan berpikir tentang Dzat Allah, karena kalian tidak akan pernah sanggup memberi-Nya kadar (ukuran) yang sebenarnya."*
+*"Berpikirlah tentang ciptaan Allah, dan jangan berpikir tentang Dzat Allah, karena kalian tidak akan pernah sanggup memberi-Nya kadar (ukuran) yang sebenarnya."* (HR. Ath-Thabrani dalam *Al-Mu'jam Al-Awsath*, Abu Nu'aim dalam *Hilyatul Auliya*, dan Al-Baihaqi dalam *Syu'abul Iman*; dinilai *hasan lighairihi* oleh sejumlah ulama dari kumpulan jalurnya)
 
 Ironisnya, justru ketika perhatian tersedot ke arah spekulasi tentang Tuhan yang dilarang itu, kompetisi *decode* ayat-ayat kauniyah — matematika dan sains — perlahan berpindah tuan. Sejak sekitar tahun 1500-an, pusat gravitasi pengembangan matematika dan sains bergeser ke Eropa, tepat ketika sebagian besar energi intelektual umat justru terserap ke perdebatan kalam yang tak berkesudahan.
 
