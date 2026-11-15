@@ -7,6 +7,8 @@ categories:
 draft: true
 ---
 
+![Ilustrasi Galaksi Bima Sakti dari NASA/JPL-Caltech sebagai gambaran ayat-ayat kauniyah di alam semesta](/images/uploads/milky-way-nasa.jpg "Ilustrasi Galaksi Bima Sakti — tanda-tanda kebesaran-Nya di ufuk alam semesta (Sumber: NASA/JPL-Caltech, Domain Publik)")
+
 ## 1. Pengakuan yang Menyentak
 
 Mari mulai dengan pengakuan yang tidak nyaman: seluruh bangunan matematika — dari kalkulus yang menghitung lintasan roket hingga teori bilangan yang mengamankan transaksi perbankan — pada akarnya hanya berbicara tentang satu hal: **titik**. Tidak lebih.
@@ -34,6 +36,8 @@ Allah berfirman:
 Al-*ihsha* (احصاء) — penghitungan, pembilangan — adalah aktivitas paling mendasar di alam semesta. Bukan kebetulan bahwa kata *'adad* (عدد) — bilangan — secara etimologis terkait dengan tindakan menghitung satu-satu. **Bilangan adalah nama titik.** Setiap angka yang pernah anda tulis adalah sekadar nama yang diberikan kepada sebuah titik dalam barisan pembilangan.
 
 ## 3. Berkenalan dengan Titik: Undangan dari Georg Cantor
+
+![Potret matematikawan Georg Cantor](/images/uploads/georg-cantor.jpg "Georg Cantor (1845–1918), perintis teori himpunan dan kardinalitas takhingga (Sumber: Wikimedia Commons, Domain Publik)")
 
 Jika anda merasa sudah "paham" apa itu titik, cobalah jawab pertanyaan yang mengguncang matematika akhir abad ke-19 ini: **manakah yang lebih banyak titiknya — ruas garis sepanjang satu satuan, ataukah daerah bidang seluas satu satuan?**
 
@@ -71,6 +75,8 @@ Mengapa arah konstruksi ini selalu dari bawah — dari kekosongan, dari nol, dar
 Jawabannya sederhana: karena akal manusia yang terbatas hanya mampu ber-*iqra* (membaca/decode) mulai dari satu titik pijak yang bisa digenggam — entah itu kesadaran "suwung" (ketiadaan mutlak, sebagaimana bahasa Jawa mengungkapkan kekosongan primordial), atau justru dari intuisi tentang ketakhinggaan yang membungkus segalanya. Yang menentukan bukan titik start-nya, melainkan **atas nama siapa** pembacaan itu dilakukan.
 
 ## 6. Iqra: Perintah Men-decode, Bukan Berspekulasi
+
+![Pola geometri Islam pada ubin Masjid Jame Yazd](/images/uploads/geometri-masjid-yazd.jpg "Pola geometri Islam pada ubin Masjid Jame Yazd — harmoni titik, garis, dan perhitungan (Sumber: Wikimedia Commons, CC0)")
 
 Wahyu pertama bukan perintah untuk *mendefinisikan* Tuhan. Ia adalah perintah untuk **membaca — men-decode**:
 
