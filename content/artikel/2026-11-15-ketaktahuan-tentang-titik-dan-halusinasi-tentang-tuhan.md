@@ -4,7 +4,7 @@ author: Redaksi
 date: 2026-11-15T14:16:00.000+07:00
 categories:
   - Titik Ba
-draft: true
+draft: false
 ---
 
 ![Ilustrasi Galaksi Bima Sakti dari NASA/JPL-Caltech sebagai gambaran ayat-ayat kauniyah di alam semesta](/images/uploads/milky-way-nasa.jpg "Ilustrasi Galaksi Bima Sakti — tanda-tanda kebesaran-Nya di ufuk alam semesta (Sumber: NASA/JPL-Caltech, Domain Publik)")
