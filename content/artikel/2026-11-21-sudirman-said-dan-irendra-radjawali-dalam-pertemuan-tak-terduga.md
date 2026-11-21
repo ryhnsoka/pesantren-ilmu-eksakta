@@ -4,7 +4,7 @@ author: Redaksi
 date: 2026-11-21T15:55:00.000+07:00
 categories:
   - Matematika Detik
-draft: true
+draft: false
 ---
 
 ![Rektor Universitas Harkat Negeri, Sudirman Said, sedang bermain ToSM](/images/uploads/2026-11-21-sudirman-said-tosm.jpeg "Rektor Universitas Harkat Negeri, Sudirman Said, sedang bermain ToSM")
