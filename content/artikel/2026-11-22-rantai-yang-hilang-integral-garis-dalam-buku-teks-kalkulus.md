@@ -4,7 +4,7 @@ author: Redaksi
 date: 2026-11-22T12:20:00+07:00
 categories:
   - Matematika Titik
-draft: true
+draft: false
 ---
 
 ![Ilustrasi Jarak dan Perpindahan](/images/uploads/jarak-dan-perpindahan.png "Ilustrasi Jarak dan Perpindahan dalam Integral Garis")
