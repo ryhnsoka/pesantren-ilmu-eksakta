@@ -4,7 +4,7 @@ author: Redaksi
 date: 2026-11-23T23:00:00+07:00
 categories:
   - Titik Ba
-draft: true
+draft: false
 ---
 
 ![Manuskrip Al-Qur'an Mamluk](/images/uploads/mamluk-quran-manuscript.jpg "Halaman pembuka mushaf Al-Qur'an era Mamluk (TIEM 450), simbol keutuhan tradisi teks dan tata bahasa Arab (Sumber: Wikimedia Commons, Public domain)")
