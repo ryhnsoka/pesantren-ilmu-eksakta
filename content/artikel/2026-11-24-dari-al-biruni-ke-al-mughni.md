@@ -7,7 +7,7 @@ categories:
 draft: true
 ---
 
-![Abu Rayhan Al-Biruni](/images/uploads/abu-rayhan-al-biruni.jpg "Abu Rayhan Al-Biruni (973–1050 M), ilmuwan Muslim peletak dasar pengukuran bumi dan trigonometri (Sumber: Wikimedia Commons, Public domain)")
+![Puluhan santri berziarah ke makam 'Paustad' KH Achmad Zainuddin Shiddiq](/images/uploads/santri-ziarah-makam-paustad-kh-achmad-zainuddin-shiddiq.jpg "Puluhan santri berziarah ke makam 'Paustad' KH Achmad Zainuddin Shiddiq")
 
 ## "Al-Qur'an atau Matematika?"
 
@@ -42,8 +42,6 @@ Bukan sekadar itu. Bersama Sekolah Al Biruni, dengan dukungan penuh Pak Subhan Y
 Abu Royhan al-Biruni lahir 4 September 973, tepat 1.053 tahun sebelum "Paustad" KH Achmad Zainuddin Shiddiq wafat.
 
 Apa hubungan dengan Paustad sehingga nama itu dimunculkan? Hubungan sangat kuat, bahkan segala-galanya. Bukan sekadar genetik, saya harus mewarisi perjuangan beliau. Tidak mungkin saya mengenal alif ba ta, termasuk Titik Ba, tanpa beliau. Paustad ialah guru besar Titik Ba, yang lebih dari setengah abad mengajar alif ba ta tsa.
-
-![Puluhan santri berziarah ke makam 'Paustad' KH Achmad Zainuddin Shiddiq](/images/uploads/santri-ziarah-makam-paustad-kh-achmad-zainuddin-shiddiq.jpg "Puluhan santri berziarah ke makam 'Paustad' KH Achmad Zainuddin Shiddiq")
 
 Rasulullah ﷺ bersabda:
 
