@@ -4,7 +4,7 @@ author: Ahmad Thoha Faz
 date: 2026-11-24T15:10:00+07:00
 categories:
   - Matematika Titik
-draft: true
+draft: false
 ---
 
 ![Puluhan santri berziarah ke makam 'Paustad' KH Achmad Zainuddin Shiddiq](/images/uploads/santri-ziarah-makam-paustad-kh-achmad-zainuddin-shiddiq.jpg "Puluhan santri berziarah ke makam 'Paustad' KH Achmad Zainuddin Shiddiq")
