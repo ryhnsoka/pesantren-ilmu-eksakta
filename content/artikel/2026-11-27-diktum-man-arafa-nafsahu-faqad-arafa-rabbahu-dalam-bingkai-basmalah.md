@@ -7,7 +7,7 @@ categories:
 draft: true
 ---
 
-![Kaligrafi Basmalah Berjalin](/images/uploads/kaligrafi-basmalah-segitiga.jpg "Kaligrafi Basmalah berjalin segitiga, simbol huruf Ba sebagai kata ketergantungan yang mengawali pembacaan semesta (Sumber: Wikimedia Commons, CC0)")
+![Kaligrafi Basmalah](/images/uploads/kaligrafi-basmalah-klasik.jpg "Kaligrafi Basmalah (Khat Tsuluts), simbol huruf Ba sebagai kata ketergantungan yang mengawali pembacaan semesta (Sumber: Wikimedia Commons, CC0)")
 
 *Rujukan utama: titikba.com dan seluruh rangkaian kajian sebelumnya*
 
