@@ -4,7 +4,7 @@ author: Redaksi
 date: 2026-11-27T14:10:00+07:00
 categories:
   - Titik Ba
-draft: true
+draft: false
 ---
 
 ![Kaligrafi Basmalah](/images/uploads/kaligrafi-basmalah-klasik.jpg "Kaligrafi Basmalah (Khat Tsuluts), simbol huruf Ba sebagai kata ketergantungan yang mengawali pembacaan semesta (Sumber: Wikimedia Commons, CC0)")
